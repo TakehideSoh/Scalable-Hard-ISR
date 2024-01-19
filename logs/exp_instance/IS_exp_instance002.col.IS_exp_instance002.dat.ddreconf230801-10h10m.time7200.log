@@ -1,0 +1,187 @@
+#BEGIN: [Tue Aug  1 10:27:17 2023]
+#HOST: mini24.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.dat
+Input graph file parsed. # of vertices = 26, # of edges = 150
+s 1 8 14 21
+t 7 13 14 21
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.004409
+Solution space ZDD size = 52
+# of elements in the solution space = 523
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000028, # ZDD nodes = 7, # elems = 2
+Zt_1 construction time = 0.000015, # ZDD nodes = 4, # elems = 1
+Zs_2 construction time = 0.000027, # ZDD nodes = 10, # elems = 3
+Zt_2 construction time = 0.000013, # ZDD nodes = 4, # elems = 1
+Zs_3 construction time = 0.000044, # ZDD nodes = 11, # elems = 3
+Zt_3 construction time = 0.000019, # ZDD nodes = 7, # elems = 2
+Zs_4 construction time = 0.000039, # ZDD nodes = 12, # elems = 3
+Zt_4 construction time = 0.000028, # ZDD nodes = 8, # elems = 2
+Zs_5 construction time = 0.000025, # ZDD nodes = 14, # elems = 4
+Zt_5 construction time = 0.000014, # ZDD nodes = 7, # elems = 2
+Zs_6 construction time = 0.000035, # ZDD nodes = 16, # elems = 4
+Zt_6 construction time = 0.000010, # ZDD nodes = 8, # elems = 2
+Zs_7 construction time = 0.000054, # ZDD nodes = 14, # elems = 4
+Zt_7 construction time = 0.000026, # ZDD nodes = 7, # elems = 2
+Zs_8 construction time = 0.000031, # ZDD nodes = 16, # elems = 4
+Zt_8 construction time = 0.000010, # ZDD nodes = 8, # elems = 2
+Zs_9 construction time = 0.000035, # ZDD nodes = 14, # elems = 4
+Zt_9 construction time = 0.000012, # ZDD nodes = 7, # elems = 2
+Zs_10 construction time = 0.000030, # ZDD nodes = 16, # elems = 4
+Zt_10 construction time = 0.000020, # ZDD nodes = 8, # elems = 2
+Zs_11 construction time = 0.000050, # ZDD nodes = 14, # elems = 4
+Zt_11 construction time = 0.000015, # ZDD nodes = 7, # elems = 2
+Zs_12 construction time = 0.000031, # ZDD nodes = 12, # elems = 3
+Zt_12 construction time = 0.000009, # ZDD nodes = 8, # elems = 2
+Zs_13 construction time = 0.000017, # ZDD nodes = 7, # elems = 2
+Zt_13 construction time = 0.000012, # ZDD nodes = 7, # elems = 2
+Zs_14 construction time = 0.000009, # ZDD nodes = 8, # elems = 2
+Zt_14 construction time = 0.000009, # ZDD nodes = 4, # elems = 1
+Zs_15 construction time = 0.000010, # ZDD nodes = 7, # elems = 2
+Zt_15 construction time = 0.000008, # ZDD nodes = 4, # elems = 1
+Zs_16 construction time = 0.000008, # ZDD nodes = 4, # elems = 1
+Zt_16 construction time = 0.000016, # ZDD nodes = 4, # elems = 1
+Zs_17 construction time = 0.000007, # ZDD nodes = 4, # elems = 1
+Reconf seq found. Shortest length = 33
+Zt_17 construction time = 0.000010, # ZDD nodes = 4, # elems = 1
+Zs_18 construction time = 0.000003, # ZDD nodes = 4, # elems = 1
+Zt_18 construction time = 0.000006, # ZDD nodes = 7, # elems = 2
+Zs_19 construction time = 0.000004, # ZDD nodes = 4, # elems = 1
+Zt_19 construction time = 0.000004, # ZDD nodes = 8, # elems = 2
+Zs_20 construction time = 0.000005, # ZDD nodes = 7, # elems = 2
+Zt_20 construction time = 0.000006, # ZDD nodes = 7, # elems = 2
+Zs_21 construction time = 0.000004, # ZDD nodes = 8, # elems = 2
+Zt_21 construction time = 0.000005, # ZDD nodes = 8, # elems = 2
+Zs_22 construction time = 0.000005, # ZDD nodes = 7, # elems = 2
+Zt_22 construction time = 0.000006, # ZDD nodes = 7, # elems = 2
+Zs_23 construction time = 0.000005, # ZDD nodes = 8, # elems = 2
+Zt_23 construction time = 0.000018, # ZDD nodes = 8, # elems = 2
+Zs_24 construction time = 0.000005, # ZDD nodes = 7, # elems = 2
+Zt_24 construction time = 0.000009, # ZDD nodes = 7, # elems = 2
+Zs_25 construction time = 0.000005, # ZDD nodes = 8, # elems = 2
+Zt_25 construction time = 0.000006, # ZDD nodes = 8, # elems = 2
+Zs_26 construction time = 0.000005, # ZDD nodes = 7, # elems = 2
+Zt_26 construction time = 0.000007, # ZDD nodes = 7, # elems = 2
+Zs_27 construction time = 0.000004, # ZDD nodes = 8, # elems = 2
+Zt_27 construction time = 0.000006, # ZDD nodes = 8, # elems = 2
+Zs_28 construction time = 0.000005, # ZDD nodes = 7, # elems = 2
+Zt_28 construction time = 0.000008, # ZDD nodes = 7, # elems = 2
+Zs_29 construction time = 0.000005, # ZDD nodes = 8, # elems = 2
+Zt_29 construction time = 0.000007, # ZDD nodes = 4, # elems = 1
+Zs_30 construction time = 0.000006, # ZDD nodes = 7, # elems = 2
+Zt_30 construction time = 0.000007, # ZDD nodes = 4, # elems = 1
+Zs_31 construction time = 0.000005, # ZDD nodes = 4, # elems = 1
+Zt_31 construction time = 0.000008, # ZDD nodes = 4, # elems = 1
+Zs_32 construction time = 0.000005, # ZDD nodes = 4, # elems = 1
+Zt_32 construction time = 0.000009, # ZDD nodes = 4, # elems = 1
+Zs_33 construction time = 0.000005, # ZDD nodes = 4, # elems = 1
+Zt_33 construction time = 0.000008, # ZDD nodes = 7, # elems = 2
+Card(Zs_0 & Zt_33) = 1
+Card(Zs_1 & Zt_32) = 1
+Card(Zs_2 & Zt_31) = 1
+Card(Zs_3 & Zt_30) = 1
+Card(Zs_4 & Zt_29) = 1
+Card(Zs_5 & Zt_28) = 2
+Card(Zs_6 & Zt_27) = 2
+Card(Zs_7 & Zt_26) = 2
+Card(Zs_8 & Zt_25) = 2
+Card(Zs_9 & Zt_24) = 2
+Card(Zs_10 & Zt_23) = 2
+Card(Zs_11 & Zt_22) = 2
+Card(Zs_12 & Zt_21) = 2
+Card(Zs_13 & Zt_20) = 2
+Card(Zs_14 & Zt_19) = 2
+Card(Zs_15 & Zt_18) = 2
+Card(Zs_16 & Zt_17) = 1
+Card(Zs_17 & Zt_16) = 1
+Card(Zs_18 & Zt_15) = 1
+Card(Zs_19 & Zt_14) = 1
+Card(Zs_20 & Zt_13) = 2
+Card(Zs_21 & Zt_12) = 2
+Card(Zs_22 & Zt_11) = 2
+Card(Zs_23 & Zt_10) = 2
+Card(Zs_24 & Zt_9) = 2
+Card(Zs_25 & Zt_8) = 2
+Card(Zs_26 & Zt_7) = 2
+Card(Zs_27 & Zt_6) = 2
+Card(Zs_28 & Zt_5) = 2
+Card(Zs_29 & Zt_4) = 2
+Card(Zs_30 & Zt_3) = 2
+Card(Zs_31 & Zt_2) = 1
+Card(Zs_32 & Zt_1) = 1
+Card(Zs_33 & Zt_0) = 1
+max card = 2
+max card index = 5
+a YES
+a 1 8 14 21
+a 2 8 14 21
+a 2 9 14 21
+a 3 9 14 21
+a 3 10 14 21
+a 3 10 15 21
+a 3 10 15 22
+a 3 10 16 22
+a 3 10 16 23
+a 3 10 17 23
+a 3 10 17 24
+a 3 10 18 24
+a 3 10 18 25
+a 3 10 19 25
+a 3 10 19 26
+a 3 10 20 26
+a 4 10 20 26
+a 4 11 20 26
+a 5 11 20 26
+a 5 12 20 26
+a 5 12 19 26
+a 5 12 19 25
+a 5 12 18 25
+a 5 12 18 24
+a 5 12 17 24
+a 5 12 17 23
+a 5 12 16 23
+a 5 12 16 22
+a 5 12 15 22
+a 5 12 15 21
+a 5 12 14 21
+a 6 12 14 21
+a 6 13 14 21
+a 7 13 14 21
+Reconfiguration time = 0.004297
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.dat"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 80%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 125419520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7795
+	Voluntary context switches: 32
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 32
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.03 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.03
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 10:27:17 2023]

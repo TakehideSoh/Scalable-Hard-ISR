@@ -1,0 +1,84 @@
+#BEGIN: [Wed Jul 19 16:20:55 2023]
+#HOST: mini28.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: sat-based-isr-tj05-230719-15h37m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance008_graph004.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance008_graph004.dat
+#COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/random_instance/random_instance008_graph004.col benchmark/ISR-benchmark/random_instance/random_instance008_graph004.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical
+#Nodes: 103
+#Edges: 312
+WARNING. There is missing goal nodes: {2}
+c (0) step 1 UNSAT 650 2155
+c (0) step 2 UNSAT 1260 4054
+c (0) step 3 UNSAT 1966 6174
+c (0) step 4 UNSAT 2800 8578
+c (0) step 5 UNSAT 3794 11329
+c (0) step 6 UNSAT 4980 14490
+c (0) step 7 UNSAT 6390 18124
+c (0) step 8 UNSAT 8056 22294
+c (0) step 9 UNSAT 10010 27063
+c (0) step 10 UNSAT 12284 32494
+c (0) step 11 UNSAT 14910 38650
+c (0) step 12 UNSAT 17920 45594
+c (0) step 13 UNSAT 21346 53389
+c (0) step 14 UNSAT 25220 62098
+c (0) step 15 UNSAT 29574 71784
+c (0) step 16 UNSAT 34440 82510
+c (0) step 17 UNSAT 39850 94339
+c (0) step 18 UNSAT 45836 107334
+c (0) step 19 UNSAT 52430 121558
+c (0) step 20 SAT 59664 137074
+a YES
+a 3 6 7 9 14 18 22 23 26 28 29 32 34 36 41 43 45 46 53 54 55 65 71 76 77 80 81 86 89 95 99 102 104
+a 3 6 7 9 14 18 22 23 26 28 29 32 34 37 41 43 45 46 53 54 55 65 71 76 77 80 81 86 89 95 99 102 104
+a 3 6 7 9 14 18 22 23 26 28 29 32 34 37 41 43 45 46 53 54 55 65 71 76 77 80 81 86 95 98 99 102 104
+a 3 6 7 9 14 18 22 23 26 28 29 32 34 35 37 41 43 45 46 53 54 55 65 71 76 77 80 81 95 98 99 102 104
+a 3 6 7 9 14 18 22 23 26 28 29 32 34 35 37 41 43 45 46 53 54 55 65 71 72 76 77 80 95 98 99 102 104
+a 3 6 7 9 14 18 20 22 26 28 29 32 34 35 37 41 43 45 46 53 54 55 65 71 72 76 77 80 95 98 99 102 104
+a 3 6 7 9 14 18 20 22 26 29 32 34 35 37 41 43 45 46 53 54 55 65 71 72 76 77 80 84 95 98 99 102 104
+a 3 6 7 9 14 18 20 22 26 29 32 34 35 37 41 43 45 46 47 53 54 55 65 71 72 76 77 80 84 95 98 99 102
+a 3 6 7 9 14 20 22 26 29 32 34 35 37 41 43 45 46 47 53 54 55 56 65 71 72 76 77 80 84 95 98 99 102
+a 3 6 7 9 14 20 22 26 29 32 34 35 37 41 43 45 46 47 53 54 55 56 65 66 71 72 76 80 84 95 98 99 102
+a 3 6 7 9 14 20 22 26 29 32 34 35 37 38 41 43 45 46 47 53 54 55 56 65 66 72 76 80 84 95 98 99 102
+a 3 6 7 9 14 20 22 26 29 34 35 37 38 41 43 45 46 47 53 54 55 56 65 66 72 76 80 84 95 96 98 99 102
+a 3 6 7 9 14 20 26 29 34 35 37 38 41 43 45 46 47 53 54 55 56 65 66 72 74 76 80 84 95 96 98 99 102
+a 3 6 9 14 20 26 29 34 35 37 38 41 43 45 46 47 53 54 55 56 65 66 72 74 76 80 84 93 95 96 98 99 102
+a 3 6 9 14 20 26 29 34 35 37 38 39 41 43 45 46 47 54 55 56 65 66 72 74 76 80 84 93 95 96 98 99 102
+a 3 6 9 14 20 26 29 34 35 37 38 39 41 43 45 47 54 55 56 65 66 72 74 76 80 84 92 93 95 96 98 99 102
+a 3 6 9 14 20 26 29 34 35 37 38 39 41 43 45 47 54 55 56 65 66 72 74 76 80 84 92 93 95 96 98 100 102
+a 3 6 9 14 20 26 29 34 35 37 38 39 41 43 45 47 54 56 59 65 66 72 74 76 80 84 92 93 95 96 98 100 102
+a 3 6 9 13 14 20 26 29 34 35 37 38 39 43 45 47 54 56 59 65 66 72 74 76 80 84 92 93 95 96 98 100 102
+a 3 6 9 13 14 19 20 26 29 34 35 37 38 39 43 45 47 54 56 59 65 66 72 74 76 80 84 92 93 95 96 98 100
+a 1 3 6 13 14 19 20 26 29 34 35 37 38 39 43 45 47 54 56 59 65 66 72 74 76 80 84 92 93 95 96 98 100
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/random_instance/random_instance008_graph004.col benchmark/ISR-benchmark/random_instance/random_instance008_graph004.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical"
+	User time (seconds): 1.72
+	System time (seconds): 0.14
+	Percent of CPU this job got: 180%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1708720128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 110229
+	Voluntary context switches: 34
+	Involuntary context switches: 3117
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 39
+	Socket messages received: 0
+	Signals delivered: 4
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 1.86 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 1.86
+#MAXMEM: 0
+c 
+#END: [Wed Jul 19 16:20:56 2023]

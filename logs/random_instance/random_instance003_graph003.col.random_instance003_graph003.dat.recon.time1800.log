@@ -1,0 +1,71 @@
+#BEGIN: [Tue Aug  8 17:58:15 2023]
+#HOST: mini29.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance003_graph003.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance003_graph003.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/random_instance/random_instance003_graph003.col benchmark/ISR-benchmark/random_instance/random_instance003_graph003.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/random_instance/random_instance003_graph003.col
+c Target file: benchmark/ISR-benchmark/random_instance/random_instance003_graph003.dat
+c Size of independent set: 11
+c Number of nodes of graph: 39
+c Number of edges of graph: 117
+c Average degree of graph: 6.00
+s 1 5 7 8 14 28 30 31 33 37 39 
+t 4 7 14 24 25 26 28 30 32 34 36 
+c BFS found 7 new nodes in level 1 (total 8/268435456)
+c BFS found 56 new nodes in level 2 (total 64/268435456)
+c BFS found 254 new nodes in level 3 (total 318/268435456)
+c BFS found 782 new nodes in level 4 (total 1100/268435456)
+c BFS found 1830 new nodes in level 5 (total 2927/268435456)
+c BFS found 3442 new nodes in level 6 (total 6300/268435456)
+c BFS found 5163 new nodes in level 7 (total 11176/268435456)
+c BFS exiting found=true count=10663 max_count=268435456
+c Found with: Breadth First Search
+a YES
+a 1 5 7 8 14 28 30 31 33 37 39 
+a 1 5 7 8 14 24 28 30 31 33 37 
+a 1 7 8 14 24 28 30 31 33 34 37 
+a 3 7 8 14 24 28 30 31 33 34 37 
+a 3 4 7 8 14 24 28 30 31 33 34 
+a 3 4 7 8 14 24 26 28 30 33 34 
+a 3 4 7 8 14 24 26 28 30 32 34 
+a 4 7 8 14 24 25 26 28 30 32 34 
+a 4 7 14 24 25 26 28 30 32 34 36 
+c Length: 8
+	Command being timed: "/Users/soh/app/recon/src/recon benchmark/ISR-benchmark/random_instance/random_instance003_graph003.col benchmark/ISR-benchmark/random_instance/random_instance003_graph003.dat"
+	User time (seconds): 0.08
+	System time (seconds): 0.00
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7553024
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 602
+	Voluntary context switches: 17
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 34
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.08 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.08
+#MAXMEM: 0
+c 
+#END: [Tue Aug  8 17:58:15 2023]

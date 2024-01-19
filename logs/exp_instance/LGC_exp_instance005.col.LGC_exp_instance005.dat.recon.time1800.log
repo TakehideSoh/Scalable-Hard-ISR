@@ -1,0 +1,43 @@
+#BEGIN: [Tue Aug  8 16:56:12 2023]
+#HOST: mini29.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/LGC_exp_instance005.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/LGC_exp_instance005.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/LGC_exp_instance005.col benchmark/ISR-benchmark/exp_instance/LGC_exp_instance005.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/LGC_exp_instance005.col
+c Target file: benchmark/ISR-benchmark/exp_instance/LGC_exp_instance005.dat
+c Size of independent set: 90
+c Number of nodes of graph: 185
+c Number of edges of graph: 215
+c Average degree of graph: 2.32
+s 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184 
+t 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184 
+c BFS found 17 new nodes in level 1 (total 18/223696213)
+c BFS found 150 new nodes in level 2 (total 168/223696213)
+c BFS found 921 new nodes in level 3 (total 1089/223696213)
+c BFS found 4417 new nodes in level 4 (total 5506/223696213)
+c BFS found 17575 new nodes in level 5 (total 23074/223696213)
+c BFS found 60190 new nodes in level 6 (total 83168/223696213)
+c BFS found 181827 new nodes in level 7 (total 264351/223696213)
+c BFS found 492987 new nodes in level 8 (total 754149/223696213)
+c BFS found 1215174 new nodes in level 9 (total 1956445/223696213)
+c BFS found 2750036 new nodes in level 10 (total 4662320/223696213)
+c BFS found 5758158 new nodes in level 11 (total 10287135/223696213)
+c BFS found 11224041 new nodes in level 12 (total 21149357/223696213)
+c BFS found 20469276 new nodes in level 13 (total 40722811/223696213)
+c BFS found 35068432 new nodes in level 14 (total 73747519/223696213)
+c BFS found 56630557 new nodes in level 15 (total 126048515/223696213)
+TIMEOUT CPU 1800 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 1800
+#MAXMEM: 0
+c 22957 killed(2). 22958 killed(2). 22957 killed(9). 22958 killed(9). 
+#END: [Tue Aug  8 17:26:13 2023]

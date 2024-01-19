@@ -1,0 +1,71 @@
+#BEGIN: [Tue Aug  1 12:58:39 2023]
+#HOST: mini24.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance002_graph002.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance002_graph002.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance002_graph002.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance002_graph002.dat
+Input graph file parsed. # of vertices = 26, # of edges = 78
+s 2 3 7 12 15 24 25
+t 1 2 4 7 17 19 25
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.007612
+Solution space ZDD size = 616
+# of elements in the solution space = 12722
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000033, # ZDD nodes = 23, # elems = 6
+Zt_1 construction time = 0.000025, # ZDD nodes = 22, # elems = 7
+Zs_2 construction time = 0.000081, # ZDD nodes = 58, # elems = 27
+Zt_2 construction time = 0.000078, # ZDD nodes = 57, # elems = 39
+Reconf seq found. Shortest length = 4
+Zs_3 construction time = 0.000263, # ZDD nodes = 129, # elems = 81
+Zt_3 construction time = 0.000262, # ZDD nodes = 134, # elems = 132
+Zs_4 construction time = 0.000626, # ZDD nodes = 249, # elems = 190
+Zt_4 construction time = 0.000566, # ZDD nodes = 274, # elems = 280
+Card(Zs_0 & Zt_4) = 1
+Card(Zs_1 & Zt_3) = 2
+Card(Zs_2 & Zt_2) = 2
+Card(Zs_3 & Zt_1) = 1
+Card(Zs_4 & Zt_0) = 1
+max card = 2
+max card index = 1
+a YES
+a 2 3 7 12 15 24 25
+a 2 3 7 12 17 24 25
+a 1 2 3 7 17 24 25
+a 1 2 4 7 17 24 25
+a 1 2 4 7 17 19 25
+Reconfiguration time = 0.002827
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance002_graph002.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance002_graph002.dat"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 50%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 124469248
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7737
+	Voluntary context switches: 20
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 34
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.02 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.02
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 12:58:39 2023]

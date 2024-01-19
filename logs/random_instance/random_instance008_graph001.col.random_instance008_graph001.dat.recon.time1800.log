@@ -1,0 +1,35 @@
+#BEGIN: [Tue Aug  8 18:32:12 2023]
+#HOST: mini23.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance008_graph001.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance008_graph001.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/random_instance/random_instance008_graph001.col benchmark/ISR-benchmark/random_instance/random_instance008_graph001.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/random_instance/random_instance008_graph001.col
+c Target file: benchmark/ISR-benchmark/random_instance/random_instance008_graph001.dat
+c Size of independent set: 33
+c Number of nodes of graph: 104
+c Number of edges of graph: 312
+c Average degree of graph: 6.00
+s 5 8 21 24 25 29 31 32 35 36 37 41 42 45 47 51 56 57 63 65 67 68 73 79 83 84 86 87 91 93 96 99 101 
+t 2 8 16 17 19 21 30 32 34 37 41 42 44 50 52 56 57 63 66 67 68 69 75 77 90 92 93 95 96 97 102 103 104 
+c BFS found 23 new nodes in level 1 (total 24/244032232)
+c BFS found 563 new nodes in level 2 (total 587/244032232)
+c BFS found 9171 new nodes in level 3 (total 9758/244032232)
+c BFS found 100186 new nodes in level 4 (total 109944/244032232)
+c BFS found 796369 new nodes in level 5 (total 906239/244032232)
+c BFS found 4896253 new nodes in level 6 (total 5799609/244032232)
+c BFS found 24319050 new nodes in level 7 (total 30074425/244032232)
+TIMEOUT CPU 1800 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 1800
+#MAXMEM: 0
+c 12413 killed(2). 12412 killed(2). 12413 killed(9). 12412 killed(9). 
+#END: [Tue Aug  8 19:02:13 2023]

@@ -1,0 +1,43 @@
+#BEGIN: [Tue Aug  8 18:06:23 2023]
+#HOST: mini30.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance006_graph003.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance006_graph003.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/random_instance/random_instance006_graph003.col benchmark/ISR-benchmark/random_instance/random_instance006_graph003.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/random_instance/random_instance006_graph003.col
+c Target file: benchmark/ISR-benchmark/random_instance/random_instance006_graph003.dat
+c Size of independent set: 26
+c Number of nodes of graph: 78
+c Number of edges of graph: 234
+c Average degree of graph: 6.00
+s 3 4 10 13 15 17 21 27 28 30 31 32 33 37 40 48 52 53 54 61 63 64 66 67 72 77 
+t 2 5 7 9 17 19 21 24 26 28 31 36 40 41 46 47 48 50 52 54 56 57 59 65 68 77 
+c BFS found 8 new nodes in level 1 (total 9/244032232)
+c BFS found 88 new nodes in level 2 (total 97/244032232)
+c BFS found 536 new nodes in level 3 (total 633/244032232)
+c BFS found 2647 new nodes in level 4 (total 3279/244032232)
+c BFS found 10522 new nodes in level 5 (total 13782/244032232)
+c BFS found 35882 new nodes in level 6 (total 49495/244032232)
+c BFS found 107863 new nodes in level 7 (total 156238/244032232)
+c BFS found 289916 new nodes in level 8 (total 441025/244032232)
+c BFS found 696024 new nodes in level 9 (total 1117136/244032232)
+c BFS found 1478611 new nodes in level 10 (total 2529649/244032232)
+c BFS found 2759329 new nodes in level 11 (total 5095697/244032232)
+c BFS found 4546048 new nodes in level 12 (total 9145002/244032232)
+c BFS found 6748028 new nodes in level 13 (total 14775853/244032232)
+c BFS found 9294005 new nodes in level 14 (total 21890084/244032232)
+c BFS found 12160206 new nodes in level 15 (total 30351171/244032232)
+TIMEOUT CPU 1800 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 1800
+#MAXMEM: 0
+c 23336 killed(2). 23337 killed(2). 23336 killed(9). 23337 killed(9). 
+#END: [Tue Aug  8 18:36:24 2023]

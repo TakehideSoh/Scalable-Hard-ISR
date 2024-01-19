@@ -1,0 +1,75 @@
+#BEGIN: [Tue Aug  1 10:29:38 2023]
+#HOST: mini28.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/exp_instance/LGC_exp_instance001.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/LGC_exp_instance001.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/LGC_exp_instance001.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/LGC_exp_instance001.dat
+Input graph file parsed. # of vertices = 13, # of edges = 15
+s 1 4 6 8 10 12
+t 2 3 6 8 10 12
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.000340
+Solution space ZDD size = 23
+# of elements in the solution space = 475
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000018, # ZDD nodes = 6, # elems = 1
+Zt_1 construction time = 0.000010, # ZDD nodes = 6, # elems = 1
+Zs_2 construction time = 0.000022, # ZDD nodes = 11, # elems = 2
+Zt_2 construction time = 0.000017, # ZDD nodes = 11, # elems = 2
+Zs_3 construction time = 0.000023, # ZDD nodes = 16, # elems = 3
+Reconf seq found. Shortest length = 5
+Zt_3 construction time = 0.000017, # ZDD nodes = 16, # elems = 3
+Zs_4 construction time = 0.000016, # ZDD nodes = 16, # elems = 3
+Zt_4 construction time = 0.000014, # ZDD nodes = 19, # elems = 4
+Zs_5 construction time = 0.000011, # ZDD nodes = 14, # elems = 3
+Zt_5 construction time = 0.000020, # ZDD nodes = 18, # elems = 4
+Card(Zs_0 & Zt_5) = 1
+Card(Zs_1 & Zt_4) = 1
+Card(Zs_2 & Zt_3) = 1
+Card(Zs_3 & Zt_2) = 1
+Card(Zs_4 & Zt_1) = 1
+Card(Zs_5 & Zt_0) = 1
+max card = 1
+max card index = 0
+a YES
+a 1 4 6 8 10 12
+a 1 4 7 8 10 12
+a 1 5 7 8 10 12
+a 2 5 7 8 10 12
+a 2 3 7 8 10 12
+a 2 3 6 8 10 12
+Reconfiguration time = 0.000768
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/LGC_exp_instance001.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/LGC_exp_instance001.dat"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 60%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 123011072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7648
+	Voluntary context switches: 23
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 32
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 10:29:39 2023]

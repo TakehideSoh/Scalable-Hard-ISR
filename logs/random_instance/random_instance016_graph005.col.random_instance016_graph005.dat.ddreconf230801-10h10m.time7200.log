@@ -1,0 +1,44 @@
+#BEGIN: [Tue Aug  1 19:14:41 2023]
+#HOST: mini26.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance016_graph005.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance016_graph005.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance016_graph005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance016_graph005.dat
+Input graph file parsed. # of vertices = 208, # of edges = 624
+s 2 4 5 10 11 13 23 26 28 33 34 35 36 40 42 46 50 54 55 62 66 71 75 77 78 181 84 90 91 162 94 97 98 99 101 102 192 104 133 108 145 115 116 120 161 127 129 131 180 135 196 198 139 140 187 147 158 150 152 156 186 160 165 166 168 205 174 184 188 193 194 203
+t 3 4 5 6 11 69 19 25 31 32 36 37 42 43 44 46 48 51 52 53 55 56 57 58 60 62 64 70 72 181 88 89 91 92 98 99 100 102 192 108 109 110 145 114 118 120 121 122 123 129 134 135 196 137 138 139 142 147 186 177 166 169 170 171 183 175 200 184 189 191 194 208
+Solution space ZDD construction start
+Command terminated by signal 9
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance016_graph005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance016_graph005.dat"
+	User time (seconds): 1692.44
+	System time (seconds): 731.21
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 48:05.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 255368478720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 184692091
+	Voluntary context switches: 831439
+	Involuntary context switches: 1611905
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 39
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 2423.65 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 2423.65
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 20:02:47 2023]

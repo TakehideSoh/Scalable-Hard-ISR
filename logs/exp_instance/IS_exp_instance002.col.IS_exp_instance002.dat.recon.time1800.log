@@ -1,0 +1,121 @@
+#BEGIN: [Tue Aug  8 16:24:26 2023]
+#HOST: mini28.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.col
+c Target file: benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.dat
+c Size of independent set: 4
+c Number of nodes of graph: 26
+c Number of edges of graph: 150
+c Average degree of graph: 11.54
+s 1 8 14 21 
+t 7 13 14 21 
+c BFS found 2 new nodes in level 1 (total 3/268435456)
+c BFS found 3 new nodes in level 2 (total 6/268435456)
+c BFS found 3 new nodes in level 3 (total 9/268435456)
+c BFS found 3 new nodes in level 4 (total 12/268435456)
+c BFS found 4 new nodes in level 5 (total 15/268435456)
+c BFS found 4 new nodes in level 6 (total 19/268435456)
+c BFS found 4 new nodes in level 7 (total 23/268435456)
+c BFS found 4 new nodes in level 8 (total 26/268435456)
+c BFS found 4 new nodes in level 9 (total 26/268435456)
+c BFS found 4 new nodes in level 10 (total 27/268435456)
+c BFS found 4 new nodes in level 11 (total 30/268435456)
+c BFS found 3 new nodes in level 12 (total 32/268435456)
+c BFS found 2 new nodes in level 13 (total 31/268435456)
+c BFS found 2 new nodes in level 14 (total 30/268435456)
+c BFS found 2 new nodes in level 15 (total 20/268435456)
+c BFS found 1 new nodes in level 16 (total 21/268435456)
+c BFS found 1 new nodes in level 17 (total 22/268435456)
+c BFS found 1 new nodes in level 18 (total 19/268435456)
+c BFS found 1 new nodes in level 19 (total 20/268435456)
+c BFS found 2 new nodes in level 20 (total 22/268435456)
+c BFS found 2 new nodes in level 21 (total 24/268435456)
+c BFS found 2 new nodes in level 22 (total 26/268435456)
+c BFS found 2 new nodes in level 23 (total 27/268435456)
+c BFS found 2 new nodes in level 24 (total 28/268435456)
+c BFS found 2 new nodes in level 25 (total 29/268435456)
+c BFS found 2 new nodes in level 26 (total 30/268435456)
+c BFS found 2 new nodes in level 27 (total 31/268435456)
+c BFS found 2 new nodes in level 28 (total 32/268435456)
+c BFS found 2 new nodes in level 29 (total 33/268435456)
+c BFS found 2 new nodes in level 30 (total 34/268435456)
+c BFS found 1 new nodes in level 31 (total 34/268435456)
+c BFS found 1 new nodes in level 32 (total 34/268435456)
+c BFS exiting found=true count=33 max_count=268435456
+c Found with: Breadth First Search
+a YES
+a 1 8 14 21 
+a 2 8 14 21 
+a 2 9 14 21 
+a 3 9 14 21 
+a 3 10 14 21 
+a 3 10 15 21 
+a 3 10 15 22 
+a 3 10 16 22 
+a 3 10 16 23 
+a 3 10 17 23 
+a 3 10 17 24 
+a 3 10 18 24 
+a 4 10 18 24 
+a 4 10 18 25 
+a 4 10 19 25 
+a 4 10 19 26 
+a 4 10 20 26 
+a 4 11 20 26 
+a 5 11 20 26 
+a 5 12 20 26 
+a 5 12 19 26 
+a 5 12 19 25 
+a 5 12 18 25 
+a 5 12 18 24 
+a 5 12 17 24 
+a 5 12 17 23 
+a 5 12 16 23 
+a 5 12 16 22 
+a 5 12 15 22 
+a 5 12 15 21 
+a 5 12 14 21 
+a 6 12 14 21 
+a 6 13 14 21 
+a 7 13 14 21 
+c Length: 33
+	Command being timed: "/Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance002.dat"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3260416
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 340
+	Voluntary context switches: 18
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 34
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0
+#MAXMEM: 0
+c 
+#END: [Tue Aug  8 16:24:26 2023]

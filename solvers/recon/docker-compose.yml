@@ -1,0 +1,11 @@
+---
+
+version: '2'
+
+
+services:
+  recon:
+    build: .
+    image: tuhh/e-17/recon:${version:-latest}
+
+...

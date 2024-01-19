@@ -1,0 +1,1419 @@
+#BEGIN: [Tue Aug  1 10:27:17 2023]
+#HOST: mini30.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance005.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance005.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/IS_exp_instance005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/IS_exp_instance005.dat
+Input graph file parsed. # of vertices = 65, # of edges = 402
+s 1 8 14 21 27 34 40 47 53 60
+t 7 13 14 21 27 34 40 47 53 60
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.023509
+Solution space ZDD size = 139
+# of elements in the solution space = 4216790
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000072, # ZDD nodes = 22, # elems = 5
+Zt_1 construction time = 0.000105, # ZDD nodes = 21, # elems = 4
+Zs_2 construction time = 0.000073, # ZDD nodes = 40, # elems = 15
+Zt_2 construction time = 0.000073, # ZDD nodes = 36, # elems = 10
+Zs_3 construction time = 0.000203, # ZDD nodes = 58, # elems = 31
+Zt_3 construction time = 0.000152, # ZDD nodes = 52, # elems = 19
+Zs_4 construction time = 0.000183, # ZDD nodes = 80, # elems = 50
+Zt_4 construction time = 0.000240, # ZDD nodes = 71, # elems = 31
+Zs_5 construction time = 0.000228, # ZDD nodes = 105, # elems = 73
+Zt_5 construction time = 0.000160, # ZDD nodes = 90, # elems = 48
+Zs_6 construction time = 0.000221, # ZDD nodes = 129, # elems = 104
+Zt_6 construction time = 0.000238, # ZDD nodes = 111, # elems = 67
+Zs_7 construction time = 0.000300, # ZDD nodes = 149, # elems = 142
+Zt_7 construction time = 0.000294, # ZDD nodes = 130, # elems = 85
+Zs_8 construction time = 0.000295, # ZDD nodes = 170, # elems = 176
+Zt_8 construction time = 0.000271, # ZDD nodes = 148, # elems = 105
+Zs_9 construction time = 0.000212, # ZDD nodes = 189, # elems = 204
+Zt_9 construction time = 0.000194, # ZDD nodes = 163, # elems = 127
+Zs_10 construction time = 0.000240, # ZDD nodes = 207, # elems = 237
+Zt_10 construction time = 0.000212, # ZDD nodes = 176, # elems = 144
+Zs_11 construction time = 0.000262, # ZDD nodes = 222, # elems = 272
+Zt_11 construction time = 0.000192, # ZDD nodes = 189, # elems = 155
+Zs_12 construction time = 0.000224, # ZDD nodes = 231, # elems = 294
+Zt_12 construction time = 0.000191, # ZDD nodes = 196, # elems = 167
+Zs_13 construction time = 0.000214, # ZDD nodes = 240, # elems = 303
+Zt_13 construction time = 0.000222, # ZDD nodes = 201, # elems = 177
+Zs_14 construction time = 0.000205, # ZDD nodes = 244, # elems = 310
+Zt_14 construction time = 0.000251, # ZDD nodes = 201, # elems = 178
+Zs_15 construction time = 0.000279, # ZDD nodes = 246, # elems = 313
+Zt_15 construction time = 0.000321, # ZDD nodes = 197, # elems = 173
+Zs_16 construction time = 0.000277, # ZDD nodes = 242, # elems = 305
+Zt_16 construction time = 0.000126, # ZDD nodes = 191, # elems = 165
+Zs_17 construction time = 0.000164, # ZDD nodes = 236, # elems = 287
+Zt_17 construction time = 0.000114, # ZDD nodes = 184, # elems = 153
+Zs_18 construction time = 0.000284, # ZDD nodes = 230, # elems = 262
+Zt_18 construction time = 0.000163, # ZDD nodes = 177, # elems = 140
+Zs_19 construction time = 0.000191, # ZDD nodes = 223, # elems = 236
+Zt_19 construction time = 0.000120, # ZDD nodes = 170, # elems = 126
+Zs_20 construction time = 0.000141, # ZDD nodes = 218, # elems = 215
+Zt_20 construction time = 0.000108, # ZDD nodes = 162, # elems = 109
+Zs_21 construction time = 0.000150, # ZDD nodes = 212, # elems = 193
+Zt_21 construction time = 0.000154, # ZDD nodes = 154, # elems = 95
+Zs_22 construction time = 0.000152, # ZDD nodes = 204, # elems = 168
+Zt_22 construction time = 0.000119, # ZDD nodes = 146, # elems = 87
+Zs_23 construction time = 0.000151, # ZDD nodes = 196, # elems = 151
+Zt_23 construction time = 0.000126, # ZDD nodes = 140, # elems = 79
+Zs_24 construction time = 0.000200, # ZDD nodes = 188, # elems = 144
+Zt_24 construction time = 0.000129, # ZDD nodes = 135, # elems = 72
+Zs_25 construction time = 0.000161, # ZDD nodes = 182, # elems = 139
+Zt_25 construction time = 0.000169, # ZDD nodes = 134, # elems = 71
+Zs_26 construction time = 0.000202, # ZDD nodes = 180, # elems = 135
+Zt_26 construction time = 0.000126, # ZDD nodes = 133, # elems = 73
+Zs_27 construction time = 0.000202, # ZDD nodes = 179, # elems = 135
+Zt_27 construction time = 0.000167, # ZDD nodes = 135, # elems = 76
+Zs_28 construction time = 0.000156, # ZDD nodes = 178, # elems = 138
+Zt_28 construction time = 0.000118, # ZDD nodes = 136, # elems = 79
+Zs_29 construction time = 0.000144, # ZDD nodes = 180, # elems = 144
+Zt_29 construction time = 0.000137, # ZDD nodes = 138, # elems = 80
+Zs_30 construction time = 0.000158, # ZDD nodes = 181, # elems = 150
+Zt_30 construction time = 0.000125, # ZDD nodes = 140, # elems = 81
+Zs_31 construction time = 0.000152, # ZDD nodes = 179, # elems = 151
+Zt_31 construction time = 0.000157, # ZDD nodes = 140, # elems = 83
+Zs_32 construction time = 0.000139, # ZDD nodes = 179, # elems = 149
+Zt_32 construction time = 0.000114, # ZDD nodes = 140, # elems = 84
+Zs_33 construction time = 0.000280, # ZDD nodes = 179, # elems = 147
+Zt_33 construction time = 0.000308, # ZDD nodes = 140, # elems = 83
+Zs_34 construction time = 0.000132, # ZDD nodes = 175, # elems = 144
+Zt_34 construction time = 0.000145, # ZDD nodes = 134, # elems = 79
+Zs_35 construction time = 0.000218, # ZDD nodes = 171, # elems = 137
+Zt_35 construction time = 0.000087, # ZDD nodes = 126, # elems = 72
+Zs_36 construction time = 0.000201, # ZDD nodes = 162, # elems = 123
+Zt_36 construction time = 0.000077, # ZDD nodes = 119, # elems = 65
+Zs_37 construction time = 0.000096, # ZDD nodes = 151, # elems = 107
+Zt_37 construction time = 0.000118, # ZDD nodes = 111, # elems = 58
+Zs_38 construction time = 0.000126, # ZDD nodes = 140, # elems = 95
+Zt_38 construction time = 0.000062, # ZDD nodes = 100, # elems = 47
+Zs_39 construction time = 0.000075, # ZDD nodes = 131, # elems = 82
+Zt_39 construction time = 0.000058, # ZDD nodes = 89, # elems = 37
+Zs_40 construction time = 0.000082, # ZDD nodes = 119, # elems = 64
+Zt_40 construction time = 0.000067, # ZDD nodes = 79, # elems = 32
+Zs_41 construction time = 0.000082, # ZDD nodes = 108, # elems = 50
+Zt_41 construction time = 0.000130, # ZDD nodes = 70, # elems = 26
+Zs_42 construction time = 0.000122, # ZDD nodes = 100, # elems = 44
+Zt_42 construction time = 0.000086, # ZDD nodes = 63, # elems = 20
+Zs_43 construction time = 0.000119, # ZDD nodes = 92, # elems = 38
+Zt_43 construction time = 0.000074, # ZDD nodes = 57, # elems = 17
+Zs_44 construction time = 0.000105, # ZDD nodes = 85, # elems = 33
+Zt_44 construction time = 0.000078, # ZDD nodes = 57, # elems = 17
+Zs_45 construction time = 0.000113, # ZDD nodes = 84, # elems = 33
+Zt_45 construction time = 0.000107, # ZDD nodes = 62, # elems = 19
+Zs_46 construction time = 0.000205, # ZDD nodes = 88, # elems = 37
+Zt_46 construction time = 0.000178, # ZDD nodes = 66, # elems = 21
+Zs_47 construction time = 0.000119, # ZDD nodes = 93, # elems = 42
+Zt_47 construction time = 0.000081, # ZDD nodes = 71, # elems = 24
+Zs_48 construction time = 0.000112, # ZDD nodes = 97, # elems = 46
+Zt_48 construction time = 0.000169, # ZDD nodes = 77, # elems = 28
+Zs_49 construction time = 0.000098, # ZDD nodes = 102, # elems = 52
+Zt_49 construction time = 0.000082, # ZDD nodes = 83, # elems = 31
+Zs_50 construction time = 0.000093, # ZDD nodes = 108, # elems = 59
+Zt_50 construction time = 0.000083, # ZDD nodes = 89, # elems = 33
+Zs_51 construction time = 0.000100, # ZDD nodes = 114, # elems = 63
+Zt_51 construction time = 0.000085, # ZDD nodes = 93, # elems = 36
+Zs_52 construction time = 0.000101, # ZDD nodes = 120, # elems = 65
+Zt_52 construction time = 0.000086, # ZDD nodes = 95, # elems = 39
+Zs_53 construction time = 0.000108, # ZDD nodes = 124, # elems = 68
+Zt_53 construction time = 0.000079, # ZDD nodes = 99, # elems = 40
+Zs_54 construction time = 0.000103, # ZDD nodes = 126, # elems = 71
+Zt_54 construction time = 0.000181, # ZDD nodes = 99, # elems = 40
+Zs_55 construction time = 0.000096, # ZDD nodes = 126, # elems = 71
+Zt_55 construction time = 0.000067, # ZDD nodes = 95, # elems = 39
+Zs_56 construction time = 0.000186, # ZDD nodes = 124, # elems = 68
+Zt_56 construction time = 0.000056, # ZDD nodes = 93, # elems = 37
+Zs_57 construction time = 0.000083, # ZDD nodes = 120, # elems = 64
+Zt_57 construction time = 0.000157, # ZDD nodes = 89, # elems = 35
+Zs_58 construction time = 0.000073, # ZDD nodes = 118, # elems = 61
+Zt_58 construction time = 0.000059, # ZDD nodes = 87, # elems = 32
+Zs_59 construction time = 0.000089, # ZDD nodes = 116, # elems = 59
+Zt_59 construction time = 0.000060, # ZDD nodes = 85, # elems = 30
+Zs_60 construction time = 0.000084, # ZDD nodes = 115, # elems = 56
+Zt_60 construction time = 0.000161, # ZDD nodes = 84, # elems = 31
+Zs_61 construction time = 0.000095, # ZDD nodes = 113, # elems = 54
+Zt_61 construction time = 0.000078, # ZDD nodes = 82, # elems = 32
+Zs_62 construction time = 0.000097, # ZDD nodes = 112, # elems = 55
+Zt_62 construction time = 0.000169, # ZDD nodes = 84, # elems = 32
+Zs_63 construction time = 0.000099, # ZDD nodes = 113, # elems = 57
+Zt_63 construction time = 0.000090, # ZDD nodes = 85, # elems = 32
+Zs_64 construction time = 0.000104, # ZDD nodes = 115, # elems = 60
+Zt_64 construction time = 0.000083, # ZDD nodes = 87, # elems = 32
+Zs_65 construction time = 0.000099, # ZDD nodes = 116, # elems = 63
+Zt_65 construction time = 0.000080, # ZDD nodes = 89, # elems = 33
+Zs_66 construction time = 0.000096, # ZDD nodes = 118, # elems = 64
+Zt_66 construction time = 0.000073, # ZDD nodes = 93, # elems = 36
+Zs_67 construction time = 0.000105, # ZDD nodes = 120, # elems = 65
+Zt_67 construction time = 0.000077, # ZDD nodes = 95, # elems = 39
+Zs_68 construction time = 0.000089, # ZDD nodes = 124, # elems = 68
+Zt_68 construction time = 0.000109, # ZDD nodes = 99, # elems = 40
+Zs_69 construction time = 0.000095, # ZDD nodes = 126, # elems = 71
+Zt_69 construction time = 0.000077, # ZDD nodes = 99, # elems = 40
+Zs_70 construction time = 0.000089, # ZDD nodes = 126, # elems = 71
+Zt_70 construction time = 0.000065, # ZDD nodes = 95, # elems = 39
+Zs_71 construction time = 0.000181, # ZDD nodes = 124, # elems = 68
+Zt_71 construction time = 0.000058, # ZDD nodes = 93, # elems = 37
+Zs_72 construction time = 0.000128, # ZDD nodes = 120, # elems = 64
+Zt_72 construction time = 0.000064, # ZDD nodes = 89, # elems = 35
+Zs_73 construction time = 0.000167, # ZDD nodes = 118, # elems = 61
+Zt_73 construction time = 0.000061, # ZDD nodes = 87, # elems = 32
+Zs_74 construction time = 0.000077, # ZDD nodes = 116, # elems = 59
+Zt_74 construction time = 0.000061, # ZDD nodes = 85, # elems = 30
+Zs_75 construction time = 0.000087, # ZDD nodes = 115, # elems = 56
+Zt_75 construction time = 0.000073, # ZDD nodes = 84, # elems = 31
+Zs_76 construction time = 0.000097, # ZDD nodes = 115, # elems = 55
+Zt_76 construction time = 0.000082, # ZDD nodes = 84, # elems = 33
+Zs_77 construction time = 0.000202, # ZDD nodes = 117, # elems = 59
+Zt_77 construction time = 0.000093, # ZDD nodes = 89, # elems = 35
+Zs_78 construction time = 0.000125, # ZDD nodes = 121, # elems = 65
+Zt_78 construction time = 0.000105, # ZDD nodes = 93, # elems = 37
+Zs_79 construction time = 0.000125, # ZDD nodes = 126, # elems = 71
+Zt_79 construction time = 0.000103, # ZDD nodes = 98, # elems = 40
+Zs_80 construction time = 0.000217, # ZDD nodes = 130, # elems = 77
+Zt_80 construction time = 0.000107, # ZDD nodes = 102, # elems = 44
+Zs_81 construction time = 0.000174, # ZDD nodes = 135, # elems = 84
+Zt_81 construction time = 0.000101, # ZDD nodes = 108, # elems = 48
+Zs_82 construction time = 0.000120, # ZDD nodes = 139, # elems = 91
+Zt_82 construction time = 0.000103, # ZDD nodes = 112, # elems = 52
+Zs_83 construction time = 0.000124, # ZDD nodes = 147, # elems = 97
+Zt_83 construction time = 0.000145, # ZDD nodes = 119, # elems = 56
+Zs_84 construction time = 0.000288, # ZDD nodes = 154, # elems = 103
+Zt_84 construction time = 0.000107, # ZDD nodes = 124, # elems = 59
+Zs_85 construction time = 0.000174, # ZDD nodes = 161, # elems = 108
+Zt_85 construction time = 0.000112, # ZDD nodes = 128, # elems = 60
+Zs_86 construction time = 0.000271, # ZDD nodes = 164, # elems = 110
+Zt_86 construction time = 0.000131, # ZDD nodes = 129, # elems = 59
+Zs_87 construction time = 0.000429, # ZDD nodes = 171, # elems = 109
+Zt_87 construction time = 0.000120, # ZDD nodes = 131, # elems = 57
+Zs_88 construction time = 0.000368, # ZDD nodes = 175, # elems = 108
+Zt_88 construction time = 0.000167, # ZDD nodes = 131, # elems = 54
+Zs_89 construction time = 0.000225, # ZDD nodes = 178, # elems = 108
+Zt_89 construction time = 0.000359, # ZDD nodes = 126, # elems = 50
+Zs_90 construction time = 0.000198, # ZDD nodes = 178, # elems = 105
+Zt_90 construction time = 0.000126, # ZDD nodes = 122, # elems = 49
+Zs_91 construction time = 0.000177, # ZDD nodes = 176, # elems = 98
+Zt_91 construction time = 0.000127, # ZDD nodes = 121, # elems = 51
+Zs_92 construction time = 0.000183, # ZDD nodes = 175, # elems = 94
+Zt_92 construction time = 0.000314, # ZDD nodes = 116, # elems = 51
+Zs_93 construction time = 0.000180, # ZDD nodes = 173, # elems = 95
+Zt_93 construction time = 0.000211, # ZDD nodes = 110, # elems = 48
+Zs_94 construction time = 0.000355, # ZDD nodes = 167, # elems = 95
+Zt_94 construction time = 0.000116, # ZDD nodes = 104, # elems = 45
+Zs_95 construction time = 0.000154, # ZDD nodes = 159, # elems = 91
+Zt_95 construction time = 0.000101, # ZDD nodes = 99, # elems = 44
+Zs_96 construction time = 0.000141, # ZDD nodes = 149, # elems = 86
+Zt_96 construction time = 0.000182, # ZDD nodes = 92, # elems = 44
+Zs_97 construction time = 0.000116, # ZDD nodes = 141, # elems = 83
+Zt_97 construction time = 0.000081, # ZDD nodes = 87, # elems = 43
+Zs_98 construction time = 0.000104, # ZDD nodes = 132, # elems = 80
+Zt_98 construction time = 0.000075, # ZDD nodes = 79, # elems = 41
+Zs_99 construction time = 0.000092, # ZDD nodes = 125, # elems = 75
+Zt_99 construction time = 0.000063, # ZDD nodes = 71, # elems = 39
+Zs_100 construction time = 0.000085, # ZDD nodes = 115, # elems = 68
+Zt_100 construction time = 0.000052, # ZDD nodes = 66, # elems = 36
+Zs_101 construction time = 0.000069, # ZDD nodes = 106, # elems = 60
+Zt_101 construction time = 0.000048, # ZDD nodes = 59, # elems = 32
+Zs_102 construction time = 0.000056, # ZDD nodes = 100, # elems = 53
+Zt_102 construction time = 0.000084, # ZDD nodes = 53, # elems = 27
+Zs_103 construction time = 0.000108, # ZDD nodes = 90, # elems = 47
+Zt_103 construction time = 0.000073, # ZDD nodes = 48, # elems = 21
+Zs_104 construction time = 0.000064, # ZDD nodes = 83, # elems = 39
+Zt_104 construction time = 0.000044, # ZDD nodes = 44, # elems = 17
+Zs_105 construction time = 0.000072, # ZDD nodes = 76, # elems = 30
+Zt_105 construction time = 0.000028, # ZDD nodes = 38, # elems = 15
+Zs_106 construction time = 0.000081, # ZDD nodes = 71, # elems = 25
+Zt_106 construction time = 0.000040, # ZDD nodes = 36, # elems = 12
+Zs_107 construction time = 0.000075, # ZDD nodes = 67, # elems = 24
+Zt_107 construction time = 0.000049, # ZDD nodes = 32, # elems = 9
+Zs_108 construction time = 0.000072, # ZDD nodes = 66, # elems = 24
+Zt_108 construction time = 0.000034, # ZDD nodes = 30, # elems = 8
+Zs_109 construction time = 0.000076, # ZDD nodes = 67, # elems = 24
+Zt_109 construction time = 0.000034, # ZDD nodes = 32, # elems = 9
+Zs_110 construction time = 0.000079, # ZDD nodes = 69, # elems = 24
+Zt_110 construction time = 0.000040, # ZDD nodes = 36, # elems = 12
+Zs_111 construction time = 0.000079, # ZDD nodes = 71, # elems = 25
+Zt_111 construction time = 0.000047, # ZDD nodes = 38, # elems = 15
+Zs_112 construction time = 0.000072, # ZDD nodes = 75, # elems = 28
+Zt_112 construction time = 0.000041, # ZDD nodes = 42, # elems = 16
+Zs_113 construction time = 0.000090, # ZDD nodes = 77, # elems = 31
+Zt_113 construction time = 0.000042, # ZDD nodes = 42, # elems = 16
+Zs_114 construction time = 0.000073, # ZDD nodes = 81, # elems = 32
+Zt_114 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zs_115 construction time = 0.000071, # ZDD nodes = 81, # elems = 32
+Zt_115 construction time = 0.000036, # ZDD nodes = 42, # elems = 16
+Zs_116 construction time = 0.000061, # ZDD nodes = 81, # elems = 32
+Zt_116 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zs_117 construction time = 0.000057, # ZDD nodes = 81, # elems = 32
+Zt_117 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_118 construction time = 0.000056, # ZDD nodes = 77, # elems = 31
+Zt_118 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zs_119 construction time = 0.000053, # ZDD nodes = 75, # elems = 28
+Zt_119 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_120 construction time = 0.000057, # ZDD nodes = 71, # elems = 25
+Zt_120 construction time = 0.000032, # ZDD nodes = 38, # elems = 15
+Zs_121 construction time = 0.000055, # ZDD nodes = 65, # elems = 23
+Zt_121 construction time = 0.000028, # ZDD nodes = 36, # elems = 12
+Zs_122 construction time = 0.000053, # ZDD nodes = 59, # elems = 20
+Zt_122 construction time = 0.000031, # ZDD nodes = 32, # elems = 9
+Zs_123 construction time = 0.000056, # ZDD nodes = 53, # elems = 16
+Zt_123 construction time = 0.000030, # ZDD nodes = 26, # elems = 7
+Zs_124 construction time = 0.000113, # ZDD nodes = 48, # elems = 13
+Zt_124 construction time = 0.000025, # ZDD nodes = 23, # elems = 5
+Zs_125 construction time = 0.000086, # ZDD nodes = 44, # elems = 12
+Zt_125 construction time = 0.000031, # ZDD nodes = 20, # elems = 4
+Zs_126 construction time = 0.000171, # ZDD nodes = 44, # elems = 12
+Zt_126 construction time = 0.000029, # ZDD nodes = 20, # elems = 4
+Zs_127 construction time = 0.000071, # ZDD nodes = 48, # elems = 13
+Zt_127 construction time = 0.000156, # ZDD nodes = 23, # elems = 5
+Zs_128 construction time = 0.000077, # ZDD nodes = 53, # elems = 16
+Zt_128 construction time = 0.000040, # ZDD nodes = 26, # elems = 7
+Zs_129 construction time = 0.000072, # ZDD nodes = 59, # elems = 20
+Zt_129 construction time = 0.000043, # ZDD nodes = 32, # elems = 9
+Zs_130 construction time = 0.000086, # ZDD nodes = 65, # elems = 23
+Zt_130 construction time = 0.000052, # ZDD nodes = 36, # elems = 12
+Zs_131 construction time = 0.000086, # ZDD nodes = 71, # elems = 25
+Zt_131 construction time = 0.000044, # ZDD nodes = 38, # elems = 15
+Zs_132 construction time = 0.000087, # ZDD nodes = 75, # elems = 28
+Zt_132 construction time = 0.000039, # ZDD nodes = 42, # elems = 16
+Zs_133 construction time = 0.000078, # ZDD nodes = 77, # elems = 31
+Zt_133 construction time = 0.000043, # ZDD nodes = 42, # elems = 16
+Zs_134 construction time = 0.000077, # ZDD nodes = 81, # elems = 32
+Zt_134 construction time = 0.000034, # ZDD nodes = 42, # elems = 16
+Zs_135 construction time = 0.000079, # ZDD nodes = 81, # elems = 32
+Zt_135 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_136 construction time = 0.000063, # ZDD nodes = 81, # elems = 32
+Zt_136 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_137 construction time = 0.000294, # ZDD nodes = 81, # elems = 32
+Zt_137 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_138 construction time = 0.000053, # ZDD nodes = 77, # elems = 31
+Zt_138 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_139 construction time = 0.000048, # ZDD nodes = 75, # elems = 28
+Zt_139 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_140 construction time = 0.000054, # ZDD nodes = 71, # elems = 25
+Zt_140 construction time = 0.000043, # ZDD nodes = 38, # elems = 15
+Zs_141 construction time = 0.000073, # ZDD nodes = 69, # elems = 24
+Zt_141 construction time = 0.000024, # ZDD nodes = 36, # elems = 12
+Zs_142 construction time = 0.000062, # ZDD nodes = 67, # elems = 24
+Zt_142 construction time = 0.000036, # ZDD nodes = 32, # elems = 9
+Zs_143 construction time = 0.000077, # ZDD nodes = 66, # elems = 24
+Zt_143 construction time = 0.000036, # ZDD nodes = 30, # elems = 8
+Zs_144 construction time = 0.000079, # ZDD nodes = 67, # elems = 24
+Zt_144 construction time = 0.000033, # ZDD nodes = 32, # elems = 9
+Zs_145 construction time = 0.000082, # ZDD nodes = 69, # elems = 24
+Zt_145 construction time = 0.000040, # ZDD nodes = 36, # elems = 12
+Zs_146 construction time = 0.000078, # ZDD nodes = 71, # elems = 25
+Zt_146 construction time = 0.000049, # ZDD nodes = 38, # elems = 15
+Zs_147 construction time = 0.000076, # ZDD nodes = 75, # elems = 28
+Zt_147 construction time = 0.000045, # ZDD nodes = 42, # elems = 16
+Zs_148 construction time = 0.000078, # ZDD nodes = 77, # elems = 31
+Zt_148 construction time = 0.000043, # ZDD nodes = 42, # elems = 16
+Zs_149 construction time = 0.000072, # ZDD nodes = 81, # elems = 32
+Zt_149 construction time = 0.000035, # ZDD nodes = 42, # elems = 16
+Zs_150 construction time = 0.000076, # ZDD nodes = 81, # elems = 32
+Zt_150 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_151 construction time = 0.000059, # ZDD nodes = 81, # elems = 32
+Zt_151 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_152 construction time = 0.000056, # ZDD nodes = 81, # elems = 32
+Zt_152 construction time = 0.000033, # ZDD nodes = 42, # elems = 16
+Zs_153 construction time = 0.000059, # ZDD nodes = 77, # elems = 31
+Zt_153 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zs_154 construction time = 0.000051, # ZDD nodes = 75, # elems = 28
+Zt_154 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_155 construction time = 0.000063, # ZDD nodes = 71, # elems = 25
+Zt_155 construction time = 0.000031, # ZDD nodes = 38, # elems = 15
+Zs_156 construction time = 0.000180, # ZDD nodes = 69, # elems = 24
+Zt_156 construction time = 0.000028, # ZDD nodes = 36, # elems = 12
+Zs_157 construction time = 0.000064, # ZDD nodes = 67, # elems = 24
+Zt_157 construction time = 0.000034, # ZDD nodes = 32, # elems = 9
+Zs_158 construction time = 0.000076, # ZDD nodes = 66, # elems = 24
+Zt_158 construction time = 0.000034, # ZDD nodes = 30, # elems = 8
+Zs_159 construction time = 0.000191, # ZDD nodes = 69, # elems = 25
+Zt_159 construction time = 0.000034, # ZDD nodes = 32, # elems = 9
+Zs_160 construction time = 0.000099, # ZDD nodes = 75, # elems = 28
+Zt_160 construction time = 0.000044, # ZDD nodes = 36, # elems = 12
+Zs_161 construction time = 0.000103, # ZDD nodes = 82, # elems = 33
+Zt_161 construction time = 0.000048, # ZDD nodes = 40, # elems = 16
+Zs_162 construction time = 0.000123, # ZDD nodes = 92, # elems = 41
+Zt_162 construction time = 0.000072, # ZDD nodes = 48, # elems = 20
+Zs_163 construction time = 0.000374, # ZDD nodes = 101, # elems = 52
+Zt_163 construction time = 0.000066, # ZDD nodes = 55, # elems = 24
+Zs_164 construction time = 0.000148, # ZDD nodes = 115, # elems = 64
+Zt_164 construction time = 0.000072, # ZDD nodes = 65, # elems = 29
+Zs_165 construction time = 0.000173, # ZDD nodes = 129, # elems = 75
+Zt_165 construction time = 0.000094, # ZDD nodes = 74, # elems = 36
+Zs_166 construction time = 0.000182, # ZDD nodes = 144, # elems = 86
+Zt_166 construction time = 0.000218, # ZDD nodes = 84, # elems = 44
+Zs_167 construction time = 0.000211, # ZDD nodes = 154, # elems = 99
+Zt_167 construction time = 0.000231, # ZDD nodes = 94, # elems = 51
+Zs_168 construction time = 0.000249, # ZDD nodes = 162, # elems = 110
+Zt_168 construction time = 0.000140, # ZDD nodes = 106, # elems = 57
+Zs_169 construction time = 0.000201, # ZDD nodes = 167, # elems = 115
+Zt_169 construction time = 0.000163, # ZDD nodes = 118, # elems = 64
+Zs_170 construction time = 0.000203, # ZDD nodes = 171, # elems = 117
+Zt_170 construction time = 0.000195, # ZDD nodes = 128, # elems = 69
+Zs_171 construction time = 0.000422, # ZDD nodes = 173, # elems = 120
+Reconf seq found. Shortest length = 341
+Zt_171 construction time = 0.000407, # ZDD nodes = 134, # elems = 70
+Zs_172 construction time = 0.000190, # ZDD nodes = 177, # elems = 121
+Zt_172 construction time = 0.000167, # ZDD nodes = 141, # elems = 70
+Zs_173 construction time = 0.000179, # ZDD nodes = 179, # elems = 118
+Zt_173 construction time = 0.000160, # ZDD nodes = 143, # elems = 71
+Zs_174 construction time = 0.000179, # ZDD nodes = 184, # elems = 113
+Zt_174 construction time = 0.000162, # ZDD nodes = 149, # elems = 75
+Zs_175 construction time = 0.000203, # ZDD nodes = 186, # elems = 108
+Zt_175 construction time = 0.000166, # ZDD nodes = 157, # elems = 81
+Zs_176 construction time = 0.000174, # ZDD nodes = 190, # elems = 107
+Zt_176 construction time = 0.000191, # ZDD nodes = 163, # elems = 87
+Zs_177 construction time = 0.000171, # ZDD nodes = 195, # elems = 108
+Zt_177 construction time = 0.000199, # ZDD nodes = 170, # elems = 91
+Zs_178 construction time = 0.000396, # ZDD nodes = 200, # elems = 108
+Zt_178 construction time = 0.000198, # ZDD nodes = 179, # elems = 94
+Zs_179 construction time = 0.000193, # ZDD nodes = 205, # elems = 108
+Zt_179 construction time = 0.000194, # ZDD nodes = 183, # elems = 99
+Zs_180 construction time = 0.000200, # ZDD nodes = 213, # elems = 109
+Zt_180 construction time = 0.000404, # ZDD nodes = 187, # elems = 103
+Zs_181 construction time = 0.000207, # ZDD nodes = 219, # elems = 113
+Zt_181 construction time = 0.000193, # ZDD nodes = 187, # elems = 103
+Zs_182 construction time = 0.000219, # ZDD nodes = 224, # elems = 119
+Zt_182 construction time = 0.000186, # ZDD nodes = 185, # elems = 101
+Zs_183 construction time = 0.000234, # ZDD nodes = 226, # elems = 122
+Zt_183 construction time = 0.000390, # ZDD nodes = 185, # elems = 101
+Zs_184 construction time = 0.000453, # ZDD nodes = 225, # elems = 122
+Zt_184 construction time = 0.000175, # ZDD nodes = 183, # elems = 103
+Zs_185 construction time = 0.000246, # ZDD nodes = 225, # elems = 124
+Zt_185 construction time = 0.000180, # ZDD nodes = 182, # elems = 102
+Zs_186 construction time = 0.000243, # ZDD nodes = 223, # elems = 127
+Zt_186 construction time = 0.000613, # ZDD nodes = 178, # elems = 98
+Zs_187 construction time = 0.000465, # ZDD nodes = 222, # elems = 126
+Zt_187 construction time = 0.000192, # ZDD nodes = 171, # elems = 92
+Zs_188 construction time = 0.000252, # ZDD nodes = 218, # elems = 122
+Zt_188 construction time = 0.000397, # ZDD nodes = 164, # elems = 84
+Zs_189 construction time = 0.000256, # ZDD nodes = 211, # elems = 116
+Zt_189 construction time = 0.000258, # ZDD nodes = 156, # elems = 78
+Zs_190 construction time = 0.000520, # ZDD nodes = 207, # elems = 108
+Zt_190 construction time = 0.000190, # ZDD nodes = 153, # elems = 71
+Zs_191 construction time = 0.000246, # ZDD nodes = 202, # elems = 102
+Zt_191 construction time = 0.000196, # ZDD nodes = 151, # elems = 63
+Zs_192 construction time = 0.000243, # ZDD nodes = 195, # elems = 94
+Zt_192 construction time = 0.000185, # ZDD nodes = 150, # elems = 60
+Zs_193 construction time = 0.000225, # ZDD nodes = 191, # elems = 83
+Zt_193 construction time = 0.000179, # ZDD nodes = 149, # elems = 60
+Zs_194 construction time = 0.000225, # ZDD nodes = 186, # elems = 77
+Zt_194 construction time = 0.000170, # ZDD nodes = 147, # elems = 59
+Zs_195 construction time = 0.000212, # ZDD nodes = 179, # elems = 74
+Zt_195 construction time = 0.000163, # ZDD nodes = 146, # elems = 56
+Zs_196 construction time = 0.000196, # ZDD nodes = 171, # elems = 68
+Zt_196 construction time = 0.000157, # ZDD nodes = 144, # elems = 53
+Zs_197 construction time = 0.000183, # ZDD nodes = 162, # elems = 61
+Zt_197 construction time = 0.000149, # ZDD nodes = 140, # elems = 51
+Zs_198 construction time = 0.000157, # ZDD nodes = 154, # elems = 56
+Zt_198 construction time = 0.000647, # ZDD nodes = 134, # elems = 49
+Zs_199 construction time = 0.000146, # ZDD nodes = 144, # elems = 52
+Zt_199 construction time = 0.000128, # ZDD nodes = 126, # elems = 48
+Zs_200 construction time = 0.000129, # ZDD nodes = 134, # elems = 49
+Zt_200 construction time = 0.000537, # ZDD nodes = 120, # elems = 46
+Zs_201 construction time = 0.000527, # ZDD nodes = 126, # elems = 48
+Zt_201 construction time = 0.000118, # ZDD nodes = 109, # elems = 43
+Zs_202 construction time = 0.000108, # ZDD nodes = 120, # elems = 46
+Zt_202 construction time = 0.000094, # ZDD nodes = 99, # elems = 41
+Zs_203 construction time = 0.000101, # ZDD nodes = 109, # elems = 43
+Zt_203 construction time = 0.000087, # ZDD nodes = 89, # elems = 38
+Zs_204 construction time = 0.000092, # ZDD nodes = 99, # elems = 41
+Zt_204 construction time = 0.000074, # ZDD nodes = 79, # elems = 35
+Zs_205 construction time = 0.000075, # ZDD nodes = 89, # elems = 38
+Zt_205 construction time = 0.000065, # ZDD nodes = 71, # elems = 31
+Zs_206 construction time = 0.000073, # ZDD nodes = 79, # elems = 35
+Zt_206 construction time = 0.000069, # ZDD nodes = 62, # elems = 26
+Zs_207 construction time = 0.000068, # ZDD nodes = 71, # elems = 31
+Zt_207 construction time = 0.000056, # ZDD nodes = 54, # elems = 23
+Zs_208 construction time = 0.000061, # ZDD nodes = 62, # elems = 26
+Zt_208 construction time = 0.000050, # ZDD nodes = 46, # elems = 19
+Zs_209 construction time = 0.000055, # ZDD nodes = 54, # elems = 23
+Zt_209 construction time = 0.000043, # ZDD nodes = 39, # elems = 13
+Zs_210 construction time = 0.000047, # ZDD nodes = 46, # elems = 19
+Zt_210 construction time = 0.000039, # ZDD nodes = 32, # elems = 9
+Zs_211 construction time = 0.000042, # ZDD nodes = 39, # elems = 13
+Zt_211 construction time = 0.000023, # ZDD nodes = 26, # elems = 7
+Zs_212 construction time = 0.000039, # ZDD nodes = 32, # elems = 9
+Zt_212 construction time = 0.000022, # ZDD nodes = 23, # elems = 5
+Zs_213 construction time = 0.000014, # ZDD nodes = 26, # elems = 7
+Zt_213 construction time = 0.000018, # ZDD nodes = 20, # elems = 4
+Zs_214 construction time = 0.000012, # ZDD nodes = 23, # elems = 5
+Zt_214 construction time = 0.000020, # ZDD nodes = 20, # elems = 4
+Zs_215 construction time = 0.000011, # ZDD nodes = 20, # elems = 4
+Zt_215 construction time = 0.000033, # ZDD nodes = 23, # elems = 5
+Zs_216 construction time = 0.000012, # ZDD nodes = 20, # elems = 4
+Zt_216 construction time = 0.000036, # ZDD nodes = 26, # elems = 7
+Zs_217 construction time = 0.000011, # ZDD nodes = 23, # elems = 5
+Zt_217 construction time = 0.000032, # ZDD nodes = 32, # elems = 9
+Zs_218 construction time = 0.000012, # ZDD nodes = 26, # elems = 7
+Zt_218 construction time = 0.000038, # ZDD nodes = 36, # elems = 12
+Zs_219 construction time = 0.000014, # ZDD nodes = 32, # elems = 9
+Zt_219 construction time = 0.000035, # ZDD nodes = 38, # elems = 15
+Zs_220 construction time = 0.000015, # ZDD nodes = 36, # elems = 12
+Zt_220 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_221 construction time = 0.000018, # ZDD nodes = 38, # elems = 15
+Zt_221 construction time = 0.000044, # ZDD nodes = 42, # elems = 16
+Zs_222 construction time = 0.000019, # ZDD nodes = 42, # elems = 16
+Zt_222 construction time = 0.000033, # ZDD nodes = 42, # elems = 16
+Zs_223 construction time = 0.000019, # ZDD nodes = 42, # elems = 16
+Zt_223 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_224 construction time = 0.000019, # ZDD nodes = 42, # elems = 16
+Zt_224 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_225 construction time = 0.000019, # ZDD nodes = 42, # elems = 16
+Zt_225 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_226 construction time = 0.000019, # ZDD nodes = 42, # elems = 16
+Zt_226 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_227 construction time = 0.000018, # ZDD nodes = 42, # elems = 16
+Zt_227 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_228 construction time = 0.000018, # ZDD nodes = 42, # elems = 16
+Zt_228 construction time = 0.000028, # ZDD nodes = 38, # elems = 15
+Zs_229 construction time = 0.000018, # ZDD nodes = 42, # elems = 16
+Zt_229 construction time = 0.000023, # ZDD nodes = 36, # elems = 12
+Zs_230 construction time = 0.000018, # ZDD nodes = 38, # elems = 15
+Zt_230 construction time = 0.000021, # ZDD nodes = 32, # elems = 9
+Zs_231 construction time = 0.000016, # ZDD nodes = 36, # elems = 12
+Zt_231 construction time = 0.000023, # ZDD nodes = 30, # elems = 8
+Zs_232 construction time = 0.000014, # ZDD nodes = 32, # elems = 9
+Zt_232 construction time = 0.000027, # ZDD nodes = 32, # elems = 9
+Zs_233 construction time = 0.000011, # ZDD nodes = 30, # elems = 8
+Zt_233 construction time = 0.000028, # ZDD nodes = 36, # elems = 12
+Zs_234 construction time = 0.000012, # ZDD nodes = 32, # elems = 9
+Zt_234 construction time = 0.000039, # ZDD nodes = 38, # elems = 15
+Zs_235 construction time = 0.000013, # ZDD nodes = 36, # elems = 12
+Zt_235 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_236 construction time = 0.000016, # ZDD nodes = 38, # elems = 15
+Zt_236 construction time = 0.000042, # ZDD nodes = 42, # elems = 16
+Zs_237 construction time = 0.000016, # ZDD nodes = 42, # elems = 16
+Zt_237 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_238 construction time = 0.000039, # ZDD nodes = 42, # elems = 16
+Zt_238 construction time = 0.000026, # ZDD nodes = 42, # elems = 16
+Zs_239 construction time = 0.000027, # ZDD nodes = 42, # elems = 16
+Zt_239 construction time = 0.000026, # ZDD nodes = 42, # elems = 16
+Zs_240 construction time = 0.000027, # ZDD nodes = 42, # elems = 16
+Zt_240 construction time = 0.000027, # ZDD nodes = 42, # elems = 16
+Zs_241 construction time = 0.000026, # ZDD nodes = 42, # elems = 16
+Zt_241 construction time = 0.000027, # ZDD nodes = 42, # elems = 16
+Zs_242 construction time = 0.000027, # ZDD nodes = 42, # elems = 16
+Zt_242 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_243 construction time = 0.000026, # ZDD nodes = 42, # elems = 16
+Zt_243 construction time = 0.000025, # ZDD nodes = 38, # elems = 15
+Zs_244 construction time = 0.000027, # ZDD nodes = 42, # elems = 16
+Zt_244 construction time = 0.000023, # ZDD nodes = 36, # elems = 12
+Zs_245 construction time = 0.000028, # ZDD nodes = 38, # elems = 15
+Zt_245 construction time = 0.000020, # ZDD nodes = 32, # elems = 9
+Zs_246 construction time = 0.000029, # ZDD nodes = 36, # elems = 12
+Zt_246 construction time = 0.000025, # ZDD nodes = 30, # elems = 8
+Zs_247 construction time = 0.000024, # ZDD nodes = 32, # elems = 9
+Zt_247 construction time = 0.000031, # ZDD nodes = 32, # elems = 9
+Zs_248 construction time = 0.000022, # ZDD nodes = 30, # elems = 8
+Zt_248 construction time = 0.000036, # ZDD nodes = 36, # elems = 12
+Zs_249 construction time = 0.000017, # ZDD nodes = 32, # elems = 9
+Zt_249 construction time = 0.000049, # ZDD nodes = 40, # elems = 16
+Zs_250 construction time = 0.000029, # ZDD nodes = 36, # elems = 12
+Zt_250 construction time = 0.000045, # ZDD nodes = 47, # elems = 20
+Zs_251 construction time = 0.000034, # ZDD nodes = 40, # elems = 16
+Zt_251 construction time = 0.000553, # ZDD nodes = 52, # elems = 23
+Zs_252 construction time = 0.000033, # ZDD nodes = 47, # elems = 20
+Zt_252 construction time = 0.000067, # ZDD nodes = 60, # elems = 25
+Zs_253 construction time = 0.000506, # ZDD nodes = 52, # elems = 23
+Zt_253 construction time = 0.000079, # ZDD nodes = 68, # elems = 27
+Zs_254 construction time = 0.000046, # ZDD nodes = 60, # elems = 25
+Zt_254 construction time = 0.000092, # ZDD nodes = 77, # elems = 29
+Zs_255 construction time = 0.000057, # ZDD nodes = 68, # elems = 27
+Zt_255 construction time = 0.000108, # ZDD nodes = 86, # elems = 32
+Zs_256 construction time = 0.000060, # ZDD nodes = 77, # elems = 29
+Zt_256 construction time = 0.000114, # ZDD nodes = 96, # elems = 36
+Zs_257 construction time = 0.000071, # ZDD nodes = 86, # elems = 32
+Zt_257 construction time = 0.000172, # ZDD nodes = 105, # elems = 41
+Zs_258 construction time = 0.000080, # ZDD nodes = 96, # elems = 36
+Zt_258 construction time = 0.000228, # ZDD nodes = 111, # elems = 47
+Zs_259 construction time = 0.000096, # ZDD nodes = 105, # elems = 41
+Zt_259 construction time = 0.000136, # ZDD nodes = 112, # elems = 50
+Zs_260 construction time = 0.000100, # ZDD nodes = 111, # elems = 47
+Zt_260 construction time = 0.000132, # ZDD nodes = 110, # elems = 48
+Zs_261 construction time = 0.000135, # ZDD nodes = 112, # elems = 50
+Zt_261 construction time = 0.000134, # ZDD nodes = 104, # elems = 45
+Zs_262 construction time = 0.000137, # ZDD nodes = 110, # elems = 48
+Zt_262 construction time = 0.000121, # ZDD nodes = 99, # elems = 44
+Zs_263 construction time = 0.000135, # ZDD nodes = 104, # elems = 45
+Zt_263 construction time = 0.000107, # ZDD nodes = 92, # elems = 44
+Zs_264 construction time = 0.000120, # ZDD nodes = 99, # elems = 44
+Zt_264 construction time = 0.000090, # ZDD nodes = 86, # elems = 43
+Zs_265 construction time = 0.000108, # ZDD nodes = 92, # elems = 44
+Zt_265 construction time = 0.000092, # ZDD nodes = 79, # elems = 41
+Zs_266 construction time = 0.000086, # ZDD nodes = 86, # elems = 43
+Zt_266 construction time = 0.000073, # ZDD nodes = 71, # elems = 39
+Zs_267 construction time = 0.000092, # ZDD nodes = 79, # elems = 41
+Zt_267 construction time = 0.000059, # ZDD nodes = 66, # elems = 36
+Zs_268 construction time = 0.000072, # ZDD nodes = 71, # elems = 39
+Zt_268 construction time = 0.000054, # ZDD nodes = 59, # elems = 32
+Zs_269 construction time = 0.000058, # ZDD nodes = 66, # elems = 36
+Zt_269 construction time = 0.000044, # ZDD nodes = 53, # elems = 27
+Zs_270 construction time = 0.000055, # ZDD nodes = 59, # elems = 32
+Zt_270 construction time = 0.000042, # ZDD nodes = 48, # elems = 21
+Zs_271 construction time = 0.000042, # ZDD nodes = 53, # elems = 27
+Zt_271 construction time = 0.000033, # ZDD nodes = 44, # elems = 17
+Zs_272 construction time = 0.000041, # ZDD nodes = 48, # elems = 21
+Zt_272 construction time = 0.000030, # ZDD nodes = 38, # elems = 15
+Zs_273 construction time = 0.000033, # ZDD nodes = 44, # elems = 17
+Zt_273 construction time = 0.000023, # ZDD nodes = 36, # elems = 12
+Zs_274 construction time = 0.000032, # ZDD nodes = 38, # elems = 15
+Zt_274 construction time = 0.000022, # ZDD nodes = 32, # elems = 9
+Zs_275 construction time = 0.000023, # ZDD nodes = 36, # elems = 12
+Zt_275 construction time = 0.000024, # ZDD nodes = 30, # elems = 8
+Zs_276 construction time = 0.000021, # ZDD nodes = 32, # elems = 9
+Zt_276 construction time = 0.000031, # ZDD nodes = 32, # elems = 9
+Zs_277 construction time = 0.000023, # ZDD nodes = 30, # elems = 8
+Zt_277 construction time = 0.000033, # ZDD nodes = 36, # elems = 12
+Zs_278 construction time = 0.000031, # ZDD nodes = 32, # elems = 9
+Zt_278 construction time = 0.000041, # ZDD nodes = 38, # elems = 15
+Zs_279 construction time = 0.000032, # ZDD nodes = 36, # elems = 12
+Zt_279 construction time = 0.000035, # ZDD nodes = 42, # elems = 16
+Zs_280 construction time = 0.000041, # ZDD nodes = 38, # elems = 15
+Zt_280 construction time = 0.000045, # ZDD nodes = 42, # elems = 16
+Zs_281 construction time = 0.000033, # ZDD nodes = 42, # elems = 16
+Zt_281 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zs_282 construction time = 0.000043, # ZDD nodes = 42, # elems = 16
+Zt_282 construction time = 0.000026, # ZDD nodes = 42, # elems = 16
+Zs_283 construction time = 0.000028, # ZDD nodes = 42, # elems = 16
+Zt_283 construction time = 0.000024, # ZDD nodes = 42, # elems = 16
+Zs_284 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zt_284 construction time = 0.000028, # ZDD nodes = 42, # elems = 16
+Zs_285 construction time = 0.000028, # ZDD nodes = 42, # elems = 16
+Zt_285 construction time = 0.000028, # ZDD nodes = 42, # elems = 16
+Zs_286 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zt_286 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zs_287 construction time = 0.000032, # ZDD nodes = 42, # elems = 16
+Zt_287 construction time = 0.000028, # ZDD nodes = 38, # elems = 15
+Zs_288 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zt_288 construction time = 0.000027, # ZDD nodes = 36, # elems = 12
+Zs_289 construction time = 0.000029, # ZDD nodes = 38, # elems = 15
+Zt_289 construction time = 0.000025, # ZDD nodes = 32, # elems = 9
+Zs_290 construction time = 0.000029, # ZDD nodes = 36, # elems = 12
+Zt_290 construction time = 0.000024, # ZDD nodes = 26, # elems = 7
+Zs_291 construction time = 0.000023, # ZDD nodes = 32, # elems = 9
+Zt_291 construction time = 0.000024, # ZDD nodes = 23, # elems = 5
+Zs_292 construction time = 0.000022, # ZDD nodes = 26, # elems = 7
+Zt_292 construction time = 0.000019, # ZDD nodes = 20, # elems = 4
+Zs_293 construction time = 0.000023, # ZDD nodes = 23, # elems = 5
+Zt_293 construction time = 0.000022, # ZDD nodes = 20, # elems = 4
+Zs_294 construction time = 0.000038, # ZDD nodes = 20, # elems = 4
+Zt_294 construction time = 0.000026, # ZDD nodes = 23, # elems = 5
+Zs_295 construction time = 0.000020, # ZDD nodes = 20, # elems = 4
+Zt_295 construction time = 0.000035, # ZDD nodes = 26, # elems = 7
+Zs_296 construction time = 0.000025, # ZDD nodes = 23, # elems = 5
+Zt_296 construction time = 0.000036, # ZDD nodes = 32, # elems = 9
+Zs_297 construction time = 0.000036, # ZDD nodes = 26, # elems = 7
+Zt_297 construction time = 0.000040, # ZDD nodes = 36, # elems = 12
+Zs_298 construction time = 0.000034, # ZDD nodes = 32, # elems = 9
+Zt_298 construction time = 0.000043, # ZDD nodes = 38, # elems = 15
+Zs_299 construction time = 0.000039, # ZDD nodes = 36, # elems = 12
+Zt_299 construction time = 0.000033, # ZDD nodes = 42, # elems = 16
+Zs_300 construction time = 0.000043, # ZDD nodes = 38, # elems = 15
+Zt_300 construction time = 0.000048, # ZDD nodes = 42, # elems = 16
+Zs_301 construction time = 0.000034, # ZDD nodes = 42, # elems = 16
+Zt_301 construction time = 0.000034, # ZDD nodes = 42, # elems = 16
+Zs_302 construction time = 0.000046, # ZDD nodes = 42, # elems = 16
+Zt_302 construction time = 0.000032, # ZDD nodes = 42, # elems = 16
+Zs_303 construction time = 0.000035, # ZDD nodes = 42, # elems = 16
+Zt_303 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zs_304 construction time = 0.000314, # ZDD nodes = 42, # elems = 16
+Zt_304 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zs_305 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zt_305 construction time = 0.000028, # ZDD nodes = 42, # elems = 16
+Zs_306 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zt_306 construction time = 0.000028, # ZDD nodes = 42, # elems = 16
+Zs_307 construction time = 0.000028, # ZDD nodes = 42, # elems = 16
+Zt_307 construction time = 0.000027, # ZDD nodes = 38, # elems = 15
+Zs_308 construction time = 0.000159, # ZDD nodes = 42, # elems = 16
+Zt_308 construction time = 0.000024, # ZDD nodes = 36, # elems = 12
+Zs_309 construction time = 0.000028, # ZDD nodes = 38, # elems = 15
+Zt_309 construction time = 0.000023, # ZDD nodes = 32, # elems = 9
+Zs_310 construction time = 0.000022, # ZDD nodes = 36, # elems = 12
+Zt_310 construction time = 0.000024, # ZDD nodes = 30, # elems = 8
+Zs_311 construction time = 0.000022, # ZDD nodes = 32, # elems = 9
+Zt_311 construction time = 0.000034, # ZDD nodes = 32, # elems = 9
+Zs_312 construction time = 0.000024, # ZDD nodes = 30, # elems = 8
+Zt_312 construction time = 0.000032, # ZDD nodes = 36, # elems = 12
+Zs_313 construction time = 0.000028, # ZDD nodes = 32, # elems = 9
+Zt_313 construction time = 0.000046, # ZDD nodes = 38, # elems = 15
+Zs_314 construction time = 0.000032, # ZDD nodes = 36, # elems = 12
+Zt_314 construction time = 0.000037, # ZDD nodes = 42, # elems = 16
+Zs_315 construction time = 0.000045, # ZDD nodes = 38, # elems = 15
+Zt_315 construction time = 0.000051, # ZDD nodes = 42, # elems = 16
+Zs_316 construction time = 0.000037, # ZDD nodes = 42, # elems = 16
+Zt_316 construction time = 0.000033, # ZDD nodes = 42, # elems = 16
+Zs_317 construction time = 0.000048, # ZDD nodes = 42, # elems = 16
+Zt_317 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_318 construction time = 0.000032, # ZDD nodes = 42, # elems = 16
+Zt_318 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zs_319 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zt_319 construction time = 0.000028, # ZDD nodes = 42, # elems = 16
+Zs_320 construction time = 0.000029, # ZDD nodes = 42, # elems = 16
+Zt_320 construction time = 0.000032, # ZDD nodes = 42, # elems = 16
+Zs_321 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zt_321 construction time = 0.000031, # ZDD nodes = 42, # elems = 16
+Zs_322 construction time = 0.000030, # ZDD nodes = 42, # elems = 16
+Zt_322 construction time = 0.000028, # ZDD nodes = 38, # elems = 15
+Zs_323 construction time = 0.000032, # ZDD nodes = 42, # elems = 16
+Zt_323 construction time = 0.000027, # ZDD nodes = 36, # elems = 12
+Zs_324 construction time = 0.000029, # ZDD nodes = 38, # elems = 15
+Zt_324 construction time = 0.000027, # ZDD nodes = 32, # elems = 9
+Zs_325 construction time = 0.000028, # ZDD nodes = 36, # elems = 12
+Zt_325 construction time = 0.000026, # ZDD nodes = 30, # elems = 8
+Zs_326 construction time = 0.000024, # ZDD nodes = 32, # elems = 9
+Zt_326 construction time = 0.000032, # ZDD nodes = 32, # elems = 9
+Zs_327 construction time = 0.000026, # ZDD nodes = 30, # elems = 8
+Zt_327 construction time = 0.000040, # ZDD nodes = 36, # elems = 12
+Zs_328 construction time = 0.000033, # ZDD nodes = 32, # elems = 9
+Zt_328 construction time = 0.000050, # ZDD nodes = 40, # elems = 16
+Zs_329 construction time = 0.000040, # ZDD nodes = 36, # elems = 12
+Zt_329 construction time = 0.000046, # ZDD nodes = 48, # elems = 20
+Zs_330 construction time = 0.000051, # ZDD nodes = 40, # elems = 16
+Zt_330 construction time = 0.000064, # ZDD nodes = 55, # elems = 24
+Zs_331 construction time = 0.000047, # ZDD nodes = 48, # elems = 20
+Zt_331 construction time = 0.000078, # ZDD nodes = 65, # elems = 29
+Zs_332 construction time = 0.000062, # ZDD nodes = 55, # elems = 24
+Zt_332 construction time = 0.000104, # ZDD nodes = 74, # elems = 36
+Zs_333 construction time = 0.000078, # ZDD nodes = 65, # elems = 29
+Zt_333 construction time = 0.000120, # ZDD nodes = 84, # elems = 44
+Zs_334 construction time = 0.000103, # ZDD nodes = 74, # elems = 36
+Zt_334 construction time = 0.000133, # ZDD nodes = 95, # elems = 51
+Zs_335 construction time = 0.000116, # ZDD nodes = 84, # elems = 44
+Zt_335 construction time = 0.000166, # ZDD nodes = 108, # elems = 58
+Zs_336 construction time = 0.000129, # ZDD nodes = 95, # elems = 51
+Zt_336 construction time = 0.000194, # ZDD nodes = 121, # elems = 68
+Zs_337 construction time = 0.000155, # ZDD nodes = 108, # elems = 58
+Zt_337 construction time = 0.000216, # ZDD nodes = 132, # elems = 79
+Zs_338 construction time = 0.000184, # ZDD nodes = 121, # elems = 68
+Zt_338 construction time = 0.000231, # ZDD nodes = 142, # elems = 88
+Zs_339 construction time = 0.000205, # ZDD nodes = 132, # elems = 79
+Zt_339 construction time = 0.000245, # ZDD nodes = 154, # elems = 95
+Zs_340 construction time = 0.000214, # ZDD nodes = 142, # elems = 88
+Zt_340 construction time = 0.000483, # ZDD nodes = 164, # elems = 104
+Zs_341 construction time = 0.000231, # ZDD nodes = 154, # elems = 95
+Zt_341 construction time = 0.000572, # ZDD nodes = 179, # elems = 119
+Card(Zs_0 & Zt_341) = 1
+Card(Zs_1 & Zt_340) = 1
+Card(Zs_2 & Zt_339) = 1
+Card(Zs_3 & Zt_338) = 1
+Card(Zs_4 & Zt_337) = 1
+Card(Zs_5 & Zt_336) = 2
+Card(Zs_6 & Zt_335) = 2
+Card(Zs_7 & Zt_334) = 2
+Card(Zs_8 & Zt_333) = 2
+Card(Zs_9 & Zt_332) = 3
+Card(Zs_10 & Zt_331) = 4
+Card(Zs_11 & Zt_330) = 4
+Card(Zs_12 & Zt_329) = 4
+Card(Zs_13 & Zt_328) = 5
+Card(Zs_14 & Zt_327) = 7
+Card(Zs_15 & Zt_326) = 8
+Card(Zs_16 & Zt_325) = 8
+Card(Zs_17 & Zt_324) = 9
+Card(Zs_18 & Zt_323) = 12
+Card(Zs_19 & Zt_322) = 15
+Card(Zs_20 & Zt_321) = 16
+Card(Zs_21 & Zt_320) = 16
+Card(Zs_22 & Zt_319) = 16
+Card(Zs_23 & Zt_318) = 16
+Card(Zs_24 & Zt_317) = 16
+Card(Zs_25 & Zt_316) = 16
+Card(Zs_26 & Zt_315) = 16
+Card(Zs_27 & Zt_314) = 16
+Card(Zs_28 & Zt_313) = 15
+Card(Zs_29 & Zt_312) = 12
+Card(Zs_30 & Zt_311) = 9
+Card(Zs_31 & Zt_310) = 8
+Card(Zs_32 & Zt_309) = 9
+Card(Zs_33 & Zt_308) = 12
+Card(Zs_34 & Zt_307) = 15
+Card(Zs_35 & Zt_306) = 16
+Card(Zs_36 & Zt_305) = 16
+Card(Zs_37 & Zt_304) = 16
+Card(Zs_38 & Zt_303) = 16
+Card(Zs_39 & Zt_302) = 16
+Card(Zs_40 & Zt_301) = 16
+Card(Zs_41 & Zt_300) = 16
+Card(Zs_42 & Zt_299) = 16
+Card(Zs_43 & Zt_298) = 15
+Card(Zs_44 & Zt_297) = 12
+Card(Zs_45 & Zt_296) = 9
+Card(Zs_46 & Zt_295) = 7
+Card(Zs_47 & Zt_294) = 5
+Card(Zs_48 & Zt_293) = 4
+Card(Zs_49 & Zt_292) = 4
+Card(Zs_50 & Zt_291) = 5
+Card(Zs_51 & Zt_290) = 7
+Card(Zs_52 & Zt_289) = 9
+Card(Zs_53 & Zt_288) = 12
+Card(Zs_54 & Zt_287) = 15
+Card(Zs_55 & Zt_286) = 16
+Card(Zs_56 & Zt_285) = 16
+Card(Zs_57 & Zt_284) = 16
+Card(Zs_58 & Zt_283) = 16
+Card(Zs_59 & Zt_282) = 16
+Card(Zs_60 & Zt_281) = 16
+Card(Zs_61 & Zt_280) = 16
+Card(Zs_62 & Zt_279) = 16
+Card(Zs_63 & Zt_278) = 15
+Card(Zs_64 & Zt_277) = 12
+Card(Zs_65 & Zt_276) = 9
+Card(Zs_66 & Zt_275) = 8
+Card(Zs_67 & Zt_274) = 9
+Card(Zs_68 & Zt_273) = 12
+Card(Zs_69 & Zt_272) = 15
+Card(Zs_70 & Zt_271) = 16
+Card(Zs_71 & Zt_270) = 16
+Card(Zs_72 & Zt_269) = 16
+Card(Zs_73 & Zt_268) = 16
+Card(Zs_74 & Zt_267) = 16
+Card(Zs_75 & Zt_266) = 16
+Card(Zs_76 & Zt_265) = 16
+Card(Zs_77 & Zt_264) = 16
+Card(Zs_78 & Zt_263) = 15
+Card(Zs_79 & Zt_262) = 12
+Card(Zs_80 & Zt_261) = 9
+Card(Zs_81 & Zt_260) = 8
+Card(Zs_82 & Zt_259) = 8
+Card(Zs_83 & Zt_258) = 7
+Card(Zs_84 & Zt_257) = 5
+Card(Zs_85 & Zt_256) = 4
+Card(Zs_86 & Zt_255) = 3
+Card(Zs_87 & Zt_254) = 2
+Card(Zs_88 & Zt_253) = 2
+Card(Zs_89 & Zt_252) = 2
+Card(Zs_90 & Zt_251) = 3
+Card(Zs_91 & Zt_250) = 4
+Card(Zs_92 & Zt_249) = 5
+Card(Zs_93 & Zt_248) = 7
+Card(Zs_94 & Zt_247) = 8
+Card(Zs_95 & Zt_246) = 8
+Card(Zs_96 & Zt_245) = 9
+Card(Zs_97 & Zt_244) = 12
+Card(Zs_98 & Zt_243) = 15
+Card(Zs_99 & Zt_242) = 16
+Card(Zs_100 & Zt_241) = 16
+Card(Zs_101 & Zt_240) = 16
+Card(Zs_102 & Zt_239) = 16
+Card(Zs_103 & Zt_238) = 16
+Card(Zs_104 & Zt_237) = 16
+Card(Zs_105 & Zt_236) = 16
+Card(Zs_106 & Zt_235) = 16
+Card(Zs_107 & Zt_234) = 15
+Card(Zs_108 & Zt_233) = 12
+Card(Zs_109 & Zt_232) = 9
+Card(Zs_110 & Zt_231) = 8
+Card(Zs_111 & Zt_230) = 9
+Card(Zs_112 & Zt_229) = 12
+Card(Zs_113 & Zt_228) = 15
+Card(Zs_114 & Zt_227) = 16
+Card(Zs_115 & Zt_226) = 16
+Card(Zs_116 & Zt_225) = 16
+Card(Zs_117 & Zt_224) = 16
+Card(Zs_118 & Zt_223) = 16
+Card(Zs_119 & Zt_222) = 16
+Card(Zs_120 & Zt_221) = 16
+Card(Zs_121 & Zt_220) = 16
+Card(Zs_122 & Zt_219) = 15
+Card(Zs_123 & Zt_218) = 12
+Card(Zs_124 & Zt_217) = 9
+Card(Zs_125 & Zt_216) = 7
+Card(Zs_126 & Zt_215) = 5
+Card(Zs_127 & Zt_214) = 4
+Card(Zs_128 & Zt_213) = 4
+Card(Zs_129 & Zt_212) = 5
+Card(Zs_130 & Zt_211) = 7
+Card(Zs_131 & Zt_210) = 9
+Card(Zs_132 & Zt_209) = 12
+Card(Zs_133 & Zt_208) = 15
+Card(Zs_134 & Zt_207) = 16
+Card(Zs_135 & Zt_206) = 16
+Card(Zs_136 & Zt_205) = 16
+Card(Zs_137 & Zt_204) = 16
+Card(Zs_138 & Zt_203) = 16
+Card(Zs_139 & Zt_202) = 16
+Card(Zs_140 & Zt_201) = 16
+Card(Zs_141 & Zt_200) = 16
+Card(Zs_142 & Zt_199) = 15
+Card(Zs_143 & Zt_198) = 12
+Card(Zs_144 & Zt_197) = 9
+Card(Zs_145 & Zt_196) = 8
+Card(Zs_146 & Zt_195) = 9
+Card(Zs_147 & Zt_194) = 12
+Card(Zs_148 & Zt_193) = 15
+Card(Zs_149 & Zt_192) = 16
+Card(Zs_150 & Zt_191) = 16
+Card(Zs_151 & Zt_190) = 16
+Card(Zs_152 & Zt_189) = 16
+Card(Zs_153 & Zt_188) = 16
+Card(Zs_154 & Zt_187) = 16
+Card(Zs_155 & Zt_186) = 16
+Card(Zs_156 & Zt_185) = 16
+Card(Zs_157 & Zt_184) = 15
+Card(Zs_158 & Zt_183) = 12
+Card(Zs_159 & Zt_182) = 9
+Card(Zs_160 & Zt_181) = 8
+Card(Zs_161 & Zt_180) = 8
+Card(Zs_162 & Zt_179) = 7
+Card(Zs_163 & Zt_178) = 5
+Card(Zs_164 & Zt_177) = 4
+Card(Zs_165 & Zt_176) = 4
+Card(Zs_166 & Zt_175) = 4
+Card(Zs_167 & Zt_174) = 3
+Card(Zs_168 & Zt_173) = 2
+Card(Zs_169 & Zt_172) = 2
+Card(Zs_170 & Zt_171) = 1
+Card(Zs_171 & Zt_170) = 1
+Card(Zs_172 & Zt_169) = 1
+Card(Zs_173 & Zt_168) = 1
+Card(Zs_174 & Zt_167) = 2
+Card(Zs_175 & Zt_166) = 2
+Card(Zs_176 & Zt_165) = 3
+Card(Zs_177 & Zt_164) = 4
+Card(Zs_178 & Zt_163) = 4
+Card(Zs_179 & Zt_162) = 4
+Card(Zs_180 & Zt_161) = 5
+Card(Zs_181 & Zt_160) = 7
+Card(Zs_182 & Zt_159) = 8
+Card(Zs_183 & Zt_158) = 8
+Card(Zs_184 & Zt_157) = 9
+Card(Zs_185 & Zt_156) = 12
+Card(Zs_186 & Zt_155) = 15
+Card(Zs_187 & Zt_154) = 16
+Card(Zs_188 & Zt_153) = 16
+Card(Zs_189 & Zt_152) = 16
+Card(Zs_190 & Zt_151) = 16
+Card(Zs_191 & Zt_150) = 16
+Card(Zs_192 & Zt_149) = 16
+Card(Zs_193 & Zt_148) = 16
+Card(Zs_194 & Zt_147) = 16
+Card(Zs_195 & Zt_146) = 15
+Card(Zs_196 & Zt_145) = 12
+Card(Zs_197 & Zt_144) = 9
+Card(Zs_198 & Zt_143) = 8
+Card(Zs_199 & Zt_142) = 9
+Card(Zs_200 & Zt_141) = 12
+Card(Zs_201 & Zt_140) = 15
+Card(Zs_202 & Zt_139) = 16
+Card(Zs_203 & Zt_138) = 16
+Card(Zs_204 & Zt_137) = 16
+Card(Zs_205 & Zt_136) = 16
+Card(Zs_206 & Zt_135) = 16
+Card(Zs_207 & Zt_134) = 16
+Card(Zs_208 & Zt_133) = 16
+Card(Zs_209 & Zt_132) = 16
+Card(Zs_210 & Zt_131) = 15
+Card(Zs_211 & Zt_130) = 12
+Card(Zs_212 & Zt_129) = 9
+Card(Zs_213 & Zt_128) = 7
+Card(Zs_214 & Zt_127) = 5
+Card(Zs_215 & Zt_126) = 4
+Card(Zs_216 & Zt_125) = 4
+Card(Zs_217 & Zt_124) = 5
+Card(Zs_218 & Zt_123) = 7
+Card(Zs_219 & Zt_122) = 9
+Card(Zs_220 & Zt_121) = 12
+Card(Zs_221 & Zt_120) = 15
+Card(Zs_222 & Zt_119) = 16
+Card(Zs_223 & Zt_118) = 16
+Card(Zs_224 & Zt_117) = 16
+Card(Zs_225 & Zt_116) = 16
+Card(Zs_226 & Zt_115) = 16
+Card(Zs_227 & Zt_114) = 16
+Card(Zs_228 & Zt_113) = 16
+Card(Zs_229 & Zt_112) = 16
+Card(Zs_230 & Zt_111) = 15
+Card(Zs_231 & Zt_110) = 12
+Card(Zs_232 & Zt_109) = 9
+Card(Zs_233 & Zt_108) = 8
+Card(Zs_234 & Zt_107) = 9
+Card(Zs_235 & Zt_106) = 12
+Card(Zs_236 & Zt_105) = 15
+Card(Zs_237 & Zt_104) = 16
+Card(Zs_238 & Zt_103) = 16
+Card(Zs_239 & Zt_102) = 16
+Card(Zs_240 & Zt_101) = 16
+Card(Zs_241 & Zt_100) = 16
+Card(Zs_242 & Zt_99) = 16
+Card(Zs_243 & Zt_98) = 16
+Card(Zs_244 & Zt_97) = 16
+Card(Zs_245 & Zt_96) = 15
+Card(Zs_246 & Zt_95) = 12
+Card(Zs_247 & Zt_94) = 9
+Card(Zs_248 & Zt_93) = 8
+Card(Zs_249 & Zt_92) = 8
+Card(Zs_250 & Zt_91) = 7
+Card(Zs_251 & Zt_90) = 5
+Card(Zs_252 & Zt_89) = 4
+Card(Zs_253 & Zt_88) = 3
+Card(Zs_254 & Zt_87) = 2
+Card(Zs_255 & Zt_86) = 2
+Card(Zs_256 & Zt_85) = 2
+Card(Zs_257 & Zt_84) = 3
+Card(Zs_258 & Zt_83) = 4
+Card(Zs_259 & Zt_82) = 5
+Card(Zs_260 & Zt_81) = 7
+Card(Zs_261 & Zt_80) = 8
+Card(Zs_262 & Zt_79) = 8
+Card(Zs_263 & Zt_78) = 9
+Card(Zs_264 & Zt_77) = 12
+Card(Zs_265 & Zt_76) = 15
+Card(Zs_266 & Zt_75) = 16
+Card(Zs_267 & Zt_74) = 16
+Card(Zs_268 & Zt_73) = 16
+Card(Zs_269 & Zt_72) = 16
+Card(Zs_270 & Zt_71) = 16
+Card(Zs_271 & Zt_70) = 16
+Card(Zs_272 & Zt_69) = 16
+Card(Zs_273 & Zt_68) = 16
+Card(Zs_274 & Zt_67) = 15
+Card(Zs_275 & Zt_66) = 12
+Card(Zs_276 & Zt_65) = 9
+Card(Zs_277 & Zt_64) = 8
+Card(Zs_278 & Zt_63) = 9
+Card(Zs_279 & Zt_62) = 12
+Card(Zs_280 & Zt_61) = 15
+Card(Zs_281 & Zt_60) = 16
+Card(Zs_282 & Zt_59) = 16
+Card(Zs_283 & Zt_58) = 16
+Card(Zs_284 & Zt_57) = 16
+Card(Zs_285 & Zt_56) = 16
+Card(Zs_286 & Zt_55) = 16
+Card(Zs_287 & Zt_54) = 16
+Card(Zs_288 & Zt_53) = 16
+Card(Zs_289 & Zt_52) = 15
+Card(Zs_290 & Zt_51) = 12
+Card(Zs_291 & Zt_50) = 9
+Card(Zs_292 & Zt_49) = 7
+Card(Zs_293 & Zt_48) = 5
+Card(Zs_294 & Zt_47) = 4
+Card(Zs_295 & Zt_46) = 4
+Card(Zs_296 & Zt_45) = 5
+Card(Zs_297 & Zt_44) = 7
+Card(Zs_298 & Zt_43) = 9
+Card(Zs_299 & Zt_42) = 12
+Card(Zs_300 & Zt_41) = 15
+Card(Zs_301 & Zt_40) = 16
+Card(Zs_302 & Zt_39) = 16
+Card(Zs_303 & Zt_38) = 16
+Card(Zs_304 & Zt_37) = 16
+Card(Zs_305 & Zt_36) = 16
+Card(Zs_306 & Zt_35) = 16
+Card(Zs_307 & Zt_34) = 16
+Card(Zs_308 & Zt_33) = 16
+Card(Zs_309 & Zt_32) = 15
+Card(Zs_310 & Zt_31) = 12
+Card(Zs_311 & Zt_30) = 9
+Card(Zs_312 & Zt_29) = 8
+Card(Zs_313 & Zt_28) = 9
+Card(Zs_314 & Zt_27) = 12
+Card(Zs_315 & Zt_26) = 15
+Card(Zs_316 & Zt_25) = 16
+Card(Zs_317 & Zt_24) = 16
+Card(Zs_318 & Zt_23) = 16
+Card(Zs_319 & Zt_22) = 16
+Card(Zs_320 & Zt_21) = 16
+Card(Zs_321 & Zt_20) = 16
+Card(Zs_322 & Zt_19) = 16
+Card(Zs_323 & Zt_18) = 16
+Card(Zs_324 & Zt_17) = 15
+Card(Zs_325 & Zt_16) = 12
+Card(Zs_326 & Zt_15) = 9
+Card(Zs_327 & Zt_14) = 8
+Card(Zs_328 & Zt_13) = 8
+Card(Zs_329 & Zt_12) = 7
+Card(Zs_330 & Zt_11) = 5
+Card(Zs_331 & Zt_10) = 4
+Card(Zs_332 & Zt_9) = 4
+Card(Zs_333 & Zt_8) = 4
+Card(Zs_334 & Zt_7) = 3
+Card(Zs_335 & Zt_6) = 2
+Card(Zs_336 & Zt_5) = 2
+Card(Zs_337 & Zt_4) = 2
+Card(Zs_338 & Zt_3) = 2
+Card(Zs_339 & Zt_2) = 1
+Card(Zs_340 & Zt_1) = 1
+Card(Zs_341 & Zt_0) = 1
+max card = 16
+max card index = 20
+a YES
+a 1 8 14 21 27 34 40 47 53 60
+a 2 8 14 21 27 34 40 47 53 60
+a 2 9 14 21 27 34 40 47 53 60
+a 3 9 14 21 27 34 40 47 53 60
+a 3 10 14 21 27 34 40 47 53 60
+a 3 10 15 21 27 34 40 47 53 60
+a 3 10 15 22 27 34 40 47 53 60
+a 3 10 16 22 27 34 40 47 53 60
+a 3 10 16 23 27 34 40 47 53 60
+a 3 10 16 23 28 34 40 47 53 60
+a 3 10 16 23 28 35 40 47 53 60
+a 3 10 16 23 29 35 40 47 53 60
+a 3 10 16 23 29 36 40 47 53 60
+a 3 10 16 23 29 36 41 47 53 60
+a 3 10 16 23 29 36 41 48 53 60
+a 3 10 16 23 29 36 42 48 53 60
+a 3 10 16 23 29 36 42 49 53 60
+a 3 10 16 23 29 36 42 49 54 60
+a 3 10 16 23 29 36 42 49 54 61
+a 3 10 16 23 29 36 42 49 55 61
+a 3 10 16 23 29 36 42 49 55 62
+a 3 10 16 23 29 36 42 49 56 62
+a 3 10 16 23 29 36 42 49 56 63
+a 3 10 16 23 29 36 42 49 57 63
+a 3 10 16 23 29 36 42 49 57 64
+a 3 10 16 23 29 36 42 49 58 64
+a 3 10 16 23 29 36 42 49 58 65
+a 3 10 16 23 29 36 42 49 59 65
+a 3 10 16 23 29 36 43 49 59 65
+a 3 10 16 23 29 36 43 50 59 65
+a 3 10 16 23 29 36 44 50 59 65
+a 3 10 16 23 29 36 44 51 59 65
+a 3 10 16 23 29 36 44 51 58 65
+a 3 10 16 23 29 36 44 51 58 64
+a 3 10 16 23 29 36 44 51 57 64
+a 3 10 16 23 29 36 44 51 57 63
+a 3 10 16 23 29 36 44 51 56 63
+a 3 10 16 23 29 36 44 51 56 62
+a 3 10 16 23 29 36 44 51 55 62
+a 3 10 16 23 29 36 44 51 55 61
+a 3 10 16 23 29 36 44 51 54 61
+a 3 10 16 23 29 36 44 51 54 60
+a 3 10 16 23 29 36 44 51 53 60
+a 3 10 16 23 29 36 45 51 53 60
+a 3 10 16 23 29 36 45 52 53 60
+a 3 10 16 23 29 36 46 52 53 60
+a 3 10 16 23 30 36 46 52 53 60
+a 3 10 16 23 30 37 46 52 53 60
+a 3 10 16 23 31 37 46 52 53 60
+a 3 10 16 23 31 38 46 52 53 60
+a 3 10 16 23 31 38 45 52 53 60
+a 3 10 16 23 31 38 45 51 53 60
+a 3 10 16 23 31 38 45 51 54 60
+a 3 10 16 23 31 38 45 51 54 61
+a 3 10 16 23 31 38 45 51 55 61
+a 3 10 16 23 31 38 45 51 55 62
+a 3 10 16 23 31 38 45 51 56 62
+a 3 10 16 23 31 38 45 51 56 63
+a 3 10 16 23 31 38 45 51 57 63
+a 3 10 16 23 31 38 45 51 57 64
+a 3 10 16 23 31 38 45 51 58 64
+a 3 10 16 23 31 38 45 51 58 65
+a 3 10 16 23 31 38 45 51 59 65
+a 3 10 16 23 31 38 44 51 59 65
+a 3 10 16 23 31 38 44 50 59 65
+a 3 10 16 23 31 38 43 50 59 65
+a 3 10 16 23 31 38 43 49 59 65
+a 3 10 16 23 31 38 43 49 58 65
+a 3 10 16 23 31 38 43 49 58 64
+a 3 10 16 23 31 38 43 49 57 64
+a 3 10 16 23 31 38 43 49 57 63
+a 3 10 16 23 31 38 43 49 56 63
+a 3 10 16 23 31 38 43 49 56 62
+a 3 10 16 23 31 38 43 49 55 62
+a 3 10 16 23 31 38 43 49 55 61
+a 3 10 16 23 31 38 43 49 54 61
+a 3 10 16 23 31 38 43 49 54 60
+a 3 10 16 23 31 38 43 49 53 60
+a 3 10 16 23 31 38 42 49 53 60
+a 3 10 16 23 31 38 42 48 53 60
+a 3 10 16 23 31 38 41 48 53 60
+a 3 10 16 23 31 38 41 47 53 60
+a 3 10 16 23 31 38 40 47 53 60
+a 3 10 16 23 32 38 40 47 53 60
+a 3 10 16 23 32 39 40 47 53 60
+a 3 10 16 23 33 39 40 47 53 60
+a 3 10 17 23 33 39 40 47 53 60
+a 3 10 17 24 33 39 40 47 53 60
+a 3 10 18 24 33 39 40 47 53 60
+a 3 10 18 25 33 39 40 47 53 60
+a 3 10 18 25 32 39 40 47 53 60
+a 3 10 18 25 32 38 40 47 53 60
+a 3 10 18 25 32 38 41 47 53 60
+a 3 10 18 25 32 38 41 48 53 60
+a 3 10 18 25 32 38 42 48 53 60
+a 3 10 18 25 32 38 42 49 53 60
+a 3 10 18 25 32 38 42 49 54 60
+a 3 10 18 25 32 38 42 49 54 61
+a 3 10 18 25 32 38 42 49 55 61
+a 3 10 18 25 32 38 42 49 55 62
+a 3 10 18 25 32 38 42 49 56 62
+a 3 10 18 25 32 38 42 49 56 63
+a 3 10 18 25 32 38 42 49 57 63
+a 3 10 18 25 32 38 42 49 57 64
+a 3 10 18 25 32 38 42 49 58 64
+a 3 10 18 25 32 38 42 49 58 65
+a 3 10 18 25 32 38 42 49 59 65
+a 3 10 18 25 32 38 43 49 59 65
+a 3 10 18 25 32 38 43 50 59 65
+a 3 10 18 25 32 38 44 50 59 65
+a 3 10 18 25 32 38 44 51 59 65
+a 3 10 18 25 32 38 44 51 58 65
+a 3 10 18 25 32 38 44 51 58 64
+a 3 10 18 25 32 38 44 51 57 64
+a 3 10 18 25 32 38 44 51 57 63
+a 3 10 18 25 32 38 44 51 56 63
+a 3 10 18 25 32 38 44 51 56 62
+a 3 10 18 25 32 38 44 51 55 62
+a 3 10 18 25 32 38 44 51 55 61
+a 3 10 18 25 32 38 44 51 54 61
+a 3 10 18 25 32 38 44 51 54 60
+a 3 10 18 25 32 38 44 51 53 60
+a 3 10 18 25 32 38 45 51 53 60
+a 3 10 18 25 32 38 45 52 53 60
+a 3 10 18 25 32 38 46 52 53 60
+a 3 10 18 25 31 38 46 52 53 60
+a 3 10 18 25 31 37 46 52 53 60
+a 3 10 18 25 30 37 46 52 53 60
+a 3 10 18 25 30 36 46 52 53 60
+a 3 10 18 25 30 36 45 52 53 60
+a 3 10 18 25 30 36 45 51 53 60
+a 3 10 18 25 30 36 45 51 54 60
+a 3 10 18 25 30 36 45 51 54 61
+a 3 10 18 25 30 36 45 51 55 61
+a 3 10 18 25 30 36 45 51 55 62
+a 3 10 18 25 30 36 45 51 56 62
+a 3 10 18 25 30 36 45 51 56 63
+a 3 10 18 25 30 36 45 51 57 63
+a 3 10 18 25 30 36 45 51 57 64
+a 3 10 18 25 30 36 45 51 58 64
+a 3 10 18 25 30 36 45 51 58 65
+a 3 10 18 25 30 36 45 51 59 65
+a 3 10 18 25 30 36 44 51 59 65
+a 3 10 18 25 30 36 44 50 59 65
+a 3 10 18 25 30 36 43 50 59 65
+a 3 10 18 25 30 36 43 49 59 65
+a 3 10 18 25 30 36 43 49 58 65
+a 3 10 18 25 30 36 43 49 58 64
+a 3 10 18 25 30 36 43 49 57 64
+a 3 10 18 25 30 36 43 49 57 63
+a 3 10 18 25 30 36 43 49 56 63
+a 3 10 18 25 30 36 43 49 56 62
+a 3 10 18 25 30 36 43 49 55 62
+a 3 10 18 25 30 36 43 49 55 61
+a 3 10 18 25 30 36 43 49 54 61
+a 3 10 18 25 30 36 43 49 54 60
+a 3 10 18 25 30 36 43 49 53 60
+a 3 10 18 25 30 36 42 49 53 60
+a 3 10 18 25 30 36 42 48 53 60
+a 3 10 18 25 30 36 41 48 53 60
+a 3 10 18 25 30 36 41 47 53 60
+a 3 10 18 25 30 36 40 47 53 60
+a 3 10 18 25 29 36 40 47 53 60
+a 3 10 18 25 29 35 40 47 53 60
+a 3 10 18 25 28 35 40 47 53 60
+a 3 10 18 25 28 34 40 47 53 60
+a 3 10 18 25 27 34 40 47 53 60
+a 3 10 19 25 27 34 40 47 53 60
+a 3 10 19 26 27 34 40 47 53 60
+a 3 10 20 26 27 34 40 47 53 60
+a 4 10 20 26 27 34 40 47 53 60
+a 4 11 20 26 27 34 40 47 53 60
+a 5 11 20 26 27 34 40 47 53 60
+a 5 12 20 26 27 34 40 47 53 60
+a 5 12 19 26 27 34 40 47 53 60
+a 5 12 19 25 27 34 40 47 53 60
+a 5 12 19 25 28 34 40 47 53 60
+a 5 12 19 25 28 35 40 47 53 60
+a 5 12 19 25 29 35 40 47 53 60
+a 5 12 19 25 29 36 40 47 53 60
+a 5 12 19 25 29 36 41 47 53 60
+a 5 12 19 25 29 36 41 48 53 60
+a 5 12 19 25 29 36 42 48 53 60
+a 5 12 19 25 29 36 42 49 53 60
+a 5 12 19 25 29 36 42 49 54 60
+a 5 12 19 25 29 36 42 49 54 61
+a 5 12 19 25 29 36 42 49 55 61
+a 5 12 19 25 29 36 42 49 55 62
+a 5 12 19 25 29 36 42 49 56 62
+a 5 12 19 25 29 36 42 49 56 63
+a 5 12 19 25 29 36 42 49 57 63
+a 5 12 19 25 29 36 42 49 57 64
+a 5 12 19 25 29 36 42 49 58 64
+a 5 12 19 25 29 36 42 49 58 65
+a 5 12 19 25 29 36 42 49 59 65
+a 5 12 19 25 29 36 43 49 59 65
+a 5 12 19 25 29 36 43 50 59 65
+a 5 12 19 25 29 36 44 50 59 65
+a 5 12 19 25 29 36 44 51 59 65
+a 5 12 19 25 29 36 44 51 58 65
+a 5 12 19 25 29 36 44 51 58 64
+a 5 12 19 25 29 36 44 51 57 64
+a 5 12 19 25 29 36 44 51 57 63
+a 5 12 19 25 29 36 44 51 56 63
+a 5 12 19 25 29 36 44 51 56 62
+a 5 12 19 25 29 36 44 51 55 62
+a 5 12 19 25 29 36 44 51 55 61
+a 5 12 19 25 29 36 44 51 54 61
+a 5 12 19 25 29 36 44 51 54 60
+a 5 12 19 25 29 36 44 51 53 60
+a 5 12 19 25 29 36 45 51 53 60
+a 5 12 19 25 29 36 45 52 53 60
+a 5 12 19 25 29 36 46 52 53 60
+a 5 12 19 25 30 36 46 52 53 60
+a 5 12 19 25 30 37 46 52 53 60
+a 5 12 19 25 31 37 46 52 53 60
+a 5 12 19 25 31 38 46 52 53 60
+a 5 12 19 25 31 38 45 52 53 60
+a 5 12 19 25 31 38 45 51 53 60
+a 5 12 19 25 31 38 45 51 54 60
+a 5 12 19 25 31 38 45 51 54 61
+a 5 12 19 25 31 38 45 51 55 61
+a 5 12 19 25 31 38 45 51 55 62
+a 5 12 19 25 31 38 45 51 56 62
+a 5 12 19 25 31 38 45 51 56 63
+a 5 12 19 25 31 38 45 51 57 63
+a 5 12 19 25 31 38 45 51 57 64
+a 5 12 19 25 31 38 45 51 58 64
+a 5 12 19 25 31 38 45 51 58 65
+a 5 12 19 25 31 38 45 51 59 65
+a 5 12 19 25 31 38 44 51 59 65
+a 5 12 19 25 31 38 44 50 59 65
+a 5 12 19 25 31 38 43 50 59 65
+a 5 12 19 25 31 38 43 49 59 65
+a 5 12 19 25 31 38 43 49 58 65
+a 5 12 19 25 31 38 43 49 58 64
+a 5 12 19 25 31 38 43 49 57 64
+a 5 12 19 25 31 38 43 49 57 63
+a 5 12 19 25 31 38 43 49 56 63
+a 5 12 19 25 31 38 43 49 56 62
+a 5 12 19 25 31 38 43 49 55 62
+a 5 12 19 25 31 38 43 49 55 61
+a 5 12 19 25 31 38 43 49 54 61
+a 5 12 19 25 31 38 43 49 54 60
+a 5 12 19 25 31 38 43 49 53 60
+a 5 12 19 25 31 38 42 49 53 60
+a 5 12 19 25 31 38 42 48 53 60
+a 5 12 19 25 31 38 41 48 53 60
+a 5 12 19 25 31 38 41 47 53 60
+a 5 12 19 25 31 38 40 47 53 60
+a 5 12 19 25 32 38 40 47 53 60
+a 5 12 19 25 32 39 40 47 53 60
+a 5 12 19 25 33 39 40 47 53 60
+a 5 12 18 25 33 39 40 47 53 60
+a 5 12 18 24 33 39 40 47 53 60
+a 5 12 17 24 33 39 40 47 53 60
+a 5 12 17 23 33 39 40 47 53 60
+a 5 12 17 23 32 39 40 47 53 60
+a 5 12 17 23 32 38 40 47 53 60
+a 5 12 17 23 32 38 41 47 53 60
+a 5 12 17 23 32 38 41 48 53 60
+a 5 12 17 23 32 38 42 48 53 60
+a 5 12 17 23 32 38 42 49 53 60
+a 5 12 17 23 32 38 42 49 54 60
+a 5 12 17 23 32 38 42 49 54 61
+a 5 12 17 23 32 38 42 49 55 61
+a 5 12 17 23 32 38 42 49 55 62
+a 5 12 17 23 32 38 42 49 56 62
+a 5 12 17 23 32 38 42 49 56 63
+a 5 12 17 23 32 38 42 49 57 63
+a 5 12 17 23 32 38 42 49 57 64
+a 5 12 17 23 32 38 42 49 58 64
+a 5 12 17 23 32 38 42 49 58 65
+a 5 12 17 23 32 38 42 49 59 65
+a 5 12 17 23 32 38 43 49 59 65
+a 5 12 17 23 32 38 43 50 59 65
+a 5 12 17 23 32 38 44 50 59 65
+a 5 12 17 23 32 38 44 51 59 65
+a 5 12 17 23 32 38 44 51 58 65
+a 5 12 17 23 32 38 44 51 58 64
+a 5 12 17 23 32 38 44 51 57 64
+a 5 12 17 23 32 38 44 51 57 63
+a 5 12 17 23 32 38 44 51 56 63
+a 5 12 17 23 32 38 44 51 56 62
+a 5 12 17 23 32 38 44 51 55 62
+a 5 12 17 23 32 38 44 51 55 61
+a 5 12 17 23 32 38 44 51 54 61
+a 5 12 17 23 32 38 44 51 54 60
+a 5 12 17 23 32 38 44 51 53 60
+a 5 12 17 23 32 38 45 51 53 60
+a 5 12 17 23 32 38 45 52 53 60
+a 5 12 17 23 32 38 46 52 53 60
+a 5 12 17 23 31 38 46 52 53 60
+a 5 12 17 23 31 37 46 52 53 60
+a 5 12 17 23 30 37 46 52 53 60
+a 5 12 17 23 30 36 46 52 53 60
+a 5 12 17 23 30 36 45 52 53 60
+a 5 12 17 23 30 36 45 51 53 60
+a 5 12 17 23 30 36 45 51 54 60
+a 5 12 17 23 30 36 45 51 54 61
+a 5 12 17 23 30 36 45 51 55 61
+a 5 12 17 23 30 36 45 51 55 62
+a 5 12 17 23 30 36 45 51 56 62
+a 5 12 17 23 30 36 45 51 56 63
+a 5 12 17 23 30 36 45 51 57 63
+a 5 12 17 23 30 36 45 51 57 64
+a 5 12 17 23 30 36 45 51 58 64
+a 5 12 17 23 30 36 45 51 58 65
+a 5 12 17 23 30 36 45 51 59 65
+a 5 12 17 23 30 36 44 51 59 65
+a 5 12 17 23 30 36 44 50 59 65
+a 5 12 17 23 30 36 43 50 59 65
+a 5 12 17 23 30 36 43 49 59 65
+a 5 12 17 23 30 36 43 49 58 65
+a 5 12 17 23 30 36 43 49 58 64
+a 5 12 17 23 30 36 43 49 57 64
+a 5 12 17 23 30 36 43 49 57 63
+a 5 12 17 23 30 36 43 49 56 63
+a 5 12 17 23 30 36 43 49 56 62
+a 5 12 17 23 30 36 43 49 55 62
+a 5 12 17 23 30 36 43 49 55 61
+a 5 12 17 23 30 36 43 49 54 61
+a 5 12 17 23 30 36 43 49 54 60
+a 5 12 17 23 30 36 43 49 53 60
+a 5 12 17 23 30 36 42 49 53 60
+a 5 12 17 23 30 36 42 48 53 60
+a 5 12 17 23 30 36 41 48 53 60
+a 5 12 17 23 30 36 41 47 53 60
+a 5 12 17 23 30 36 40 47 53 60
+a 5 12 17 23 29 36 40 47 53 60
+a 5 12 17 23 29 35 40 47 53 60
+a 5 12 17 23 28 35 40 47 53 60
+a 5 12 17 23 28 34 40 47 53 60
+a 5 12 17 23 27 34 40 47 53 60
+a 5 12 16 23 27 34 40 47 53 60
+a 5 12 16 22 27 34 40 47 53 60
+a 5 12 15 22 27 34 40 47 53 60
+a 5 12 15 21 27 34 40 47 53 60
+a 5 12 14 21 27 34 40 47 53 60
+a 6 12 14 21 27 34 40 47 53 60
+a 6 13 14 21 27 34 40 47 53 60
+a 7 13 14 21 27 34 40 47 53 60
+Reconfiguration time = 0.201594
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/IS_exp_instance005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/IS_exp_instance005.dat"
+	User time (seconds): 0.36
+	System time (seconds): 0.01
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 147210240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9125
+	Voluntary context switches: 228
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 32
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.37 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.37
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 10:27:17 2023]

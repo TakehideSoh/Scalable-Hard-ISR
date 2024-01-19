@@ -1,0 +1,53 @@
+#BEGIN: [Wed Jul 19 20:21:57 2023]
+#HOST: mini22.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: sat-based-isr-tj05-230719-15h37m
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.dat
+#COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical
+#Nodes: 78
+#Edges: 486
+c (0) step 1 UNSAT 479 2090
+c (0) step 2 UNSAT 901 3670
+c (0) step 3 UNSAT 1356 5324
+c (0) step 4 UNSAT 1855 7073
+c (0) step 5 UNSAT 2409 8938
+c (0) step 6 UNSAT 3029 10940
+c (0) step 7 UNSAT 3726 13100
+c (0) step 8 UNSAT 4511 15439
+c (0) step 9 UNSAT 5395 17978
+c (0) step 10 UNSAT 6389 20738
+c (1) step 11 UNSAT 7504 23740
+c (2) step 12 UNSAT 8751 27005
+c (3) step 13 UNSAT 10141 30554
+c (3) step 14 UNSAT 11531 34103
+c (5) step 15 UNSAT 12921 37652
+c (8) step 16 UNSAT 14311 41201
+c (16) step 17 UNSAT 15701 44750
+c (29) step 18 UNSAT 17091 48299
+c (54) step 19 UNSAT 18481 51848
+c (121) step 20 UNSAT 19871 55397
+c (213) step 21 UNSAT 21261 58946
+c (249) step 22 UNSAT 22651 62495
+c (309) step 23 UNSAT 24041 66044
+c (386) step 24 UNSAT 25431 69593
+c (514) step 25 UNSAT 26821 73142
+c (862) step 26 UNSAT 28211 76691
+c (1021) step 27 UNSAT 29601 80240
+c (1250) step 28 UNSAT 30991 83789
+c (1795) step 29 UNSAT 32381 87338
+c (2871) step 30 UNSAT 33771 90887
+c (4185) step 31 UNSAT 35161 94436
+c (4661) step 32 UNSAT 36551 97985
+c (5111) step 33 UNSAT 37941 101534
+c (5787) step 34 UNSAT 39331 105083
+c (6744) step 35 UNSAT 40721 108632
+TIMEOUT CPU 7200 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 7200
+#MAXMEM: 0
+c 19215 killed(2). 19214 killed(2). 19228 killed(2). 19215 killed(9). 19214 killed(9). 19228 killed(9). 
+#END: [Wed Jul 19 22:21:58 2023]

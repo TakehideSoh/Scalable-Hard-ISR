@@ -1,0 +1,76 @@
+#BEGIN: [Wed Jul 19 16:20:36 2023]
+#HOST: mini25.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: sat-based-isr-tj05-230719-15h37m
+#ARG1: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance001.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance001.dat
+#COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/exp_instance/SAT_exp_instance001.col benchmark/ISR-benchmark/exp_instance/SAT_exp_instance001.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical
+#Nodes: 2
+#Edges: 1
+java.util.NoSuchElementException: key not found: (1,1)
+	at scala.collection.immutable.Map$EmptyMap$.apply(Map.scala:97)
+	at scala.collection.immutable.Map$EmptyMap$.apply(Map.scala:95)
+	at fun.scop.app.isr.IsrSolverTj05.sinzK(IsrSolverTj05.scala:162)
+	at fun.scop.app.isr.IsrSolverTj05.$anonfun$hint$1(IsrSolverTj05.scala:216)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:156)
+	at fun.scop.app.isr.IsrSolverTj05.hint(IsrSolverTj05.scala:210)
+	at fun.scop.app.isr.IsrSolverTj05.$anonfun$solve$1(IsrSolverTj05.scala:316)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:156)
+	at fun.scop.app.isr.IsrSolverTj05.solve(IsrSolverTj05.scala:312)
+	at fun.scop.app.isr.IsrSolverTj05$.main(IsrSolverTj05.scala:361)
+	at fun.scop.app.isr.IsrSolverTj05.main(IsrSolverTj05.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at scala.reflect.internal.util.ScalaClassLoader.$anonfun$run$2(ScalaClassLoader.scala:99)
+	at scala.reflect.internal.util.ScalaClassLoader.asContext(ScalaClassLoader.scala:34)
+	at scala.reflect.internal.util.ScalaClassLoader.asContext$(ScalaClassLoader.scala:30)
+	at scala.reflect.internal.util.ScalaClassLoader$URLClassLoader.asContext(ScalaClassLoader.scala:125)
+	at scala.reflect.internal.util.ScalaClassLoader.run(ScalaClassLoader.scala:99)
+	at scala.reflect.internal.util.ScalaClassLoader.run$(ScalaClassLoader.scala:91)
+	at scala.reflect.internal.util.ScalaClassLoader$URLClassLoader.run(ScalaClassLoader.scala:125)
+	at scala.tools.nsc.CommonRunner.run(ObjectRunner.scala:22)
+	at scala.tools.nsc.CommonRunner.run$(ObjectRunner.scala:21)
+	at scala.tools.nsc.ObjectRunner$.run(ObjectRunner.scala:39)
+	at scala.tools.nsc.CommonRunner.runAndCatch(ObjectRunner.scala:29)
+	at scala.tools.nsc.CommonRunner.runAndCatch$(ObjectRunner.scala:28)
+	at scala.tools.nsc.ObjectRunner$.runAndCatch(ObjectRunner.scala:39)
+	at scala.tools.nsc.MainGenericRunner.runTarget$1(MainGenericRunner.scala:66)
+	at scala.tools.nsc.MainGenericRunner.run$1(MainGenericRunner.scala:85)
+	at scala.tools.nsc.MainGenericRunner.process(MainGenericRunner.scala:96)
+	at scala.tools.nsc.MainGenericRunner$.main(MainGenericRunner.scala:101)
+	at scala.tools.nsc.MainGenericRunner.main(MainGenericRunner.scala)
+Command exited with non-zero status 1
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/exp_instance/SAT_exp_instance001.col benchmark/ISR-benchmark/exp_instance/SAT_exp_instance001.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical"
+	User time (seconds): 0.69
+	System time (seconds): 0.08
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 803602432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55020
+	Voluntary context switches: 49
+	Involuntary context switches: 1970
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 55
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 4096
+	Exit status: 1
+FINISHED CPU 0.77 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.77
+#MAXMEM: 0
+c 
+#END: [Wed Jul 19 16:20:37 2023]

@@ -1,0 +1,59 @@
+#BEGIN: [Wed Jul 19 16:20:47 2023]
+#HOST: mini23.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: sat-based-isr-tj05-230719-15h37m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance004_graph004.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance004_graph004.dat
+#COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/random_instance/random_instance004_graph004.col benchmark/ISR-benchmark/random_instance/random_instance004_graph004.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical
+#Nodes: 52
+#Edges: 156
+c (0) step 1 UNSAT 326 1075
+c (0) step 2 UNSAT 627 2011
+c (0) step 3 UNSAT 970 3042
+c (0) step 4 UNSAT 1369 4195
+c (0) step 5 UNSAT 1838 5497
+c (0) step 6 UNSAT 2391 6975
+c (0) step 7 UNSAT 3042 8656
+c (0) step 8 SAT 3805 10567
+a YES
+a 6 8 19 20 23 28 29 31 34 39 40 42 45 46 47
+a 6 8 19 20 23 28 29 31 34 40 42 44 45 46 47
+a 6 8 19 20 28 29 31 34 40 42 43 44 45 46 47
+a 6 8 17 19 20 28 29 31 34 42 43 44 45 46 47
+a 6 8 17 19 20 28 29 31 33 34 42 43 44 46 47
+a 6 8 17 19 20 28 29 31 33 34 38 42 43 44 47
+a 6 8 17 19 28 29 31 32 33 34 38 42 43 44 47
+a 6 8 17 19 28 29 32 33 34 38 42 43 44 47 49
+a 6 16 17 19 28 29 32 33 34 38 42 43 44 47 49
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/random_instance/random_instance004_graph004.col benchmark/ISR-benchmark/random_instance/random_instance004_graph004.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical"
+	User time (seconds): 0.94
+	System time (seconds): 0.09
+	Percent of CPU this job got: 146%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 869744640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 59072
+	Voluntary context switches: 36
+	Involuntary context switches: 2788
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 43
+	Socket messages received: 0
+	Signals delivered: 3
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 1.03 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 1.03
+#MAXMEM: 0
+c 
+#END: [Wed Jul 19 16:20:48 2023]

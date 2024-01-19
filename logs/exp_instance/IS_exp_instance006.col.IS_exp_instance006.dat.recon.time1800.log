@@ -1,0 +1,1441 @@
+#BEGIN: [Tue Aug  8 16:24:28 2023]
+#HOST: mini28.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.col
+c Target file: benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.dat
+c Size of independent set: 12
+c Number of nodes of graph: 78
+c Number of edges of graph: 486
+c Average degree of graph: 12.46
+s 1 8 14 21 27 34 40 47 53 60 66 73 
+t 7 13 14 21 27 34 40 47 53 60 66 73 
+c BFS found 6 new nodes in level 1 (total 7/244032232)
+c BFS found 21 new nodes in level 2 (total 28/244032232)
+c BFS found 51 new nodes in level 3 (total 79/244032232)
+c BFS found 96 new nodes in level 4 (total 175/244032232)
+c BFS found 156 new nodes in level 5 (total 327/244032232)
+c BFS found 237 new nodes in level 6 (total 550/244032232)
+c BFS found 346 new nodes in level 7 (total 861/244032232)
+c BFS found 472 new nodes in level 8 (total 1257/244032232)
+c BFS found 597 new nodes in level 9 (total 1737/244032232)
+c BFS found 727 new nodes in level 10 (total 2264/244032232)
+c BFS found 874 new nodes in level 11 (total 2854/244032232)
+c BFS found 1016 new nodes in level 12 (total 3461/244032232)
+c BFS found 1122 new nodes in level 13 (total 4075/244032232)
+c BFS found 1204 new nodes in level 14 (total 4661/244032232)
+c BFS found 1280 new nodes in level 15 (total 5172/244032232)
+c BFS found 1327 new nodes in level 16 (total 5572/244032232)
+c BFS found 1325 new nodes in level 17 (total 5873/244032232)
+c BFS found 1289 new nodes in level 18 (total 6072/244032232)
+c BFS found 1235 new nodes in level 19 (total 6134/244032232)
+c BFS found 1166 new nodes in level 20 (total 6029/244032232)
+c BFS found 1083 new nodes in level 21 (total 5842/244032232)
+c BFS found 985 new nodes in level 22 (total 5629/244032232)
+c BFS found 884 new nodes in level 23 (total 5335/244032232)
+c BFS found 805 new nodes in level 24 (total 4981/244032232)
+c BFS found 747 new nodes in level 25 (total 4535/244032232)
+c BFS found 692 new nodes in level 26 (total 4149/244032232)
+c BFS found 649 new nodes in level 27 (total 3865/244032232)
+c BFS found 631 new nodes in level 28 (total 3679/244032232)
+c BFS found 629 new nodes in level 29 (total 3415/244032232)
+c BFS found 633 new nodes in level 30 (total 3264/244032232)
+c BFS found 639 new nodes in level 31 (total 3259/244032232)
+c BFS found 644 new nodes in level 32 (total 3215/244032232)
+c BFS found 649 new nodes in level 33 (total 3167/244032232)
+c BFS found 653 new nodes in level 34 (total 3157/244032232)
+c BFS found 646 new nodes in level 35 (total 3207/244032232)
+c BFS found 620 new nodes in level 36 (total 3193/244032232)
+c BFS found 580 new nodes in level 37 (total 3081/244032232)
+c BFS found 537 new nodes in level 38 (total 3023/244032232)
+c BFS found 493 new nodes in level 39 (total 2912/244032232)
+c BFS found 436 new nodes in level 40 (total 2733/244032232)
+c BFS found 368 new nodes in level 41 (total 2508/244032232)
+c BFS found 313 new nodes in level 42 (total 2287/244032232)
+c BFS found 272 new nodes in level 43 (total 2067/244032232)
+c BFS found 229 new nodes in level 44 (total 1834/244032232)
+c BFS found 192 new nodes in level 45 (total 1594/244032232)
+c BFS found 177 new nodes in level 46 (total 1449/244032232)
+c BFS found 177 new nodes in level 47 (total 1291/244032232)
+c BFS found 179 new nodes in level 48 (total 1127/244032232)
+c BFS found 187 new nodes in level 49 (total 1092/244032232)
+c BFS found 206 new nodes in level 50 (total 1138/244032232)
+c BFS found 229 new nodes in level 51 (total 1152/244032232)
+c BFS found 247 new nodes in level 52 (total 1115/244032232)
+c BFS found 263 new nodes in level 53 (total 1201/244032232)
+c BFS found 282 new nodes in level 54 (total 1294/244032232)
+c BFS found 296 new nodes in level 55 (total 1353/244032232)
+c BFS found 299 new nodes in level 56 (total 1399/244032232)
+c BFS found 296 new nodes in level 57 (total 1466/244032232)
+c BFS found 292 new nodes in level 58 (total 1490/244032232)
+c BFS found 287 new nodes in level 59 (total 1483/244032232)
+c BFS found 278 new nodes in level 60 (total 1479/244032232)
+c BFS found 266 new nodes in level 61 (total 1472/244032232)
+c BFS found 258 new nodes in level 62 (total 1448/244032232)
+c BFS found 256 new nodes in level 63 (total 1419/244032232)
+c BFS found 256 new nodes in level 64 (total 1417/244032232)
+c BFS found 258 new nodes in level 65 (total 1419/244032232)
+c BFS found 264 new nodes in level 66 (total 1422/244032232)
+c BFS found 272 new nodes in level 67 (total 1430/244032232)
+c BFS found 282 new nodes in level 68 (total 1459/244032232)
+c BFS found 294 new nodes in level 69 (total 1513/244032232)
+c BFS found 301 new nodes in level 70 (total 1539/244032232)
+c BFS found 300 new nodes in level 71 (total 1536/244032232)
+c BFS found 296 new nodes in level 72 (total 1538/244032232)
+c BFS found 292 new nodes in level 73 (total 1546/244032232)
+c BFS found 287 new nodes in level 74 (total 1552/244032232)
+c BFS found 278 new nodes in level 75 (total 1537/244032232)
+c BFS found 267 new nodes in level 76 (total 1530/244032232)
+c BFS found 263 new nodes in level 77 (total 1510/244032232)
+c BFS found 269 new nodes in level 78 (total 1513/244032232)
+c BFS found 279 new nodes in level 79 (total 1538/244032232)
+c BFS found 291 new nodes in level 80 (total 1594/244032232)
+c BFS found 311 new nodes in level 81 (total 1639/244032232)
+c BFS found 339 new nodes in level 82 (total 1708/244032232)
+c BFS found 368 new nodes in level 83 (total 1805/244032232)
+c BFS found 395 new nodes in level 84 (total 1927/244032232)
+c BFS found 421 new nodes in level 85 (total 2027/244032232)
+c BFS found 444 new nodes in level 86 (total 2134/244032232)
+c BFS found 459 new nodes in level 87 (total 2228/244032232)
+c BFS found 468 new nodes in level 88 (total 2363/244032232)
+c BFS found 476 new nodes in level 89 (total 2469/244032232)
+c BFS found 480 new nodes in level 90 (total 2545/244032232)
+c BFS found 473 new nodes in level 91 (total 2594/244032232)
+c BFS found 460 new nodes in level 92 (total 2619/244032232)
+c BFS found 453 new nodes in level 93 (total 2642/244032232)
+c BFS found 448 new nodes in level 94 (total 2644/244032232)
+c BFS found 433 new nodes in level 95 (total 2613/244032232)
+c BFS found 413 new nodes in level 96 (total 2543/244032232)
+c BFS found 401 new nodes in level 97 (total 2539/244032232)
+c BFS found 394 new nodes in level 98 (total 2499/244032232)
+c BFS found 380 new nodes in level 99 (total 2404/244032232)
+c BFS found 356 new nodes in level 100 (total 2329/244032232)
+c BFS found 329 new nodes in level 101 (total 2250/244032232)
+c BFS found 303 new nodes in level 102 (total 2083/244032232)
+c BFS found 276 new nodes in level 103 (total 2007/244032232)
+c BFS found 246 new nodes in level 104 (total 1935/244032232)
+c BFS found 212 new nodes in level 105 (total 1854/244032232)
+c BFS found 180 new nodes in level 106 (total 1732/244032232)
+c BFS found 158 new nodes in level 107 (total 1540/244032232)
+c BFS found 142 new nodes in level 108 (total 1401/244032232)
+c BFS found 126 new nodes in level 109 (total 1274/244032232)
+c BFS found 115 new nodes in level 110 (total 1195/244032232)
+c BFS found 113 new nodes in level 111 (total 1121/244032232)
+c BFS found 117 new nodes in level 112 (total 1014/244032232)
+c BFS found 123 new nodes in level 113 (total 993/244032232)
+c BFS found 127 new nodes in level 114 (total 977/244032232)
+c BFS found 129 new nodes in level 115 (total 987/244032232)
+c BFS found 133 new nodes in level 116 (total 972/244032232)
+c BFS found 139 new nodes in level 117 (total 997/244032232)
+c BFS found 142 new nodes in level 118 (total 1024/244032232)
+c BFS found 139 new nodes in level 119 (total 1024/244032232)
+c BFS found 132 new nodes in level 120 (total 1036/244032232)
+c BFS found 124 new nodes in level 121 (total 1053/244032232)
+c BFS found 115 new nodes in level 122 (total 1049/244032232)
+c BFS found 102 new nodes in level 123 (total 1033/244032232)
+c BFS found 87 new nodes in level 124 (total 995/244032232)
+c BFS found 77 new nodes in level 125 (total 971/244032232)
+c BFS found 71 new nodes in level 126 (total 907/244032232)
+c BFS found 66 new nodes in level 127 (total 853/244032232)
+c BFS found 65 new nodes in level 128 (total 807/244032232)
+c BFS found 70 new nodes in level 129 (total 768/244032232)
+c BFS found 79 new nodes in level 130 (total 764/244032232)
+c BFS found 88 new nodes in level 131 (total 755/244032232)
+c BFS found 98 new nodes in level 132 (total 793/244032232)
+c BFS found 111 new nodes in level 133 (total 815/244032232)
+c BFS found 122 new nodes in level 134 (total 848/244032232)
+c BFS found 128 new nodes in level 135 (total 883/244032232)
+c BFS found 133 new nodes in level 136 (total 932/244032232)
+c BFS found 139 new nodes in level 137 (total 962/244032232)
+c BFS found 142 new nodes in level 138 (total 979/244032232)
+c BFS found 139 new nodes in level 139 (total 1004/244032232)
+c BFS found 132 new nodes in level 140 (total 1024/244032232)
+c BFS found 125 new nodes in level 141 (total 1008/244032232)
+c BFS found 120 new nodes in level 142 (total 1000/244032232)
+c BFS found 115 new nodes in level 143 (total 1001/244032232)
+c BFS found 110 new nodes in level 144 (total 992/244032232)
+c BFS found 109 new nodes in level 145 (total 991/244032232)
+c BFS found 112 new nodes in level 146 (total 1006/244032232)
+c BFS found 117 new nodes in level 147 (total 1023/244032232)
+c BFS found 123 new nodes in level 148 (total 1002/244032232)
+c BFS found 127 new nodes in level 149 (total 1005/244032232)
+c BFS found 129 new nodes in level 150 (total 1010/244032232)
+c BFS found 133 new nodes in level 151 (total 1030/244032232)
+c BFS found 139 new nodes in level 152 (total 1055/244032232)
+c BFS found 142 new nodes in level 153 (total 1061/244032232)
+c BFS found 139 new nodes in level 154 (total 1068/244032232)
+c BFS found 132 new nodes in level 155 (total 1064/244032232)
+c BFS found 125 new nodes in level 156 (total 1073/244032232)
+c BFS found 120 new nodes in level 157 (total 1076/244032232)
+c BFS found 115 new nodes in level 158 (total 1067/244032232)
+c BFS found 111 new nodes in level 159 (total 1065/244032232)
+c BFS found 114 new nodes in level 160 (total 1036/244032232)
+c BFS found 125 new nodes in level 161 (total 1055/244032232)
+c BFS found 142 new nodes in level 162 (total 1097/244032232)
+c BFS found 166 new nodes in level 163 (total 1153/244032232)
+c BFS found 198 new nodes in level 164 (total 1228/244032232)
+c BFS found 236 new nodes in level 165 (total 1326/244032232)
+c BFS found 279 new nodes in level 166 (total 1472/244032232)
+c BFS found 329 new nodes in level 167 (total 1659/244032232)
+c BFS found 382 new nodes in level 168 (total 1857/244032232)
+c BFS found 427 new nodes in level 169 (total 2067/244032232)
+c BFS found 459 new nodes in level 170 (total 2291/244032232)
+c BFS found 486 new nodes in level 171 (total 2482/244032232)
+c BFS found 510 new nodes in level 172 (total 2678/244032232)
+c BFS found 520 new nodes in level 173 (total 2841/244032232)
+c BFS found 515 new nodes in level 174 (total 2952/244032232)
+c BFS found 506 new nodes in level 175 (total 3035/244032232)
+c BFS found 499 new nodes in level 176 (total 3065/244032232)
+c BFS found 491 new nodes in level 177 (total 3070/244032232)
+c BFS found 479 new nodes in level 178 (total 3041/244032232)
+c BFS found 464 new nodes in level 179 (total 3050/244032232)
+c BFS found 453 new nodes in level 180 (total 3017/244032232)
+c BFS found 454 new nodes in level 181 (total 2989/244032232)
+c BFS found 463 new nodes in level 182 (total 2924/244032232)
+c BFS found 471 new nodes in level 183 (total 2929/244032232)
+c BFS found 477 new nodes in level 184 (total 2975/244032232)
+c BFS found 487 new nodes in level 185 (total 2954/244032232)
+c BFS found 504 new nodes in level 186 (total 2969/244032232)
+c BFS found 517 new nodes in level 187 (total 3061/244032232)
+c BFS found 516 new nodes in level 188 (total 3094/244032232)
+c BFS found 508 new nodes in level 189 (total 3082/244032232)
+c BFS found 499 new nodes in level 190 (total 3095/244032232)
+c BFS found 487 new nodes in level 191 (total 3099/244032232)
+c BFS found 468 new nodes in level 192 (total 3029/244032232)
+c BFS found 439 new nodes in level 193 (total 2955/244032232)
+c BFS found 407 new nodes in level 194 (total 2881/244032232)
+c BFS found 381 new nodes in level 195 (total 2785/244032232)
+c BFS found 355 new nodes in level 196 (total 2672/244032232)
+c BFS found 320 new nodes in level 197 (total 2547/244032232)
+c BFS found 286 new nodes in level 198 (total 2422/244032232)
+c BFS found 264 new nodes in level 199 (total 2295/244032232)
+c BFS found 246 new nodes in level 200 (total 2142/244032232)
+c BFS found 227 new nodes in level 201 (total 2006/244032232)
+c BFS found 211 new nodes in level 202 (total 1963/244032232)
+c BFS found 197 new nodes in level 203 (total 1872/244032232)
+c BFS found 185 new nodes in level 204 (total 1715/244032232)
+c BFS found 176 new nodes in level 205 (total 1665/244032232)
+c BFS found 167 new nodes in level 206 (total 1615/244032232)
+c BFS found 155 new nodes in level 207 (total 1330/244032232)
+c BFS found 141 new nodes in level 208 (total 1239/244032232)
+c BFS found 128 new nodes in level 209 (total 1218/244032232)
+c BFS found 115 new nodes in level 210 (total 1179/244032232)
+c BFS found 98 new nodes in level 211 (total 1096/244032232)
+c BFS found 79 new nodes in level 212 (total 1028/244032232)
+c BFS found 65 new nodes in level 213 (total 959/244032232)
+c BFS found 54 new nodes in level 214 (total 872/244032232)
+c BFS found 41 new nodes in level 215 (total 750/244032232)
+c BFS found 30 new nodes in level 216 (total 680/244032232)
+c BFS found 25 new nodes in level 217 (total 636/244032232)
+c BFS found 24 new nodes in level 218 (total 604/244032232)
+c BFS found 25 new nodes in level 219 (total 546/244032232)
+c BFS found 29 new nodes in level 220 (total 558/244032232)
+c BFS found 36 new nodes in level 221 (total 568/244032232)
+c BFS found 43 new nodes in level 222 (total 580/244032232)
+c BFS found 48 new nodes in level 223 (total 589/244032232)
+c BFS found 53 new nodes in level 224 (total 618/244032232)
+c BFS found 59 new nodes in level 225 (total 645/244032232)
+c BFS found 63 new nodes in level 226 (total 666/244032232)
+c BFS found 64 new nodes in level 227 (total 682/244032232)
+c BFS found 64 new nodes in level 228 (total 693/244032232)
+c BFS found 64 new nodes in level 229 (total 703/244032232)
+c BFS found 63 new nodes in level 230 (total 707/244032232)
+c BFS found 59 new nodes in level 231 (total 708/244032232)
+c BFS found 53 new nodes in level 232 (total 704/244032232)
+c BFS found 49 new nodes in level 233 (total 687/244032232)
+c BFS found 48 new nodes in level 234 (total 676/244032232)
+c BFS found 48 new nodes in level 235 (total 678/244032232)
+c BFS found 48 new nodes in level 236 (total 680/244032232)
+c BFS found 48 new nodes in level 237 (total 674/244032232)
+c BFS found 49 new nodes in level 238 (total 669/244032232)
+c BFS found 53 new nodes in level 239 (total 680/244032232)
+c BFS found 59 new nodes in level 240 (total 694/244032232)
+c BFS found 63 new nodes in level 241 (total 701/244032232)
+c BFS found 64 new nodes in level 242 (total 709/244032232)
+c BFS found 64 new nodes in level 243 (total 723/244032232)
+c BFS found 64 new nodes in level 244 (total 733/244032232)
+c BFS found 63 new nodes in level 245 (total 739/244032232)
+c BFS found 59 new nodes in level 246 (total 738/244032232)
+c BFS found 53 new nodes in level 247 (total 724/244032232)
+c BFS found 49 new nodes in level 248 (total 715/244032232)
+c BFS found 48 new nodes in level 249 (total 711/244032232)
+c BFS found 48 new nodes in level 250 (total 714/244032232)
+c BFS found 49 new nodes in level 251 (total 717/244032232)
+c BFS found 53 new nodes in level 252 (total 726/244032232)
+c BFS found 60 new nodes in level 253 (total 724/244032232)
+c BFS found 69 new nodes in level 254 (total 752/244032232)
+c BFS found 80 new nodes in level 255 (total 786/244032232)
+c BFS found 92 new nodes in level 256 (total 815/244032232)
+c BFS found 104 new nodes in level 257 (total 851/244032232)
+c BFS found 116 new nodes in level 258 (total 907/244032232)
+c BFS found 129 new nodes in level 259 (total 966/244032232)
+c BFS found 144 new nodes in level 260 (total 1028/244032232)
+c BFS found 158 new nodes in level 261 (total 1104/244032232)
+c BFS found 166 new nodes in level 262 (total 1172/244032232)
+c BFS found 170 new nodes in level 263 (total 1216/244032232)
+c BFS found 177 new nodes in level 264 (total 1256/244032232)
+c BFS found 185 new nodes in level 265 (total 1295/244032232)
+c BFS found 185 new nodes in level 266 (total 1318/244032232)
+c BFS found 177 new nodes in level 267 (total 1332/244032232)
+c BFS found 169 new nodes in level 268 (total 1344/244032232)
+c BFS found 163 new nodes in level 269 (total 1332/244032232)
+c BFS found 155 new nodes in level 270 (total 1292/244032232)
+c BFS found 143 new nodes in level 271 (total 1250/244032232)
+c BFS found 128 new nodes in level 272 (total 1231/244032232)
+c BFS found 113 new nodes in level 273 (total 1191/244032232)
+c BFS found 100 new nodes in level 274 (total 1122/244032232)
+c BFS found 86 new nodes in level 275 (total 1067/244032232)
+c BFS found 69 new nodes in level 276 (total 1008/244032232)
+c BFS found 55 new nodes in level 277 (total 949/244032232)
+c BFS found 49 new nodes in level 278 (total 893/244032232)
+c BFS found 48 new nodes in level 279 (total 838/244032232)
+c BFS found 48 new nodes in level 280 (total 809/244032232)
+c BFS found 48 new nodes in level 281 (total 799/244032232)
+c BFS found 49 new nodes in level 282 (total 790/244032232)
+c BFS found 53 new nodes in level 283 (total 784/244032232)
+c BFS found 59 new nodes in level 284 (total 794/244032232)
+c BFS found 63 new nodes in level 285 (total 812/244032232)
+c BFS found 64 new nodes in level 286 (total 819/244032232)
+c BFS found 64 new nodes in level 287 (total 832/244032232)
+c BFS found 64 new nodes in level 288 (total 850/244032232)
+c BFS found 63 new nodes in level 289 (total 866/244032232)
+c BFS found 59 new nodes in level 290 (total 861/244032232)
+c BFS found 53 new nodes in level 291 (total 865/244032232)
+c BFS found 48 new nodes in level 292 (total 852/244032232)
+c BFS found 43 new nodes in level 293 (total 835/244032232)
+c BFS found 36 new nodes in level 294 (total 813/244032232)
+c BFS found 29 new nodes in level 295 (total 795/244032232)
+c BFS found 25 new nodes in level 296 (total 782/244032232)
+c BFS found 24 new nodes in level 297 (total 771/244032232)
+c BFS found 25 new nodes in level 298 (total 738/244032232)
+c BFS found 29 new nodes in level 299 (total 729/244032232)
+c BFS found 36 new nodes in level 300 (total 730/244032232)
+c BFS found 43 new nodes in level 301 (total 738/244032232)
+c BFS found 48 new nodes in level 302 (total 771/244032232)
+c BFS found 53 new nodes in level 303 (total 798/244032232)
+c BFS found 59 new nodes in level 304 (total 828/244032232)
+c BFS found 63 new nodes in level 305 (total 846/244032232)
+c BFS found 64 new nodes in level 306 (total 860/244032232)
+c BFS found 64 new nodes in level 307 (total 856/244032232)
+c BFS found 64 new nodes in level 308 (total 865/244032232)
+c BFS found 63 new nodes in level 309 (total 871/244032232)
+c BFS found 59 new nodes in level 310 (total 871/244032232)
+c BFS found 53 new nodes in level 311 (total 869/244032232)
+c BFS found 49 new nodes in level 312 (total 860/244032232)
+c BFS found 48 new nodes in level 313 (total 854/244032232)
+c BFS found 48 new nodes in level 314 (total 855/244032232)
+c BFS found 48 new nodes in level 315 (total 854/244032232)
+c BFS found 48 new nodes in level 316 (total 854/244032232)
+c BFS found 49 new nodes in level 317 (total 837/244032232)
+c BFS found 53 new nodes in level 318 (total 839/244032232)
+c BFS found 59 new nodes in level 319 (total 852/244032232)
+c BFS found 63 new nodes in level 320 (total 858/244032232)
+c BFS found 64 new nodes in level 321 (total 872/244032232)
+c BFS found 64 new nodes in level 322 (total 886/244032232)
+c BFS found 64 new nodes in level 323 (total 896/244032232)
+c BFS found 63 new nodes in level 324 (total 901/244032232)
+c BFS found 59 new nodes in level 325 (total 906/244032232)
+c BFS found 53 new nodes in level 326 (total 899/244032232)
+c BFS found 49 new nodes in level 327 (total 895/244032232)
+c BFS found 48 new nodes in level 328 (total 891/244032232)
+c BFS found 48 new nodes in level 329 (total 889/244032232)
+c BFS found 49 new nodes in level 330 (total 885/244032232)
+c BFS found 53 new nodes in level 331 (total 885/244032232)
+c BFS found 61 new nodes in level 332 (total 893/244032232)
+c BFS found 74 new nodes in level 333 (total 922/244032232)
+c BFS found 93 new nodes in level 334 (total 964/244032232)
+c BFS found 116 new nodes in level 335 (total 1035/244032232)
+c BFS found 139 new nodes in level 336 (total 1104/244032232)
+c BFS found 162 new nodes in level 337 (total 1198/244032232)
+c BFS found 191 new nodes in level 338 (total 1317/244032232)
+c BFS found 227 new nodes in level 339 (total 1443/244032232)
+c BFS found 262 new nodes in level 340 (total 1573/244032232)
+c BFS found 292 new nodes in level 341 (total 1725/244032232)
+c BFS found 324 new nodes in level 342 (total 1890/244032232)
+c BFS found 364 new nodes in level 343 (total 2052/244032232)
+c BFS found 404 new nodes in level 344 (total 2200/244032232)
+c BFS found 433 new nodes in level 345 (total 2359/244032232)
+c BFS found 454 new nodes in level 346 (total 2528/244032232)
+c BFS found 478 new nodes in level 347 (total 2688/244032232)
+c BFS found 502 new nodes in level 348 (total 2820/244032232)
+c BFS found 515 new nodes in level 349 (total 2930/244032232)
+c BFS found 519 new nodes in level 350 (total 3012/244032232)
+c BFS found 521 new nodes in level 351 (total 3106/244032232)
+c BFS found 524 new nodes in level 352 (total 3169/244032232)
+c BFS found 529 new nodes in level 353 (total 3212/244032232)
+c BFS found 535 new nodes in level 354 (total 3238/244032232)
+c BFS found 539 new nodes in level 355 (total 3285/244032232)
+c BFS found 544 new nodes in level 356 (total 3325/244032232)
+c BFS found 557 new nodes in level 357 (total 3372/244032232)
+c BFS found 575 new nodes in level 358 (total 3457/244032232)
+c BFS found 589 new nodes in level 359 (total 3558/244032232)
+c BFS found 597 new nodes in level 360 (total 3634/244032232)
+c BFS found 606 new nodes in level 361 (total 3720/244032232)
+c BFS found 620 new nodes in level 362 (total 3797/244032232)
+c BFS found 628 new nodes in level 363 (total 3843/244032232)
+c BFS found 619 new nodes in level 364 (total 3839/244032232)
+c BFS found 601 new nodes in level 365 (total 3878/244032232)
+c BFS found 581 new nodes in level 366 (total 3907/244032232)
+c BFS found 554 new nodes in level 367 (total 3856/244032232)
+c BFS found 518 new nodes in level 368 (total 3762/244032232)
+c BFS found 475 new nodes in level 369 (total 3693/244032232)
+c BFS found 431 new nodes in level 370 (total 3585/244032232)
+c BFS found 394 new nodes in level 371 (total 3392/244032232)
+c BFS found 360 new nodes in level 372 (total 3204/244032232)
+c BFS found 323 new nodes in level 373 (total 2984/244032232)
+c BFS found 293 new nodes in level 374 (total 2817/244032232)
+c BFS found 275 new nodes in level 375 (total 2675/244032232)
+c BFS found 260 new nodes in level 376 (total 2467/244032232)
+c BFS found 246 new nodes in level 377 (total 2321/244032232)
+c BFS found 234 new nodes in level 378 (total 2220/244032232)
+c BFS found 223 new nodes in level 379 (total 2058/244032232)
+c BFS found 217 new nodes in level 380 (total 1962/244032232)
+c BFS found 216 new nodes in level 381 (total 1965/244032232)
+c BFS found 216 new nodes in level 382 (total 1938/244032232)
+c BFS found 215 new nodes in level 383 (total 1918/244032232)
+c BFS found 211 new nodes in level 384 (total 1916/244032232)
+c BFS found 204 new nodes in level 385 (total 1915/244032232)
+c BFS found 198 new nodes in level 386 (total 1928/244032232)
+c BFS found 189 new nodes in level 387 (total 1902/244032232)
+c BFS found 174 new nodes in level 388 (total 1871/244032232)
+c BFS found 164 new nodes in level 389 (total 1829/244032232)
+c BFS found 157 new nodes in level 390 (total 1764/244032232)
+c BFS found 147 new nodes in level 391 (total 1670/244032232)
+c BFS found 139 new nodes in level 392 (total 1624/244032232)
+c BFS found 133 new nodes in level 393 (total 1586/244032232)
+c BFS found 129 new nodes in level 394 (total 1533/244032232)
+c BFS found 128 new nodes in level 395 (total 1432/244032232)
+c BFS found 129 new nodes in level 396 (total 1438/244032232)
+c BFS found 133 new nodes in level 397 (total 1446/244032232)
+c BFS found 139 new nodes in level 398 (total 1453/244032232)
+c BFS found 144 new nodes in level 399 (total 1463/244032232)
+c BFS found 150 new nodes in level 400 (total 1507/244032232)
+c BFS found 160 new nodes in level 401 (total 1528/244032232)
+c BFS found 169 new nodes in level 402 (total 1543/244032232)
+c BFS found 173 new nodes in level 403 (total 1567/244032232)
+c BFS found 175 new nodes in level 404 (total 1589/244032232)
+c BFS found 175 new nodes in level 405 (total 1616/244032232)
+c BFS found 173 new nodes in level 406 (total 1637/244032232)
+c BFS found 169 new nodes in level 407 (total 1648/244032232)
+c BFS found 161 new nodes in level 408 (total 1637/244032232)
+c BFS found 154 new nodes in level 409 (total 1632/244032232)
+c BFS found 151 new nodes in level 410 (total 1625/244032232)
+c BFS found 148 new nodes in level 411 (total 1624/244032232)
+c BFS found 145 new nodes in level 412 (total 1619/244032232)
+c BFS found 145 new nodes in level 413 (total 1603/244032232)
+c BFS found 150 new nodes in level 414 (total 1594/244032232)
+c BFS found 161 new nodes in level 415 (total 1613/244032232)
+c BFS found 176 new nodes in level 416 (total 1634/244032232)
+c BFS found 190 new nodes in level 417 (total 1656/244032232)
+c BFS found 201 new nodes in level 418 (total 1701/244032232)
+c BFS found 210 new nodes in level 419 (total 1740/244032232)
+c BFS found 215 new nodes in level 420 (total 1794/244032232)
+c BFS found 217 new nodes in level 421 (total 1842/244032232)
+c BFS found 216 new nodes in level 422 (total 1883/244032232)
+c BFS found 209 new nodes in level 423 (total 1893/244032232)
+c BFS found 200 new nodes in level 424 (total 1898/244032232)
+c BFS found 192 new nodes in level 425 (total 1920/244032232)
+c BFS found 182 new nodes in level 426 (total 1925/244032232)
+c BFS found 168 new nodes in level 427 (total 1903/244032232)
+c BFS found 154 new nodes in level 428 (total 1836/244032232)
+c BFS found 144 new nodes in level 429 (total 1775/244032232)
+c BFS found 136 new nodes in level 430 (total 1703/244032232)
+c BFS found 130 new nodes in level 431 (total 1662/244032232)
+c BFS found 128 new nodes in level 432 (total 1609/244032232)
+c BFS found 127 new nodes in level 433 (total 1176/244032232)
+c BFS found 125 new nodes in level 434 (total 1151/244032232)
+c BFS found 122 new nodes in level 435 (total 1127/244032232)
+c BFS found 117 new nodes in level 436 (total 1124/244032232)
+c BFS found 111 new nodes in level 437 (total 1130/244032232)
+c BFS found 104 new nodes in level 438 (total 1129/244032232)
+c BFS found 99 new nodes in level 439 (total 1122/244032232)
+c BFS found 100 new nodes in level 440 (total 1127/244032232)
+c BFS found 102 new nodes in level 441 (total 1114/244032232)
+c BFS found 99 new nodes in level 442 (total 1095/244032232)
+c BFS found 93 new nodes in level 443 (total 1059/244032232)
+c BFS found 89 new nodes in level 444 (total 1023/244032232)
+c BFS found 88 new nodes in level 445 (total 926/244032232)
+c BFS found 87 new nodes in level 446 (total 903/244032232)
+c BFS found 84 new nodes in level 447 (total 874/244032232)
+c BFS found 80 new nodes in level 448 (total 876/244032232)
+c BFS found 75 new nodes in level 449 (total 888/244032232)
+c BFS found 68 new nodes in level 450 (total 888/244032232)
+c BFS found 59 new nodes in level 451 (total 888/244032232)
+c BFS found 48 new nodes in level 452 (total 874/244032232)
+c BFS found 38 new nodes in level 453 (total 839/244032232)
+c BFS found 32 new nodes in level 454 (total 786/244032232)
+c BFS found 27 new nodes in level 455 (total 699/244032232)
+c BFS found 21 new nodes in level 456 (total 660/244032232)
+c BFS found 17 new nodes in level 457 (total 626/244032232)
+c BFS found 17 new nodes in level 458 (total 609/244032232)
+c BFS found 21 new nodes in level 459 (total 598/244032232)
+c BFS found 27 new nodes in level 460 (total 586/244032232)
+c BFS found 31 new nodes in level 461 (total 580/244032232)
+c BFS found 32 new nodes in level 462 (total 580/244032232)
+c BFS found 32 new nodes in level 463 (total 584/244032232)
+c BFS found 32 new nodes in level 464 (total 598/244032232)
+c BFS found 32 new nodes in level 465 (total 608/244032232)
+c BFS found 32 new nodes in level 466 (total 623/244032232)
+c BFS found 32 new nodes in level 467 (total 645/244032232)
+c BFS found 32 new nodes in level 468 (total 651/244032232)
+c BFS found 31 new nodes in level 469 (total 653/244032232)
+c BFS found 27 new nodes in level 470 (total 652/244032232)
+c BFS found 21 new nodes in level 471 (total 651/244032232)
+c BFS found 16 new nodes in level 472 (total 632/244032232)
+c BFS found 12 new nodes in level 473 (total 604/244032232)
+c BFS found 9 new nodes in level 474 (total 555/244032232)
+c BFS found 8 new nodes in level 475 (total 524/244032232)
+c BFS found 9 new nodes in level 476 (total 521/244032232)
+c BFS found 12 new nodes in level 477 (total 522/244032232)
+c BFS found 16 new nodes in level 478 (total 536/244032232)
+c BFS found 21 new nodes in level 479 (total 553/244032232)
+c BFS found 27 new nodes in level 480 (total 570/244032232)
+c BFS found 31 new nodes in level 481 (total 587/244032232)
+c BFS found 32 new nodes in level 482 (total 587/244032232)
+c BFS found 32 new nodes in level 483 (total 606/244032232)
+c BFS found 32 new nodes in level 484 (total 620/244032232)
+c BFS found 32 new nodes in level 485 (total 631/244032232)
+c BFS found 32 new nodes in level 486 (total 634/244032232)
+c BFS found 32 new nodes in level 487 (total 643/244032232)
+c BFS found 32 new nodes in level 488 (total 647/244032232)
+c BFS found 31 new nodes in level 489 (total 656/244032232)
+c BFS found 27 new nodes in level 490 (total 650/244032232)
+c BFS found 21 new nodes in level 491 (total 648/244032232)
+c BFS found 17 new nodes in level 492 (total 637/244032232)
+c BFS found 17 new nodes in level 493 (total 638/244032232)
+c BFS found 21 new nodes in level 494 (total 642/244032232)
+c BFS found 27 new nodes in level 495 (total 638/244032232)
+c BFS found 31 new nodes in level 496 (total 630/244032232)
+c BFS found 32 new nodes in level 497 (total 606/244032232)
+c BFS found 32 new nodes in level 498 (total 616/244032232)
+c BFS found 32 new nodes in level 499 (total 630/244032232)
+c BFS found 32 new nodes in level 500 (total 640/244032232)
+c BFS found 32 new nodes in level 501 (total 649/244032232)
+c BFS found 32 new nodes in level 502 (total 660/244032232)
+c BFS found 32 new nodes in level 503 (total 671/244032232)
+c BFS found 31 new nodes in level 504 (total 678/244032232)
+c BFS found 27 new nodes in level 505 (total 683/244032232)
+c BFS found 21 new nodes in level 506 (total 683/244032232)
+c BFS found 17 new nodes in level 507 (total 678/244032232)
+c BFS found 17 new nodes in level 508 (total 678/244032232)
+c BFS found 21 new nodes in level 509 (total 658/244032232)
+c BFS found 28 new nodes in level 510 (total 638/244032232)
+c BFS found 36 new nodes in level 511 (total 647/244032232)
+c BFS found 44 new nodes in level 512 (total 635/244032232)
+c BFS found 53 new nodes in level 513 (total 670/244032232)
+c BFS found 65 new nodes in level 514 (total 713/244032232)
+c BFS found 80 new nodes in level 515 (total 768/244032232)
+c BFS found 95 new nodes in level 516 (total 832/244032232)
+c BFS found 108 new nodes in level 517 (total 902/244032232)
+c BFS found 121 new nodes in level 518 (total 981/244032232)
+c BFS found 133 new nodes in level 519 (total 1050/244032232)
+c BFS found 139 new nodes in level 520 (total 1114/244032232)
+c BFS found 140 new nodes in level 521 (total 1162/244032232)
+c BFS found 141 new nodes in level 522 (total 1195/244032232)
+c BFS found 146 new nodes in level 523 (total 1251/244032232)
+c BFS found 156 new nodes in level 524 (total 1291/244032232)
+c BFS found 168 new nodes in level 525 (total 1357/244032232)
+c BFS found 178 new nodes in level 526 (total 1427/244032232)
+c BFS found 185 new nodes in level 527 (total 1475/244032232)
+c BFS found 193 new nodes in level 528 (total 1513/244032232)
+c BFS found 202 new nodes in level 529 (total 1583/244032232)
+c BFS found 206 new nodes in level 530 (total 1648/244032232)
+c BFS found 204 new nodes in level 531 (total 1650/244032232)
+c BFS found 202 new nodes in level 532 (total 1647/244032232)
+c BFS found 204 new nodes in level 533 (total 1646/244032232)
+c BFS found 205 new nodes in level 534 (total 1653/244032232)
+c BFS found 200 new nodes in level 535 (total 1642/244032232)
+c BFS found 190 new nodes in level 536 (total 1614/244032232)
+c BFS found 176 new nodes in level 537 (total 1561/244032232)
+c BFS found 162 new nodes in level 538 (total 1541/244032232)
+c BFS found 149 new nodes in level 539 (total 1486/244032232)
+c BFS found 134 new nodes in level 540 (total 1394/244032232)
+c BFS found 123 new nodes in level 541 (total 1350/244032232)
+c BFS found 120 new nodes in level 542 (total 1316/244032232)
+c BFS found 119 new nodes in level 543 (total 1291/244032232)
+c BFS found 115 new nodes in level 544 (total 1284/244032232)
+c BFS found 109 new nodes in level 545 (total 1282/244032232)
+c BFS found 104 new nodes in level 546 (total 1228/244032232)
+c BFS found 100 new nodes in level 547 (total 1184/244032232)
+c BFS found 97 new nodes in level 548 (total 1180/244032232)
+c BFS found 94 new nodes in level 549 (total 1164/244032232)
+c BFS found 89 new nodes in level 550 (total 1104/244032232)
+c BFS found 84 new nodes in level 551 (total 1077/244032232)
+c BFS found 79 new nodes in level 552 (total 1047/244032232)
+c BFS found 73 new nodes in level 553 (total 1026/244032232)
+c BFS found 66 new nodes in level 554 (total 1001/244032232)
+c BFS found 57 new nodes in level 555 (total 983/244032232)
+c BFS found 49 new nodes in level 556 (total 957/244032232)
+c BFS found 42 new nodes in level 557 (total 912/244032232)
+c BFS found 32 new nodes in level 558 (total 860/244032232)
+c BFS found 22 new nodes in level 559 (total 825/244032232)
+c BFS found 16 new nodes in level 560 (total 796/244032232)
+c BFS found 12 new nodes in level 561 (total 711/244032232)
+c BFS found 9 new nodes in level 562 (total 639/244032232)
+c BFS found 8 new nodes in level 563 (total 622/244032232)
+c BFS found 9 new nodes in level 564 (total 613/244032232)
+c BFS found 12 new nodes in level 565 (total 600/244032232)
+c BFS found 16 new nodes in level 566 (total 611/244032232)
+c BFS found 21 new nodes in level 567 (total 623/244032232)
+c BFS found 27 new nodes in level 568 (total 641/244032232)
+c BFS found 31 new nodes in level 569 (total 660/244032232)
+c BFS found 32 new nodes in level 570 (total 676/244032232)
+c BFS found 32 new nodes in level 571 (total 688/244032232)
+c BFS found 32 new nodes in level 572 (total 693/244032232)
+c BFS found 32 new nodes in level 573 (total 695/244032232)
+c BFS found 32 new nodes in level 574 (total 694/244032232)
+c BFS found 32 new nodes in level 575 (total 694/244032232)
+c BFS found 32 new nodes in level 576 (total 697/244032232)
+c BFS found 31 new nodes in level 577 (total 700/244032232)
+c BFS found 27 new nodes in level 578 (total 694/244032232)
+c BFS found 21 new nodes in level 579 (total 685/244032232)
+c BFS found 17 new nodes in level 580 (total 675/244032232)
+c BFS found 17 new nodes in level 581 (total 672/244032232)
+c BFS found 21 new nodes in level 582 (total 675/244032232)
+c BFS found 27 new nodes in level 583 (total 684/244032232)
+c BFS found 31 new nodes in level 584 (total 691/244032232)
+c BFS found 32 new nodes in level 585 (total 689/244032232)
+c BFS found 32 new nodes in level 586 (total 701/244032232)
+c BFS found 32 new nodes in level 587 (total 709/244032232)
+c BFS found 32 new nodes in level 588 (total 714/244032232)
+c BFS found 32 new nodes in level 589 (total 719/244032232)
+c BFS found 32 new nodes in level 590 (total 724/244032232)
+c BFS found 32 new nodes in level 591 (total 729/244032232)
+c BFS found 31 new nodes in level 592 (total 733/244032232)
+c BFS found 27 new nodes in level 593 (total 733/244032232)
+c BFS found 21 new nodes in level 594 (total 727/244032232)
+c BFS found 17 new nodes in level 595 (total 710/244032232)
+c BFS found 17 new nodes in level 596 (total 704/244032232)
+c BFS found 21 new nodes in level 597 (total 705/244032232)
+c BFS found 28 new nodes in level 598 (total 715/244032232)
+c BFS found 36 new nodes in level 599 (total 724/244032232)
+c BFS found 43 new nodes in level 600 (total 723/244032232)
+c BFS found 48 new nodes in level 601 (total 751/244032232)
+c BFS found 52 new nodes in level 602 (total 778/244032232)
+c BFS found 56 new nodes in level 603 (total 803/244032232)
+c BFS found 61 new nodes in level 604 (total 831/244032232)
+c BFS found 68 new nodes in level 605 (total 863/244032232)
+c BFS found 77 new nodes in level 606 (total 894/244032232)
+c BFS found 88 new nodes in level 607 (total 931/244032232)
+c BFS found 97 new nodes in level 608 (total 980/244032232)
+c BFS found 98 new nodes in level 609 (total 1022/244032232)
+c BFS found 93 new nodes in level 610 (total 1055/244032232)
+c BFS found 89 new nodes in level 611 (total 1070/244032232)
+c BFS found 88 new nodes in level 612 (total 1059/244032232)
+c BFS found 87 new nodes in level 613 (total 1052/244032232)
+c BFS found 84 new nodes in level 614 (total 1025/244032232)
+c BFS found 80 new nodes in level 615 (total 1028/244032232)
+c BFS found 75 new nodes in level 616 (total 1015/244032232)
+c BFS found 68 new nodes in level 617 (total 1000/244032232)
+c BFS found 59 new nodes in level 618 (total 984/244032232)
+c BFS found 48 new nodes in level 619 (total 958/244032232)
+c BFS found 38 new nodes in level 620 (total 925/244032232)
+c BFS found 32 new nodes in level 621 (total 881/244032232)
+c BFS found 27 new nodes in level 622 (total 830/244032232)
+c BFS found 21 new nodes in level 623 (total 791/244032232)
+c BFS found 17 new nodes in level 624 (total 774/244032232)
+c BFS found 17 new nodes in level 625 (total 758/244032232)
+c BFS found 21 new nodes in level 626 (total 746/244032232)
+c BFS found 27 new nodes in level 627 (total 742/244032232)
+c BFS found 31 new nodes in level 628 (total 737/244032232)
+c BFS found 32 new nodes in level 629 (total 746/244032232)
+c BFS found 32 new nodes in level 630 (total 746/244032232)
+c BFS found 32 new nodes in level 631 (total 755/244032232)
+c BFS found 32 new nodes in level 632 (total 760/244032232)
+c BFS found 32 new nodes in level 633 (total 770/244032232)
+c BFS found 32 new nodes in level 634 (total 782/244032232)
+c BFS found 32 new nodes in level 635 (total 789/244032232)
+c BFS found 31 new nodes in level 636 (total 792/244032232)
+c BFS found 27 new nodes in level 637 (total 798/244032232)
+c BFS found 21 new nodes in level 638 (total 800/244032232)
+c BFS found 16 new nodes in level 639 (total 775/244032232)
+c BFS found 12 new nodes in level 640 (total 757/244032232)
+c BFS found 9 new nodes in level 641 (total 728/244032232)
+c BFS found 8 new nodes in level 642 (total 714/244032232)
+c BFS found 9 new nodes in level 643 (total 688/244032232)
+c BFS found 12 new nodes in level 644 (total 676/244032232)
+c BFS found 16 new nodes in level 645 (total 690/244032232)
+c BFS found 21 new nodes in level 646 (total 707/244032232)
+c BFS found 27 new nodes in level 647 (total 724/244032232)
+c BFS found 31 new nodes in level 648 (total 737/244032232)
+c BFS found 32 new nodes in level 649 (total 753/244032232)
+c BFS found 32 new nodes in level 650 (total 766/244032232)
+c BFS found 32 new nodes in level 651 (total 773/244032232)
+c BFS found 32 new nodes in level 652 (total 776/244032232)
+c BFS found 32 new nodes in level 653 (total 775/244032232)
+c BFS found 32 new nodes in level 654 (total 777/244032232)
+c BFS found 32 new nodes in level 655 (total 779/244032232)
+c BFS found 31 new nodes in level 656 (total 780/244032232)
+c BFS found 27 new nodes in level 657 (total 777/244032232)
+c BFS found 21 new nodes in level 658 (total 770/244032232)
+c BFS found 17 new nodes in level 659 (total 761/244032232)
+c BFS found 17 new nodes in level 660 (total 742/244032232)
+c BFS found 21 new nodes in level 661 (total 739/244032232)
+c BFS found 27 new nodes in level 662 (total 746/244032232)
+c BFS found 31 new nodes in level 663 (total 759/244032232)
+c BFS found 32 new nodes in level 664 (total 772/244032232)
+c BFS found 32 new nodes in level 665 (total 780/244032232)
+c BFS found 32 new nodes in level 666 (total 785/244032232)
+c BFS found 32 new nodes in level 667 (total 789/244032232)
+c BFS found 32 new nodes in level 668 (total 788/244032232)
+c BFS found 32 new nodes in level 669 (total 791/244032232)
+c BFS found 32 new nodes in level 670 (total 795/244032232)
+c BFS found 31 new nodes in level 671 (total 793/244032232)
+c BFS found 27 new nodes in level 672 (total 790/244032232)
+c BFS found 21 new nodes in level 673 (total 781/244032232)
+c BFS found 17 new nodes in level 674 (total 772/244032232)
+c BFS found 17 new nodes in level 675 (total 757/244032232)
+c BFS found 21 new nodes in level 676 (total 753/244032232)
+c BFS found 28 new nodes in level 677 (total 763/244032232)
+c BFS found 36 new nodes in level 678 (total 779/244032232)
+c BFS found 44 new nodes in level 679 (total 803/244032232)
+c BFS found 53 new nodes in level 680 (total 838/244032232)
+c BFS found 65 new nodes in level 681 (total 877/244032232)
+c BFS found 80 new nodes in level 682 (total 929/244032232)
+c BFS found 95 new nodes in level 683 (total 993/244032232)
+c BFS found 109 new nodes in level 684 (total 1059/244032232)
+c BFS found 126 new nodes in level 685 (total 1128/244032232)
+c BFS found 147 new nodes in level 686 (total 1202/244032232)
+c BFS found 167 new nodes in level 687 (total 1283/244032232)
+c BFS found 183 new nodes in level 688 (total 1360/244032232)
+c BFS found 199 new nodes in level 689 (total 1465/244032232)
+c BFS found 223 new nodes in level 690 (total 1574/244032232)
+c BFS found 256 new nodes in level 691 (total 1680/244032232)
+c BFS found 292 new nodes in level 692 (total 1828/244032232)
+c BFS exiting found=true count=1894 max_count=244032232
+c Found with: Breadth First Search
+a YES
+a 1 8 14 21 27 34 40 47 53 60 66 73 
+a 2 8 14 21 27 34 40 47 53 60 66 73 
+a 2 9 14 21 27 34 40 47 53 60 66 73 
+a 3 9 14 21 27 34 40 47 53 60 66 73 
+a 3 10 14 21 27 34 40 47 53 60 66 73 
+a 3 10 15 21 27 34 40 47 53 60 66 73 
+a 3 10 15 22 27 34 40 47 53 60 66 73 
+a 3 10 16 22 27 34 40 47 53 60 66 73 
+a 3 10 16 23 27 34 40 47 53 60 66 73 
+a 3 10 16 23 28 34 40 47 53 60 66 73 
+a 3 10 16 23 28 35 40 47 53 60 66 73 
+a 3 10 16 23 29 35 40 47 53 60 66 73 
+a 3 10 16 23 29 36 40 47 53 60 66 73 
+a 3 10 16 23 29 36 41 47 53 60 66 73 
+a 3 10 16 23 29 36 41 48 53 60 66 73 
+a 3 10 16 23 29 36 42 48 53 60 66 73 
+a 3 10 16 23 29 36 42 49 53 60 66 73 
+a 3 10 16 23 29 36 42 49 54 60 66 73 
+a 3 10 16 23 29 36 42 49 54 61 66 73 
+a 3 10 16 23 29 36 42 49 55 61 66 73 
+a 3 10 16 23 29 36 42 49 55 62 66 73 
+a 3 10 16 23 29 36 42 49 56 62 66 73 
+a 3 10 16 23 29 36 42 49 56 62 67 73 
+a 3 10 16 23 29 36 42 49 56 62 67 74 
+a 3 10 16 23 29 36 42 49 56 62 68 74 
+a 3 10 16 23 29 36 42 49 56 62 68 75 
+a 3 10 16 23 29 36 42 49 56 62 69 75 
+a 3 10 16 23 29 36 42 49 56 62 69 76 
+a 3 10 16 23 29 36 42 49 56 62 70 76 
+a 3 10 16 23 29 36 42 49 56 62 70 77 
+a 3 10 16 23 29 36 42 49 56 62 71 77 
+a 3 10 16 23 29 36 42 49 56 62 71 78 
+a 3 10 16 23 29 36 42 49 56 62 72 78 
+a 3 10 16 23 29 36 42 49 56 63 72 78 
+a 3 10 16 23 29 36 42 49 57 63 72 78 
+a 3 10 16 23 29 36 42 49 57 64 72 78 
+a 3 10 16 23 29 36 42 49 58 64 72 78 
+a 3 10 16 23 29 36 42 49 58 64 71 78 
+a 3 10 16 23 29 36 42 49 58 64 71 77 
+a 3 10 16 23 29 36 42 49 58 64 70 77 
+a 3 10 16 23 29 36 42 49 58 64 70 76 
+a 3 10 16 23 29 36 42 49 58 64 69 76 
+a 3 10 16 23 29 36 42 49 58 64 69 75 
+a 3 10 16 23 29 36 42 49 58 64 68 75 
+a 3 10 16 23 29 36 42 49 58 64 68 74 
+a 3 10 16 23 29 36 42 49 58 64 67 74 
+a 3 10 16 23 29 36 42 49 58 64 67 73 
+a 3 10 16 23 29 36 42 49 58 64 66 73 
+a 3 10 16 23 29 36 42 49 58 65 66 73 
+a 3 10 16 23 29 36 43 49 58 65 66 73 
+a 3 10 16 23 29 36 43 49 59 65 66 73 
+a 3 10 16 23 29 36 43 50 59 65 66 73 
+a 3 10 16 23 29 36 44 50 59 65 66 73 
+a 3 10 16 23 29 36 44 51 59 65 66 73 
+a 3 10 16 23 29 36 44 51 58 65 66 73 
+a 3 10 16 23 29 36 44 51 58 64 66 73 
+a 3 10 16 23 29 36 44 51 58 64 67 73 
+a 3 10 16 23 29 36 44 51 58 64 67 74 
+a 3 10 16 23 29 36 44 51 58 64 68 74 
+a 3 10 16 23 29 36 44 51 58 64 68 75 
+a 3 10 16 23 29 36 44 51 58 64 69 75 
+a 3 10 16 23 29 36 44 51 58 64 69 76 
+a 3 10 16 23 29 36 44 51 58 64 70 76 
+a 3 10 16 23 29 36 44 51 58 64 70 77 
+a 3 10 16 23 29 36 44 51 58 64 71 77 
+a 3 10 16 23 29 36 44 51 58 64 71 78 
+a 3 10 16 23 29 36 44 51 58 64 72 78 
+a 3 10 16 23 29 36 44 51 57 64 72 78 
+a 3 10 16 23 29 36 44 51 57 63 72 78 
+a 3 10 16 23 29 36 44 51 56 63 72 78 
+a 3 10 16 23 29 36 44 51 56 62 72 78 
+a 3 10 16 23 29 36 44 51 56 62 71 78 
+a 3 10 16 23 29 36 44 51 56 62 71 77 
+a 3 10 16 23 29 36 44 51 56 62 70 77 
+a 3 10 16 23 29 36 44 51 56 62 70 76 
+a 3 10 16 23 29 36 44 51 56 62 69 76 
+a 3 10 16 23 29 36 44 51 56 62 69 75 
+a 3 10 16 23 29 36 44 51 56 62 68 75 
+a 3 10 16 23 29 36 44 51 56 62 68 74 
+a 3 10 16 23 29 36 44 51 56 62 67 74 
+a 3 10 16 23 29 36 44 51 56 62 67 73 
+a 3 10 16 23 29 36 44 51 56 62 66 73 
+a 3 10 16 23 29 36 44 51 55 62 66 73 
+a 3 10 16 23 29 36 44 51 55 61 66 73 
+a 3 10 16 23 29 36 44 51 54 61 66 73 
+a 3 10 16 23 29 36 44 51 54 60 66 73 
+a 3 10 16 23 29 36 45 51 54 60 66 73 
+a 3 10 16 23 29 36 45 51 53 60 66 73 
+a 3 10 16 23 29 36 45 52 53 60 66 73 
+a 3 10 16 23 29 36 46 52 53 60 66 73 
+a 3 10 16 23 30 36 46 52 53 60 66 73 
+a 3 10 16 23 30 37 46 52 53 60 66 73 
+a 3 10 16 23 31 37 46 52 53 60 66 73 
+a 3 10 16 23 31 38 46 52 53 60 66 73 
+a 3 10 16 23 31 38 45 52 53 60 66 73 
+a 3 10 16 23 31 38 45 51 53 60 66 73 
+a 3 10 16 23 31 38 45 51 54 60 66 73 
+a 3 10 16 23 31 38 45 51 54 61 66 73 
+a 3 10 16 23 31 38 45 51 55 61 66 73 
+a 3 10 16 23 31 38 45 51 55 62 66 73 
+a 3 10 16 23 31 38 45 51 56 62 66 73 
+a 3 10 16 23 31 38 45 51 56 62 67 73 
+a 3 10 16 23 31 38 45 51 56 62 67 74 
+a 3 10 16 23 31 38 45 51 56 62 68 74 
+a 3 10 16 23 31 38 45 51 56 62 68 75 
+a 3 10 16 23 31 38 45 51 56 62 69 75 
+a 3 10 16 23 31 38 45 51 56 62 69 76 
+a 3 10 16 23 31 38 45 51 56 62 70 76 
+a 3 10 16 23 31 38 45 51 56 62 70 77 
+a 3 10 16 23 31 38 45 51 56 62 71 77 
+a 3 10 16 23 31 38 45 51 56 62 71 78 
+a 3 10 16 23 31 38 45 51 56 62 72 78 
+a 3 10 16 23 31 38 45 51 56 63 72 78 
+a 3 10 16 23 31 38 45 51 57 63 72 78 
+a 3 10 16 23 31 38 45 51 57 64 72 78 
+a 3 10 16 23 31 38 45 51 58 64 72 78 
+a 3 10 16 23 31 38 44 51 58 64 72 78 
+a 3 10 16 23 31 38 44 51 58 64 71 78 
+a 3 10 16 23 31 38 44 51 58 64 71 77 
+a 3 10 16 23 31 38 44 51 58 64 70 77 
+a 3 10 16 23 31 38 44 51 58 64 70 76 
+a 3 10 16 23 31 38 44 51 58 64 69 76 
+a 3 10 16 23 31 38 44 51 58 64 69 75 
+a 3 10 16 23 31 38 44 51 58 64 68 75 
+a 3 10 16 23 31 38 44 51 58 64 68 74 
+a 3 10 16 23 31 38 44 51 58 64 67 74 
+a 3 10 16 23 31 38 44 51 58 64 67 73 
+a 3 10 16 23 31 38 44 51 58 64 66 73 
+a 3 10 16 23 31 38 44 51 58 65 66 73 
+a 3 10 16 23 31 38 44 51 59 65 66 73 
+a 3 10 16 23 31 38 44 50 59 65 66 73 
+a 3 10 16 23 31 38 43 50 59 65 66 73 
+a 3 10 16 23 31 38 43 49 59 65 66 73 
+a 3 10 16 23 31 38 43 49 58 65 66 73 
+a 3 10 16 23 31 38 43 49 58 64 66 73 
+a 3 10 16 23 31 38 43 49 58 64 67 73 
+a 3 10 16 23 31 38 43 49 58 64 67 74 
+a 3 10 16 23 31 38 43 49 58 64 68 74 
+a 3 10 16 23 31 38 43 49 58 64 68 75 
+a 3 10 16 23 31 38 43 49 58 64 69 75 
+a 3 10 16 23 31 38 43 49 58 64 69 76 
+a 3 10 16 23 31 38 43 49 58 64 70 76 
+a 3 10 16 23 31 38 43 49 58 64 70 77 
+a 3 10 16 23 31 38 43 49 58 64 71 77 
+a 3 10 16 23 31 38 43 49 58 64 71 78 
+a 3 10 16 23 31 38 43 49 58 64 72 78 
+a 3 10 16 23 31 38 43 49 57 64 72 78 
+a 3 10 16 23 31 38 43 49 57 63 72 78 
+a 3 10 16 23 31 38 43 49 56 63 72 78 
+a 3 10 16 23 31 38 43 49 56 62 72 78 
+a 3 10 16 23 31 38 43 49 56 62 71 78 
+a 3 10 16 23 31 38 43 49 56 62 71 77 
+a 3 10 16 23 31 38 43 49 56 62 70 77 
+a 3 10 16 23 31 38 43 49 56 62 70 76 
+a 3 10 16 23 31 38 43 49 56 62 69 76 
+a 3 10 16 23 31 38 43 49 56 62 69 75 
+a 3 10 16 23 31 38 43 49 56 62 68 75 
+a 3 10 16 23 31 38 43 49 56 62 68 74 
+a 3 10 16 23 31 38 43 49 56 62 67 74 
+a 3 10 16 23 31 38 43 49 56 62 67 73 
+a 3 10 16 23 31 38 43 49 56 62 66 73 
+a 3 10 16 23 31 38 43 49 55 62 66 73 
+a 3 10 16 23 31 38 43 49 55 61 66 73 
+a 3 10 16 23 31 38 43 49 54 61 66 73 
+a 3 10 16 23 31 38 43 49 54 60 66 73 
+a 3 10 16 23 31 38 42 49 54 60 66 73 
+a 3 10 16 23 31 38 42 49 53 60 66 73 
+a 3 10 16 23 31 38 42 48 53 60 66 73 
+a 3 10 16 23 31 38 41 48 53 60 66 73 
+a 3 10 16 23 31 38 41 47 53 60 66 73 
+a 3 10 16 23 31 38 40 47 53 60 66 73 
+a 3 10 16 23 32 38 40 47 53 60 66 73 
+a 3 10 17 23 32 38 40 47 53 60 66 73 
+a 3 10 17 23 32 39 40 47 53 60 66 73 
+a 3 10 17 23 33 39 40 47 53 60 66 73 
+a 3 10 17 24 33 39 40 47 53 60 66 73 
+a 3 10 18 24 33 39 40 47 53 60 66 73 
+a 3 10 18 25 33 39 40 47 53 60 66 73 
+a 3 10 18 25 32 39 40 47 53 60 66 73 
+a 3 10 18 25 32 38 40 47 53 60 66 73 
+a 3 10 18 25 32 38 41 47 53 60 66 73 
+a 3 10 18 25 32 38 41 48 53 60 66 73 
+a 3 10 18 25 32 38 42 48 53 60 66 73 
+a 3 10 18 25 32 38 42 49 53 60 66 73 
+a 3 10 18 25 32 38 42 49 54 60 66 73 
+a 3 10 18 25 32 38 42 49 54 61 66 73 
+a 3 10 18 25 32 38 42 49 55 61 66 73 
+a 3 10 18 25 32 38 42 49 55 62 66 73 
+a 3 10 18 25 32 38 42 49 56 62 66 73 
+a 3 10 18 25 32 38 42 49 56 62 67 73 
+a 3 10 18 25 32 38 42 49 56 62 67 74 
+a 3 10 18 25 32 38 42 49 56 62 68 74 
+a 3 10 18 25 32 38 42 49 56 62 68 75 
+a 3 10 18 25 32 38 42 49 56 62 69 75 
+a 3 10 18 25 32 38 42 49 56 62 69 76 
+a 3 10 18 25 32 38 42 49 56 62 70 76 
+a 3 10 18 25 32 38 42 49 56 62 70 77 
+a 3 10 18 25 32 38 42 49 56 62 71 77 
+a 3 10 18 25 32 38 42 49 56 62 71 78 
+a 3 10 18 25 32 38 42 49 56 62 72 78 
+a 3 10 18 25 32 38 42 49 56 63 72 78 
+a 3 10 18 25 32 38 42 49 57 63 72 78 
+a 3 10 18 25 32 38 42 49 57 64 72 78 
+a 3 10 18 25 32 38 42 49 58 64 72 78 
+a 3 10 18 25 32 38 42 49 58 64 71 78 
+a 3 10 18 25 32 38 42 49 58 64 71 77 
+a 3 10 18 25 32 38 42 49 58 64 70 77 
+a 3 10 18 25 32 38 42 49 58 64 70 76 
+a 3 10 18 25 32 38 42 49 58 64 69 76 
+a 3 10 18 25 32 38 42 49 58 64 69 75 
+a 3 10 18 25 32 38 42 49 58 64 68 75 
+a 3 10 18 25 32 38 42 49 58 64 68 74 
+a 3 10 18 25 32 38 42 49 58 64 67 74 
+a 3 10 18 25 32 38 42 49 58 64 67 73 
+a 3 10 18 25 32 38 42 49 58 64 66 73 
+a 3 10 18 25 32 38 42 49 58 65 66 73 
+a 3 10 18 25 32 38 43 49 58 65 66 73 
+a 3 10 18 25 32 38 43 49 59 65 66 73 
+a 3 10 18 25 32 38 43 50 59 65 66 73 
+a 3 10 18 25 32 38 44 50 59 65 66 73 
+a 3 10 18 25 32 38 44 51 59 65 66 73 
+a 3 10 18 25 32 38 44 51 58 65 66 73 
+a 3 10 18 25 32 38 44 51 58 64 66 73 
+a 3 10 18 25 32 38 44 51 58 64 67 73 
+a 3 10 18 25 32 38 44 51 58 64 67 74 
+a 3 10 18 25 32 38 44 51 58 64 68 74 
+a 3 10 18 25 32 38 44 51 58 64 68 75 
+a 3 10 18 25 32 38 44 51 58 64 69 75 
+a 3 10 18 25 32 38 44 51 58 64 69 76 
+a 3 10 18 25 32 38 44 51 58 64 70 76 
+a 3 10 18 25 32 38 44 51 58 64 70 77 
+a 3 10 18 25 32 38 44 51 58 64 71 77 
+a 3 10 18 25 32 38 44 51 58 64 71 78 
+a 3 10 18 25 32 38 44 51 58 64 72 78 
+a 3 10 18 25 32 38 44 51 57 64 72 78 
+a 3 10 18 25 32 38 44 51 57 63 72 78 
+a 3 10 18 25 32 38 44 51 56 63 72 78 
+a 3 10 18 25 32 38 44 51 56 62 72 78 
+a 3 10 18 25 32 38 44 51 56 62 71 78 
+a 3 10 18 25 32 38 44 51 56 62 71 77 
+a 3 10 18 25 32 38 44 51 56 62 70 77 
+a 3 10 18 25 32 38 44 51 56 62 70 76 
+a 3 10 18 25 32 38 44 51 56 62 69 76 
+a 3 10 18 25 32 38 44 51 56 62 69 75 
+a 3 10 18 25 32 38 44 51 56 62 68 75 
+a 3 10 18 25 32 38 44 51 56 62 68 74 
+a 3 10 18 25 32 38 44 51 56 62 67 74 
+a 3 10 18 25 32 38 44 51 56 62 67 73 
+a 3 10 18 25 32 38 44 51 56 62 66 73 
+a 3 10 18 25 32 38 44 51 55 62 66 73 
+a 3 10 18 25 32 38 44 51 55 61 66 73 
+a 3 10 18 25 32 38 44 51 54 61 66 73 
+a 3 10 18 25 32 38 44 51 54 60 66 73 
+a 3 10 18 25 32 38 45 51 54 60 66 73 
+a 3 10 18 25 32 38 45 51 53 60 66 73 
+a 3 10 18 25 32 38 45 52 53 60 66 73 
+a 3 10 18 25 32 38 46 52 53 60 66 73 
+a 3 10 18 25 31 38 46 52 53 60 66 73 
+a 3 10 18 25 31 37 46 52 53 60 66 73 
+a 3 10 18 25 30 37 46 52 53 60 66 73 
+a 3 10 18 25 30 36 46 52 53 60 66 73 
+a 3 10 18 25 30 36 45 52 53 60 66 73 
+a 3 10 18 25 30 36 45 51 53 60 66 73 
+a 3 10 18 25 30 36 45 51 54 60 66 73 
+a 3 10 18 25 30 36 45 51 54 61 66 73 
+a 3 10 18 25 30 36 45 51 55 61 66 73 
+a 3 10 18 25 30 36 45 51 55 62 66 73 
+a 3 10 18 25 30 36 45 51 56 62 66 73 
+a 3 10 18 25 30 36 45 51 56 62 67 73 
+a 3 10 18 25 30 36 45 51 56 62 67 74 
+a 3 10 18 25 30 36 45 51 56 62 68 74 
+a 3 10 18 25 30 36 45 51 56 62 68 75 
+a 3 10 18 25 30 36 45 51 56 62 69 75 
+a 3 10 18 25 30 36 45 51 56 62 69 76 
+a 3 10 18 25 30 36 45 51 56 62 70 76 
+a 3 10 18 25 30 36 45 51 56 62 70 77 
+a 3 10 18 25 30 36 45 51 56 62 71 77 
+a 3 10 18 25 30 36 45 51 56 62 71 78 
+a 3 10 18 25 30 36 45 51 56 62 72 78 
+a 3 10 18 25 30 36 45 51 56 63 72 78 
+a 3 10 18 25 30 36 45 51 57 63 72 78 
+a 3 10 18 25 30 36 45 51 57 64 72 78 
+a 3 10 18 25 30 36 45 51 58 64 72 78 
+a 3 10 18 25 30 36 44 51 58 64 72 78 
+a 3 10 18 25 30 36 44 51 58 64 71 78 
+a 3 10 18 25 30 36 44 51 58 64 71 77 
+a 3 10 18 25 30 36 44 51 58 64 70 77 
+a 3 10 18 25 30 36 44 51 58 64 70 76 
+a 3 10 18 25 30 36 44 51 58 64 69 76 
+a 3 10 18 25 30 36 44 51 58 64 69 75 
+a 3 10 18 25 30 36 44 51 58 64 68 75 
+a 3 10 18 25 30 36 44 51 58 64 68 74 
+a 3 10 18 25 30 36 44 51 58 64 67 74 
+a 3 10 18 25 30 36 44 51 58 64 67 73 
+a 3 10 18 25 30 36 44 51 58 64 66 73 
+a 3 10 18 25 30 36 44 51 58 65 66 73 
+a 3 10 18 25 30 36 44 51 59 65 66 73 
+a 3 10 18 25 30 36 44 50 59 65 66 73 
+a 3 10 18 25 30 36 43 50 59 65 66 73 
+a 3 10 18 25 30 36 43 49 59 65 66 73 
+a 3 10 18 25 30 36 43 49 58 65 66 73 
+a 3 10 18 25 30 36 43 49 58 64 66 73 
+a 3 10 18 25 30 36 43 49 58 64 67 73 
+a 3 10 18 25 30 36 43 49 58 64 67 74 
+a 3 10 18 25 30 36 43 49 58 64 68 74 
+a 3 10 18 25 30 36 43 49 58 64 68 75 
+a 3 10 18 25 30 36 43 49 58 64 69 75 
+a 3 10 18 25 30 36 43 49 58 64 69 76 
+a 3 10 18 25 30 36 43 49 58 64 70 76 
+a 3 10 18 25 30 36 43 49 58 64 70 77 
+a 3 10 18 25 30 36 43 49 58 64 71 77 
+a 3 10 18 25 30 36 43 49 58 64 71 78 
+a 3 10 18 25 30 36 43 49 58 64 72 78 
+a 3 10 18 25 30 36 43 49 57 64 72 78 
+a 3 10 18 25 30 36 43 49 57 63 72 78 
+a 3 10 18 25 30 36 43 49 56 63 72 78 
+a 3 10 18 25 30 36 43 49 56 62 72 78 
+a 3 10 18 25 30 36 43 49 56 62 71 78 
+a 3 10 18 25 30 36 43 49 56 62 71 77 
+a 3 10 18 25 30 36 43 49 56 62 70 77 
+a 3 10 18 25 30 36 43 49 56 62 70 76 
+a 3 10 18 25 30 36 43 49 56 62 69 76 
+a 3 10 18 25 30 36 43 49 56 62 69 75 
+a 3 10 18 25 30 36 43 49 56 62 68 75 
+a 3 10 18 25 30 36 43 49 56 62 68 74 
+a 3 10 18 25 30 36 43 49 56 62 67 74 
+a 3 10 18 25 30 36 43 49 56 62 67 73 
+a 3 10 18 25 30 36 43 49 56 62 66 73 
+a 3 10 18 25 30 36 43 49 55 62 66 73 
+a 3 10 18 25 30 36 43 49 55 61 66 73 
+a 3 10 18 25 30 36 43 49 54 61 66 73 
+a 3 10 18 25 30 36 43 49 54 60 66 73 
+a 3 10 18 25 30 36 42 49 54 60 66 73 
+a 3 10 18 25 30 36 42 49 53 60 66 73 
+a 3 10 18 25 30 36 42 48 53 60 66 73 
+a 3 10 18 25 30 36 41 48 53 60 66 73 
+a 3 10 18 25 30 36 41 47 53 60 66 73 
+a 3 10 18 25 30 36 40 47 53 60 66 73 
+a 3 10 18 25 29 36 40 47 53 60 66 73 
+a 3 10 18 25 29 35 40 47 53 60 66 73 
+a 3 10 18 25 28 35 40 47 53 60 66 73 
+a 3 10 18 25 28 34 40 47 53 60 66 73 
+a 3 10 19 25 28 34 40 47 53 60 66 73 
+a 3 10 19 25 27 34 40 47 53 60 66 73 
+a 3 10 19 26 27 34 40 47 53 60 66 73 
+a 3 10 20 26 27 34 40 47 53 60 66 73 
+a 4 10 20 26 27 34 40 47 53 60 66 73 
+a 4 11 20 26 27 34 40 47 53 60 66 73 
+a 5 11 20 26 27 34 40 47 53 60 66 73 
+a 5 12 20 26 27 34 40 47 53 60 66 73 
+a 5 12 19 26 27 34 40 47 53 60 66 73 
+a 5 12 19 25 27 34 40 47 53 60 66 73 
+a 5 12 19 25 28 34 40 47 53 60 66 73 
+a 5 12 19 25 28 35 40 47 53 60 66 73 
+a 5 12 19 25 29 35 40 47 53 60 66 73 
+a 5 12 19 25 29 36 40 47 53 60 66 73 
+a 5 12 19 25 29 36 41 47 53 60 66 73 
+a 5 12 19 25 29 36 41 48 53 60 66 73 
+a 5 12 19 25 29 36 42 48 53 60 66 73 
+a 5 12 19 25 29 36 42 49 53 60 66 73 
+a 5 12 19 25 29 36 42 49 54 60 66 73 
+a 5 12 19 25 29 36 42 49 54 61 66 73 
+a 5 12 19 25 29 36 42 49 55 61 66 73 
+a 5 12 19 25 29 36 42 49 55 62 66 73 
+a 5 12 19 25 29 36 42 49 56 62 66 73 
+a 5 12 19 25 29 36 42 49 56 62 67 73 
+a 5 12 19 25 29 36 42 49 56 62 67 74 
+a 5 12 19 25 29 36 42 49 56 62 68 74 
+a 5 12 19 25 29 36 42 49 56 62 68 75 
+a 5 12 19 25 29 36 42 49 56 62 69 75 
+a 5 12 19 25 29 36 42 49 56 62 69 76 
+a 5 12 19 25 29 36 42 49 56 62 70 76 
+a 5 12 19 25 29 36 42 49 56 62 70 77 
+a 5 12 19 25 29 36 42 49 56 62 71 77 
+a 5 12 19 25 29 36 42 49 56 62 71 78 
+a 5 12 19 25 29 36 42 49 56 62 72 78 
+a 5 12 19 25 29 36 42 49 56 63 72 78 
+a 5 12 19 25 29 36 42 49 57 63 72 78 
+a 5 12 19 25 29 36 42 49 57 64 72 78 
+a 5 12 19 25 29 36 42 49 58 64 72 78 
+a 5 12 19 25 29 36 42 49 58 64 71 78 
+a 5 12 19 25 29 36 42 49 58 64 71 77 
+a 5 12 19 25 29 36 42 49 58 64 70 77 
+a 5 12 19 25 29 36 42 49 58 64 70 76 
+a 5 12 19 25 29 36 42 49 58 64 69 76 
+a 5 12 19 25 29 36 42 49 58 64 69 75 
+a 5 12 19 25 29 36 42 49 58 64 68 75 
+a 5 12 19 25 29 36 42 49 58 64 68 74 
+a 5 12 19 25 29 36 42 49 58 64 67 74 
+a 5 12 19 25 29 36 42 49 58 64 67 73 
+a 5 12 19 25 29 36 42 49 58 64 66 73 
+a 5 12 19 25 29 36 42 49 58 65 66 73 
+a 5 12 19 25 29 36 43 49 58 65 66 73 
+a 5 12 19 25 29 36 43 49 59 65 66 73 
+a 5 12 19 25 29 36 43 50 59 65 66 73 
+a 5 12 19 25 29 36 44 50 59 65 66 73 
+a 5 12 19 25 29 36 44 51 59 65 66 73 
+a 5 12 19 25 29 36 44 51 58 65 66 73 
+a 5 12 19 25 29 36 44 51 58 64 66 73 
+a 5 12 19 25 29 36 44 51 58 64 67 73 
+a 5 12 19 25 29 36 44 51 58 64 67 74 
+a 5 12 19 25 29 36 44 51 58 64 68 74 
+a 5 12 19 25 29 36 44 51 58 64 68 75 
+a 5 12 19 25 29 36 44 51 58 64 69 75 
+a 5 12 19 25 29 36 44 51 58 64 69 76 
+a 5 12 19 25 29 36 44 51 58 64 70 76 
+a 5 12 19 25 29 36 44 51 58 64 70 77 
+a 5 12 19 25 29 36 44 51 58 64 71 77 
+a 5 12 19 25 29 36 44 51 58 64 71 78 
+a 5 12 19 25 29 36 44 51 58 64 72 78 
+a 5 12 19 25 29 36 44 51 57 64 72 78 
+a 5 12 19 25 29 36 44 51 57 63 72 78 
+a 5 12 19 25 29 36 44 51 56 63 72 78 
+a 5 12 19 25 29 36 44 51 56 62 72 78 
+a 5 12 19 25 29 36 44 51 56 62 71 78 
+a 5 12 19 25 29 36 44 51 56 62 71 77 
+a 5 12 19 25 29 36 44 51 56 62 70 77 
+a 5 12 19 25 29 36 44 51 56 62 70 76 
+a 5 12 19 25 29 36 44 51 56 62 69 76 
+a 5 12 19 25 29 36 44 51 56 62 69 75 
+a 5 12 19 25 29 36 44 51 56 62 68 75 
+a 5 12 19 25 29 36 44 51 56 62 68 74 
+a 5 12 19 25 29 36 44 51 56 62 67 74 
+a 5 12 19 25 29 36 44 51 56 62 67 73 
+a 5 12 19 25 29 36 44 51 56 62 66 73 
+a 5 12 19 25 29 36 44 51 55 62 66 73 
+a 5 12 19 25 29 36 44 51 55 61 66 73 
+a 5 12 19 25 29 36 44 51 54 61 66 73 
+a 5 12 19 25 29 36 44 51 54 60 66 73 
+a 5 12 19 25 29 36 45 51 54 60 66 73 
+a 5 12 19 25 29 36 45 51 53 60 66 73 
+a 5 12 19 25 29 36 45 52 53 60 66 73 
+a 5 12 19 25 29 36 46 52 53 60 66 73 
+a 5 12 19 25 30 36 46 52 53 60 66 73 
+a 5 12 19 25 30 37 46 52 53 60 66 73 
+a 5 12 19 25 31 37 46 52 53 60 66 73 
+a 5 12 19 25 31 38 46 52 53 60 66 73 
+a 5 12 19 25 31 38 45 52 53 60 66 73 
+a 5 12 19 25 31 38 45 51 53 60 66 73 
+a 5 12 19 25 31 38 45 51 54 60 66 73 
+a 5 12 19 25 31 38 45 51 54 61 66 73 
+a 5 12 19 25 31 38 45 51 55 61 66 73 
+a 5 12 19 25 31 38 45 51 55 62 66 73 
+a 5 12 19 25 31 38 45 51 56 62 66 73 
+a 5 12 19 25 31 38 45 51 56 62 67 73 
+a 5 12 19 25 31 38 45 51 56 62 67 74 
+a 5 12 19 25 31 38 45 51 56 62 68 74 
+a 5 12 19 25 31 38 45 51 56 62 68 75 
+a 5 12 19 25 31 38 45 51 56 62 69 75 
+a 5 12 19 25 31 38 45 51 56 62 69 76 
+a 5 12 19 25 31 38 45 51 56 62 70 76 
+a 5 12 19 25 31 38 45 51 56 62 70 77 
+a 5 12 19 25 31 38 45 51 56 62 71 77 
+a 5 12 19 25 31 38 45 51 56 62 71 78 
+a 5 12 19 25 31 38 45 51 56 62 72 78 
+a 5 12 19 25 31 38 45 51 56 63 72 78 
+a 5 12 19 25 31 38 45 51 57 63 72 78 
+a 5 12 19 25 31 38 45 51 57 64 72 78 
+a 5 12 19 25 31 38 45 51 57 64 71 78 
+a 5 12 19 25 31 38 45 51 58 64 71 78 
+a 5 12 19 25 31 38 45 51 58 64 71 77 
+a 5 12 19 25 31 38 45 51 58 64 70 77 
+a 5 12 19 25 31 38 45 51 58 64 70 76 
+a 5 12 19 25 31 38 45 51 58 64 69 76 
+a 5 12 19 25 31 38 45 51 58 64 69 75 
+a 5 12 19 25 31 38 45 51 58 64 68 75 
+a 5 12 19 25 31 38 45 51 58 64 68 74 
+a 5 12 19 25 31 38 45 51 58 64 67 74 
+a 5 12 19 25 31 38 45 51 58 64 67 73 
+a 5 12 19 25 31 38 45 51 58 64 66 73 
+a 5 12 19 25 31 38 45 51 58 65 66 73 
+a 5 12 19 25 31 38 44 51 58 65 66 73 
+a 5 12 19 25 31 38 44 51 59 65 66 73 
+a 5 12 19 25 31 38 44 50 59 65 66 73 
+a 5 12 19 25 31 38 43 50 59 65 66 73 
+a 5 12 19 25 31 38 43 49 59 65 66 73 
+a 5 12 19 25 31 38 43 49 58 65 66 73 
+a 5 12 19 25 31 38 43 49 58 64 66 73 
+a 5 12 19 25 31 38 43 49 58 64 67 73 
+a 5 12 19 25 31 38 43 49 58 64 67 74 
+a 5 12 19 25 31 38 43 49 58 64 68 74 
+a 5 12 19 25 31 38 43 49 58 64 68 75 
+a 5 12 19 25 31 38 43 49 58 64 69 75 
+a 5 12 19 25 31 38 43 49 58 64 69 76 
+a 5 12 19 25 31 38 43 49 58 64 70 76 
+a 5 12 19 25 31 38 43 49 58 64 70 77 
+a 5 12 19 25 31 38 43 49 58 64 71 77 
+a 5 12 19 25 31 38 43 49 58 64 71 78 
+a 5 12 19 25 31 38 43 49 58 64 72 78 
+a 5 12 19 25 31 38 43 49 57 64 72 78 
+a 5 12 19 25 31 38 43 49 57 63 72 78 
+a 5 12 19 25 31 38 43 49 56 63 72 78 
+a 5 12 19 25 31 38 43 49 56 62 72 78 
+a 5 12 19 25 31 38 43 49 56 62 71 78 
+a 5 12 19 25 31 38 43 49 56 62 71 77 
+a 5 12 19 25 31 38 43 49 56 62 70 77 
+a 5 12 19 25 31 38 43 49 56 62 70 76 
+a 5 12 19 25 31 38 43 49 56 62 69 76 
+a 5 12 19 25 31 38 43 49 56 62 69 75 
+a 5 12 19 25 31 38 43 49 56 62 68 75 
+a 5 12 19 25 31 38 43 49 56 62 68 74 
+a 5 12 19 25 31 38 43 49 56 62 67 74 
+a 5 12 19 25 31 38 43 49 56 62 67 73 
+a 5 12 19 25 31 38 43 49 56 62 66 73 
+a 5 12 19 25 31 38 43 49 55 62 66 73 
+a 5 12 19 25 31 38 43 49 55 61 66 73 
+a 5 12 19 25 31 38 43 49 54 61 66 73 
+a 5 12 19 25 31 38 43 49 54 60 66 73 
+a 5 12 19 25 32 38 43 49 54 60 66 73 
+a 5 12 19 25 32 38 42 49 54 60 66 73 
+a 5 12 19 25 32 38 42 49 53 60 66 73 
+a 5 12 19 25 32 38 42 48 53 60 66 73 
+a 5 12 19 25 32 38 41 48 53 60 66 73 
+a 5 12 19 25 32 38 41 47 53 60 66 73 
+a 5 12 19 25 32 38 40 47 53 60 66 73 
+a 5 12 18 25 32 38 40 47 53 60 66 73 
+a 5 12 18 25 32 39 40 47 53 60 66 73 
+a 5 12 18 25 33 39 40 47 53 60 66 73 
+a 5 12 18 24 33 39 40 47 53 60 66 73 
+a 5 12 17 24 33 39 40 47 53 60 66 73 
+a 5 12 17 23 33 39 40 47 53 60 66 73 
+a 5 12 17 23 32 39 40 47 53 60 66 73 
+a 5 12 17 23 32 38 40 47 53 60 66 73 
+a 5 12 17 23 32 38 41 47 53 60 66 73 
+a 5 12 17 23 32 38 41 48 53 60 66 73 
+a 5 12 17 23 32 38 42 48 53 60 66 73 
+a 5 12 17 23 32 38 42 49 53 60 66 73 
+a 5 12 17 23 32 38 42 49 54 60 66 73 
+a 5 12 17 23 32 38 42 49 54 61 66 73 
+a 5 12 17 23 32 38 42 49 55 61 66 73 
+a 5 12 17 23 32 38 42 49 55 62 66 73 
+a 5 12 17 23 32 38 42 49 56 62 66 73 
+a 5 12 17 23 32 38 42 49 56 62 67 73 
+a 5 12 17 23 32 38 42 49 56 62 67 74 
+a 5 12 17 23 32 38 42 49 56 62 68 74 
+a 5 12 17 23 32 38 42 49 56 62 68 75 
+a 5 12 17 23 32 38 42 49 56 62 69 75 
+a 5 12 17 23 32 38 42 49 56 62 69 76 
+a 5 12 17 23 32 38 42 49 56 62 70 76 
+a 5 12 17 23 32 38 42 49 56 62 70 77 
+a 5 12 17 23 32 38 42 49 56 62 71 77 
+a 5 12 17 23 32 38 42 49 56 62 71 78 
+a 5 12 17 23 32 38 42 49 56 62 72 78 
+a 5 12 17 23 32 38 42 49 56 63 72 78 
+a 5 12 17 23 32 38 42 49 57 63 72 78 
+a 5 12 17 23 32 38 42 49 57 64 72 78 
+a 5 12 17 23 32 38 42 49 58 64 72 78 
+a 5 12 17 23 32 38 42 49 58 64 71 78 
+a 5 12 17 23 32 38 42 49 58 64 71 77 
+a 5 12 17 23 32 38 42 49 58 64 70 77 
+a 5 12 17 23 32 38 42 49 58 64 70 76 
+a 5 12 17 23 32 38 42 49 58 64 69 76 
+a 5 12 17 23 32 38 42 49 58 64 69 75 
+a 5 12 17 23 32 38 42 49 58 64 68 75 
+a 5 12 17 23 32 38 42 49 58 64 68 74 
+a 5 12 17 23 32 38 42 49 58 64 67 74 
+a 5 12 17 23 32 38 42 49 58 64 67 73 
+a 5 12 17 23 32 38 42 49 58 64 66 73 
+a 5 12 17 23 32 38 42 49 58 65 66 73 
+a 5 12 17 23 32 38 43 49 58 65 66 73 
+a 5 12 17 23 32 38 43 49 59 65 66 73 
+a 5 12 17 23 32 38 43 50 59 65 66 73 
+a 5 12 17 23 32 38 44 50 59 65 66 73 
+a 5 12 17 23 32 38 44 51 59 65 66 73 
+a 5 12 17 23 32 38 44 51 58 65 66 73 
+a 5 12 17 23 32 38 44 51 58 64 66 73 
+a 5 12 17 23 32 38 44 51 58 64 67 73 
+a 5 12 17 23 32 38 44 51 58 64 67 74 
+a 5 12 17 23 32 38 44 51 58 64 68 74 
+a 5 12 17 23 32 38 44 51 58 64 68 75 
+a 5 12 17 23 32 38 44 51 58 64 69 75 
+a 5 12 17 23 32 38 44 51 58 64 69 76 
+a 5 12 17 23 32 38 44 51 58 64 70 76 
+a 5 12 17 23 32 38 44 51 58 64 70 77 
+a 5 12 17 23 32 38 44 51 58 64 71 77 
+a 5 12 17 23 32 38 44 51 58 64 71 78 
+a 5 12 17 23 32 38 44 51 58 64 72 78 
+a 5 12 17 23 32 38 44 51 57 64 72 78 
+a 5 12 17 23 32 38 44 51 57 63 72 78 
+a 5 12 17 23 32 38 44 51 56 63 72 78 
+a 5 12 17 23 32 38 44 51 56 62 72 78 
+a 5 12 17 23 32 38 44 51 56 62 71 78 
+a 5 12 17 23 32 38 44 51 56 62 71 77 
+a 5 12 17 23 32 38 44 51 56 62 70 77 
+a 5 12 17 23 32 38 44 51 56 62 70 76 
+a 5 12 17 23 32 38 44 51 56 62 69 76 
+a 5 12 17 23 32 38 44 51 56 62 69 75 
+a 5 12 17 23 32 38 44 51 56 62 68 75 
+a 5 12 17 23 32 38 44 51 56 62 68 74 
+a 5 12 17 23 32 38 44 51 56 62 67 74 
+a 5 12 17 23 32 38 44 51 56 62 67 73 
+a 5 12 17 23 32 38 44 51 56 62 66 73 
+a 5 12 17 23 32 38 44 51 55 62 66 73 
+a 5 12 17 23 32 38 44 51 55 61 66 73 
+a 5 12 17 23 32 38 44 51 54 61 66 73 
+a 5 12 17 23 32 38 44 51 54 60 66 73 
+a 5 12 17 23 32 38 44 51 53 60 66 73 
+a 5 12 17 23 32 38 45 51 53 60 66 73 
+a 5 12 17 23 32 38 45 52 53 60 66 73 
+a 5 12 17 23 32 38 46 52 53 60 66 73 
+a 5 12 17 23 31 38 46 52 53 60 66 73 
+a 5 12 17 23 31 37 46 52 53 60 66 73 
+a 5 12 17 23 30 37 46 52 53 60 66 73 
+a 5 12 17 23 30 36 46 52 53 60 66 73 
+a 5 12 17 23 30 36 45 52 53 60 66 73 
+a 5 12 17 23 30 36 45 51 53 60 66 73 
+a 5 12 17 23 30 36 45 51 54 60 66 73 
+a 5 12 17 23 30 36 45 51 54 61 66 73 
+a 5 12 17 23 30 36 45 51 55 61 66 73 
+a 5 12 17 23 30 36 45 51 55 62 66 73 
+a 5 12 17 23 30 36 45 51 56 62 66 73 
+a 5 12 17 23 30 36 45 51 56 62 67 73 
+a 5 12 17 23 30 36 45 51 56 62 67 74 
+a 5 12 17 23 30 36 45 51 56 62 68 74 
+a 5 12 17 23 30 36 45 51 56 62 68 75 
+a 5 12 17 23 30 36 45 51 56 62 69 75 
+a 5 12 17 23 30 36 45 51 56 62 69 76 
+a 5 12 17 23 30 36 45 51 56 62 70 76 
+a 5 12 17 23 30 36 45 51 56 62 70 77 
+a 5 12 17 23 30 36 45 51 56 62 71 77 
+a 5 12 17 23 30 36 45 51 56 62 71 78 
+a 5 12 17 23 30 36 45 51 56 62 72 78 
+a 5 12 17 23 30 36 45 51 56 63 72 78 
+a 5 12 17 23 30 36 45 51 57 63 72 78 
+a 5 12 17 23 30 36 45 51 57 64 72 78 
+a 5 12 17 23 30 36 45 51 57 64 71 78 
+a 5 12 17 23 30 36 45 51 58 64 71 78 
+a 5 12 17 23 30 36 45 51 58 64 71 77 
+a 5 12 17 23 30 36 44 51 58 64 71 77 
+a 5 12 17 23 30 36 44 51 58 64 70 77 
+a 5 12 17 23 30 36 44 51 58 64 70 76 
+a 5 12 17 23 30 36 44 51 58 64 69 76 
+a 5 12 17 23 30 36 44 51 58 64 69 75 
+a 5 12 17 23 30 36 44 51 58 64 68 75 
+a 5 12 17 23 30 36 44 51 58 64 68 74 
+a 5 12 17 23 30 36 44 51 58 64 67 74 
+a 5 12 17 23 30 36 44 51 58 64 67 73 
+a 5 12 17 23 30 36 44 51 58 64 66 73 
+a 5 12 17 23 30 36 44 51 58 65 66 73 
+a 5 12 17 23 30 36 44 51 59 65 66 73 
+a 5 12 17 23 30 36 44 50 59 65 66 73 
+a 5 12 17 23 30 36 43 50 59 65 66 73 
+a 5 12 17 23 30 36 43 49 59 65 66 73 
+a 5 12 17 23 30 36 43 49 58 65 66 73 
+a 5 12 17 23 30 36 43 49 58 64 66 73 
+a 5 12 17 23 30 36 43 49 58 64 67 73 
+a 5 12 17 23 30 36 43 49 58 64 67 74 
+a 5 12 17 23 30 36 43 49 58 64 68 74 
+a 5 12 17 23 30 36 43 49 58 64 68 75 
+a 5 12 17 23 30 36 43 49 58 64 69 75 
+a 5 12 17 23 30 36 43 49 58 64 69 76 
+a 5 12 17 23 30 36 43 49 58 64 70 76 
+a 5 12 17 23 30 36 43 49 58 64 70 77 
+a 5 12 17 23 30 36 43 49 58 64 71 77 
+a 5 12 17 23 30 36 43 49 58 64 71 78 
+a 5 12 17 23 30 36 43 49 58 64 72 78 
+a 5 12 17 23 30 36 43 49 57 64 72 78 
+a 5 12 17 23 30 36 43 49 57 63 72 78 
+a 5 12 17 23 30 36 43 49 56 63 72 78 
+a 5 12 17 23 30 36 43 49 56 62 72 78 
+a 5 12 17 23 30 36 43 49 56 62 71 78 
+a 5 12 17 23 30 36 43 49 56 62 71 77 
+a 5 12 17 23 30 36 43 49 56 62 70 77 
+a 5 12 17 23 30 36 43 49 56 62 70 76 
+a 5 12 17 23 30 36 43 49 56 62 69 76 
+a 5 12 17 23 30 36 43 49 56 62 69 75 
+a 5 12 17 23 30 36 43 49 56 62 68 75 
+a 5 12 17 23 30 36 43 49 56 62 68 74 
+a 5 12 17 23 30 36 43 49 56 62 67 74 
+a 5 12 17 23 30 36 43 49 56 62 67 73 
+a 5 12 17 23 30 36 43 49 56 62 66 73 
+a 5 12 17 23 30 36 43 49 55 62 66 73 
+a 5 12 17 23 30 36 43 49 55 61 66 73 
+a 5 12 17 23 30 36 43 49 54 61 66 73 
+a 5 12 17 23 30 36 43 49 54 60 66 73 
+a 5 12 17 23 30 36 43 49 53 60 66 73 
+a 5 12 17 23 30 36 42 49 53 60 66 73 
+a 5 12 17 23 30 36 42 48 53 60 66 73 
+a 5 12 17 23 30 36 41 48 53 60 66 73 
+a 5 12 17 23 30 36 41 47 53 60 66 73 
+a 5 12 17 23 30 36 40 47 53 60 66 73 
+a 5 12 17 23 29 36 40 47 53 60 66 73 
+a 5 12 17 23 29 35 40 47 53 60 66 73 
+a 5 12 17 23 28 35 40 47 53 60 66 73 
+a 5 12 17 23 28 34 40 47 53 60 66 73 
+a 5 12 16 23 28 34 40 47 53 60 66 73 
+a 6 12 16 23 28 34 40 47 53 60 66 73 
+a 6 12 16 23 27 34 40 47 53 60 66 73 
+a 6 12 16 22 27 34 40 47 53 60 66 73 
+a 6 12 15 22 27 34 40 47 53 60 66 73 
+a 6 12 15 21 27 34 40 47 53 60 66 73 
+a 6 12 14 21 27 34 40 47 53 60 66 73 
+a 6 13 14 21 27 34 40 47 53 60 66 73 
+a 7 13 14 21 27 34 40 47 53 60 66 73 
+c Length: 693
+	Command being timed: "/Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance006.dat"
+	User time (seconds): 0.36
+	System time (seconds): 0.00
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7421952
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 594
+	Voluntary context switches: 17
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 34
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.36 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.36
+#MAXMEM: 0
+c 
+#END: [Tue Aug  8 16:24:28 2023]

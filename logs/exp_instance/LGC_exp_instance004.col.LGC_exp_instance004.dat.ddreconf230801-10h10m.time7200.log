@@ -1,0 +1,883 @@
+#BEGIN: [Tue Aug  1 10:29:39 2023]
+#HOST: mini28.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/exp_instance/LGC_exp_instance004.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/LGC_exp_instance004.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/LGC_exp_instance004.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/LGC_exp_instance004.dat
+Input graph file parsed. # of vertices = 124, # of edges = 144
+s 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+t 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.067780
+Solution space ZDD size = 22389
+# of elements in the solution space = 32514909110582995049377860
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000171, # ZDD nodes = 124, # elems = 10
+Zt_1 construction time = 0.000119, # ZDD nodes = 124, # elems = 10
+Zs_2 construction time = 0.000386, # ZDD nodes = 227, # elems = 53
+Zt_2 construction time = 0.000233, # ZDD nodes = 227, # elems = 53
+Zs_3 construction time = 0.000747, # ZDD nodes = 344, # elems = 201
+Zt_3 construction time = 0.000550, # ZDD nodes = 344, # elems = 201
+Zs_4 construction time = 0.000836, # ZDD nodes = 528, # elems = 604
+Zt_4 construction time = 0.000678, # ZDD nodes = 528, # elems = 604
+Zs_5 construction time = 0.001797, # ZDD nodes = 714, # elems = 1514
+Zt_5 construction time = 0.001257, # ZDD nodes = 714, # elems = 1514
+Zs_6 construction time = 0.001901, # ZDD nodes = 878, # elems = 3272
+Zt_6 construction time = 0.001308, # ZDD nodes = 878, # elems = 3272
+Zs_7 construction time = 0.001518, # ZDD nodes = 1039, # elems = 6226
+Zt_7 construction time = 0.001417, # ZDD nodes = 1039, # elems = 6226
+Zs_8 construction time = 0.002154, # ZDD nodes = 1173, # elems = 10587
+Zt_8 construction time = 0.001615, # ZDD nodes = 1173, # elems = 10587
+Zs_9 construction time = 0.001545, # ZDD nodes = 1295, # elems = 16271
+Zt_9 construction time = 0.001564, # ZDD nodes = 1295, # elems = 16271
+Zs_10 construction time = 0.001861, # ZDD nodes = 1389, # elems = 22791
+Zt_10 construction time = 0.001735, # ZDD nodes = 1389, # elems = 22791
+Zs_11 construction time = 0.001340, # ZDD nodes = 1468, # elems = 29291
+Zt_11 construction time = 0.001484, # ZDD nodes = 1468, # elems = 29291
+Zs_12 construction time = 0.001324, # ZDD nodes = 1550, # elems = 34729
+Zt_12 construction time = 0.001283, # ZDD nodes = 1550, # elems = 34729
+Zs_13 construction time = 0.001258, # ZDD nodes = 1628, # elems = 38151
+Zt_13 construction time = 0.001789, # ZDD nodes = 1628, # elems = 38151
+Zs_14 construction time = 0.001450, # ZDD nodes = 1708, # elems = 38973
+Zt_14 construction time = 0.001326, # ZDD nodes = 1708, # elems = 38973
+Zs_15 construction time = 0.001469, # ZDD nodes = 1815, # elems = 37131
+Zt_15 construction time = 0.001357, # ZDD nodes = 1815, # elems = 37131
+Zs_16 construction time = 0.002110, # ZDD nodes = 1886, # elems = 33067
+Zt_16 construction time = 0.001811, # ZDD nodes = 1886, # elems = 33067
+Zs_17 construction time = 0.001878, # ZDD nodes = 1916, # elems = 27578
+Zt_17 construction time = 0.001706, # ZDD nodes = 1916, # elems = 27578
+Zs_18 construction time = 0.001935, # ZDD nodes = 1941, # elems = 21577
+Zt_18 construction time = 0.002252, # ZDD nodes = 1941, # elems = 21577
+Zs_19 construction time = 0.001915, # ZDD nodes = 1888, # elems = 15892
+Zt_19 construction time = 0.001765, # ZDD nodes = 1888, # elems = 15892
+Zs_20 construction time = 0.001712, # ZDD nodes = 1787, # elems = 11138
+Zt_20 construction time = 0.001838, # ZDD nodes = 1787, # elems = 11138
+Zs_21 construction time = 0.001404, # ZDD nodes = 1696, # elems = 7667
+Zt_21 construction time = 0.001481, # ZDD nodes = 1696, # elems = 7667
+Zs_22 construction time = 0.001661, # ZDD nodes = 1600, # elems = 5597
+Zt_22 construction time = 0.001206, # ZDD nodes = 1600, # elems = 5597
+Zs_23 construction time = 0.001950, # ZDD nodes = 1499, # elems = 4848
+Zt_23 construction time = 0.001169, # ZDD nodes = 1499, # elems = 4848
+Zs_24 construction time = 0.001739, # ZDD nodes = 1444, # elems = 5177
+Zt_24 construction time = 0.001092, # ZDD nodes = 1444, # elems = 5177
+Zs_25 construction time = 0.001069, # ZDD nodes = 1345, # elems = 6218
+Zt_25 construction time = 0.001239, # ZDD nodes = 1345, # elems = 6218
+Zs_26 construction time = 0.001012, # ZDD nodes = 1318, # elems = 7523
+Zt_26 construction time = 0.000898, # ZDD nodes = 1318, # elems = 7523
+Zs_27 construction time = 0.001053, # ZDD nodes = 1255, # elems = 8644
+Zt_27 construction time = 0.000964, # ZDD nodes = 1255, # elems = 8644
+Zs_28 construction time = 0.001618, # ZDD nodes = 1215, # elems = 9242
+Zt_28 construction time = 0.001083, # ZDD nodes = 1215, # elems = 9242
+Zs_29 construction time = 0.001362, # ZDD nodes = 1218, # elems = 9186
+Zt_29 construction time = 0.001486, # ZDD nodes = 1218, # elems = 9186
+Zs_30 construction time = 0.001230, # ZDD nodes = 1193, # elems = 8609
+Zt_30 construction time = 0.001465, # ZDD nodes = 1193, # elems = 8609
+Zs_31 construction time = 0.001199, # ZDD nodes = 1220, # elems = 7880
+Zt_31 construction time = 0.001468, # ZDD nodes = 1220, # elems = 7880
+Zs_32 construction time = 0.001200, # ZDD nodes = 1272, # elems = 7501
+Zt_32 construction time = 0.001179, # ZDD nodes = 1272, # elems = 7501
+Zs_33 construction time = 0.001514, # ZDD nodes = 1312, # elems = 7968
+Zt_33 construction time = 0.001162, # ZDD nodes = 1312, # elems = 7968
+Zs_34 construction time = 0.001123, # ZDD nodes = 1327, # elems = 9634
+Zt_34 construction time = 0.001815, # ZDD nodes = 1327, # elems = 9634
+Zs_35 construction time = 0.001386, # ZDD nodes = 1316, # elems = 12609
+Zt_35 construction time = 0.001076, # ZDD nodes = 1316, # elems = 12609
+Zs_36 construction time = 0.001335, # ZDD nodes = 1274, # elems = 16704
+Zt_36 construction time = 0.001235, # ZDD nodes = 1274, # elems = 16704
+Zs_37 construction time = 0.001478, # ZDD nodes = 1188, # elems = 21418
+Zt_37 construction time = 0.000992, # ZDD nodes = 1188, # elems = 21418
+Zs_38 construction time = 0.001068, # ZDD nodes = 1075, # elems = 25996
+Zt_38 construction time = 0.000815, # ZDD nodes = 1075, # elems = 25996
+Zs_39 construction time = 0.000662, # ZDD nodes = 953, # elems = 29565
+Zt_39 construction time = 0.000688, # ZDD nodes = 953, # elems = 29565
+Zs_40 construction time = 0.000887, # ZDD nodes = 879, # elems = 31342
+Zt_40 construction time = 0.000579, # ZDD nodes = 879, # elems = 31342
+Zs_41 construction time = 0.000669, # ZDD nodes = 834, # elems = 30871
+Zt_41 construction time = 0.000652, # ZDD nodes = 834, # elems = 30871
+Zs_42 construction time = 0.001065, # ZDD nodes = 845, # elems = 28177
+Zt_42 construction time = 0.000633, # ZDD nodes = 845, # elems = 28177
+Zs_43 construction time = 0.000593, # ZDD nodes = 865, # elems = 23774
+Zt_43 construction time = 0.000555, # ZDD nodes = 865, # elems = 23774
+Zs_44 construction time = 0.000653, # ZDD nodes = 855, # elems = 18509
+Zt_44 construction time = 0.000585, # ZDD nodes = 855, # elems = 18509
+Zs_45 construction time = 0.000626, # ZDD nodes = 861, # elems = 13298
+Zt_45 construction time = 0.000840, # ZDD nodes = 861, # elems = 13298
+Zs_46 construction time = 0.000672, # ZDD nodes = 862, # elems = 8889
+Zt_46 construction time = 0.000709, # ZDD nodes = 862, # elems = 8889
+Zs_47 construction time = 0.001236, # ZDD nodes = 868, # elems = 5745
+Zt_47 construction time = 0.001568, # ZDD nodes = 868, # elems = 5745
+Zs_48 construction time = 0.001286, # ZDD nodes = 953, # elems = 4095
+Zt_48 construction time = 0.000928, # ZDD nodes = 953, # elems = 4095
+Zs_49 construction time = 0.001959, # ZDD nodes = 1030, # elems = 4115
+Zt_49 construction time = 0.001346, # ZDD nodes = 1030, # elems = 4115
+Zs_50 construction time = 0.001296, # ZDD nodes = 1094, # elems = 6139
+Zt_50 construction time = 0.001091, # ZDD nodes = 1094, # elems = 6139
+Zs_51 construction time = 0.001256, # ZDD nodes = 1148, # elems = 10781
+Zt_51 construction time = 0.001386, # ZDD nodes = 1148, # elems = 10781
+Zs_52 construction time = 0.001800, # ZDD nodes = 1159, # elems = 18859
+Zt_52 construction time = 0.001201, # ZDD nodes = 1159, # elems = 18859
+Zs_53 construction time = 0.001377, # ZDD nodes = 1211, # elems = 31097
+Zt_53 construction time = 0.001138, # ZDD nodes = 1211, # elems = 31097
+Zs_54 construction time = 0.001484, # ZDD nodes = 1288, # elems = 47654
+Zt_54 construction time = 0.001455, # ZDD nodes = 1288, # elems = 47654
+Zs_55 construction time = 0.002000, # ZDD nodes = 1329, # elems = 67662
+Zt_55 construction time = 0.001560, # ZDD nodes = 1329, # elems = 67662
+Zs_56 construction time = 0.001775, # ZDD nodes = 1420, # elems = 89021
+Zt_56 construction time = 0.002329, # ZDD nodes = 1420, # elems = 89021
+Zs_57 construction time = 0.002016, # ZDD nodes = 1534, # elems = 108628
+Zt_57 construction time = 0.001940, # ZDD nodes = 1534, # elems = 108628
+Zs_58 construction time = 0.002205, # ZDD nodes = 1618, # elems = 123093
+Zt_58 construction time = 0.002532, # ZDD nodes = 1618, # elems = 123093
+Zs_59 construction time = 0.002367, # ZDD nodes = 1692, # elems = 129732
+Zt_59 construction time = 0.002301, # ZDD nodes = 1692, # elems = 129732
+Zs_60 construction time = 0.003055, # ZDD nodes = 1748, # elems = 127452
+Zt_60 construction time = 0.002492, # ZDD nodes = 1748, # elems = 127452
+Zs_61 construction time = 0.002980, # ZDD nodes = 1785, # elems = 117165
+Zt_61 construction time = 0.002336, # ZDD nodes = 1785, # elems = 117165
+Zs_62 construction time = 0.002572, # ZDD nodes = 1797, # elems = 101507
+Zt_62 construction time = 0.002153, # ZDD nodes = 1797, # elems = 101507
+Zs_63 construction time = 0.001935, # ZDD nodes = 1821, # elems = 83967
+Zt_63 construction time = 0.002314, # ZDD nodes = 1821, # elems = 83967
+Zs_64 construction time = 0.001734, # ZDD nodes = 1812, # elems = 67789
+Zt_64 construction time = 0.001690, # ZDD nodes = 1812, # elems = 67789
+Zs_65 construction time = 0.002068, # ZDD nodes = 1793, # elems = 55061
+Zt_65 construction time = 0.001504, # ZDD nodes = 1793, # elems = 55061
+Zs_66 construction time = 0.001391, # ZDD nodes = 1761, # elems = 46335
+Zt_66 construction time = 0.001739, # ZDD nodes = 1761, # elems = 46335
+Zs_67 construction time = 0.001776, # ZDD nodes = 1732, # elems = 40840
+Zt_67 construction time = 0.002226, # ZDD nodes = 1732, # elems = 40840
+Zs_68 construction time = 0.001466, # ZDD nodes = 1685, # elems = 37098
+Zt_68 construction time = 0.001359, # ZDD nodes = 1685, # elems = 37098
+Zs_69 construction time = 0.002080, # ZDD nodes = 1584, # elems = 33650
+Zt_69 construction time = 0.001863, # ZDD nodes = 1584, # elems = 33650
+Zs_70 construction time = 0.001254, # ZDD nodes = 1446, # elems = 29578
+Zt_70 construction time = 0.001169, # ZDD nodes = 1446, # elems = 29578
+Zs_71 construction time = 0.001591, # ZDD nodes = 1366, # elems = 24682
+Zt_71 construction time = 0.001525, # ZDD nodes = 1366, # elems = 24682
+Zs_72 construction time = 0.001134, # ZDD nodes = 1259, # elems = 19339
+Zt_72 construction time = 0.001027, # ZDD nodes = 1259, # elems = 19339
+Zs_73 construction time = 0.001148, # ZDD nodes = 1199, # elems = 14183
+Zt_73 construction time = 0.001031, # ZDD nodes = 1199, # elems = 14183
+Zs_74 construction time = 0.002474, # ZDD nodes = 1164, # elems = 9801
+Zt_74 construction time = 0.001150, # ZDD nodes = 1164, # elems = 9801
+Zs_75 construction time = 0.001827, # ZDD nodes = 1091, # elems = 6558
+Zt_75 construction time = 0.001095, # ZDD nodes = 1091, # elems = 6558
+Zs_76 construction time = 0.001106, # ZDD nodes = 1106, # elems = 4589
+Zt_76 construction time = 0.001041, # ZDD nodes = 1106, # elems = 4589
+Zs_77 construction time = 0.001155, # ZDD nodes = 1160, # elems = 3904
+Zt_77 construction time = 0.001068, # ZDD nodes = 1160, # elems = 3904
+Zs_78 construction time = 0.002104, # ZDD nodes = 1232, # elems = 4507
+Zt_78 construction time = 0.002602, # ZDD nodes = 1232, # elems = 4507
+Zs_79 construction time = 0.001568, # ZDD nodes = 1303, # elems = 6453
+Zt_79 construction time = 0.002816, # ZDD nodes = 1303, # elems = 6453
+Zs_80 construction time = 0.001654, # ZDD nodes = 1326, # elems = 9795
+Zt_80 construction time = 0.001464, # ZDD nodes = 1326, # elems = 9795
+Zs_81 construction time = 0.001491, # ZDD nodes = 1332, # elems = 14446
+Zt_81 construction time = 0.002278, # ZDD nodes = 1332, # elems = 14446
+Zs_82 construction time = 0.001491, # ZDD nodes = 1357, # elems = 20031
+Zt_82 construction time = 0.001335, # ZDD nodes = 1357, # elems = 20031
+Zs_83 construction time = 0.001575, # ZDD nodes = 1348, # elems = 25831
+Zt_83 construction time = 0.003034, # ZDD nodes = 1348, # elems = 25831
+Zs_84 construction time = 0.001645, # ZDD nodes = 1409, # elems = 30894
+Zt_84 construction time = 0.001432, # ZDD nodes = 1409, # elems = 30894
+Zs_85 construction time = 0.002036, # ZDD nodes = 1441, # elems = 34313
+Zt_85 construction time = 0.001447, # ZDD nodes = 1441, # elems = 34313
+Zs_86 construction time = 0.001640, # ZDD nodes = 1486, # elems = 35584
+Zt_86 construction time = 0.001535, # ZDD nodes = 1486, # elems = 35584
+Zs_87 construction time = 0.002618, # ZDD nodes = 1531, # elems = 34888
+Zt_87 construction time = 0.003088, # ZDD nodes = 1531, # elems = 34888
+Zs_88 construction time = 0.002444, # ZDD nodes = 1557, # elems = 33169
+Zt_88 construction time = 0.002729, # ZDD nodes = 1557, # elems = 33169
+Zs_89 construction time = 0.002596, # ZDD nodes = 1567, # elems = 31957
+Zt_89 construction time = 0.001819, # ZDD nodes = 1567, # elems = 31957
+Zs_90 construction time = 0.002657, # ZDD nodes = 1603, # elems = 32983
+Zt_90 construction time = 0.001763, # ZDD nodes = 1603, # elems = 32983
+Zs_91 construction time = 0.001615, # ZDD nodes = 1615, # elems = 37712
+Zt_91 construction time = 0.001573, # ZDD nodes = 1615, # elems = 37712
+Zs_92 construction time = 0.001445, # ZDD nodes = 1615, # elems = 46915
+Zt_92 construction time = 0.019596, # ZDD nodes = 1615, # elems = 46915
+Zs_93 construction time = 0.001794, # ZDD nodes = 1594, # elems = 60365
+Zt_93 construction time = 0.001672, # ZDD nodes = 1594, # elems = 60365
+Zs_94 construction time = 0.001362, # ZDD nodes = 1543, # elems = 76727
+Zt_94 construction time = 0.001342, # ZDD nodes = 1543, # elems = 76727
+Zs_95 construction time = 0.001151, # ZDD nodes = 1458, # elems = 93683
+Zt_95 construction time = 0.001144, # ZDD nodes = 1458, # elems = 93683
+Zs_96 construction time = 0.000990, # ZDD nodes = 1332, # elems = 108320
+Zt_96 construction time = 0.000986, # ZDD nodes = 1332, # elems = 108320
+Zs_97 construction time = 0.000856, # ZDD nodes = 1188, # elems = 117767
+Zt_97 construction time = 0.000857, # ZDD nodes = 1188, # elems = 117767
+Zs_98 construction time = 0.000741, # ZDD nodes = 1042, # elems = 119927
+Zt_98 construction time = 0.000733, # ZDD nodes = 1042, # elems = 119927
+Zs_99 construction time = 0.000643, # ZDD nodes = 918, # elems = 114080
+Zt_99 construction time = 0.000648, # ZDD nodes = 918, # elems = 114080
+Zs_100 construction time = 0.000617, # ZDD nodes = 821, # elems = 101125
+Zt_100 construction time = 0.000614, # ZDD nodes = 821, # elems = 101125
+Zs_101 construction time = 0.000520, # ZDD nodes = 780, # elems = 83319
+Zt_101 construction time = 0.000521, # ZDD nodes = 780, # elems = 83319
+Zs_102 construction time = 0.000613, # ZDD nodes = 755, # elems = 63616
+Zt_102 construction time = 0.000424, # ZDD nodes = 755, # elems = 63616
+Zs_103 construction time = 0.000602, # ZDD nodes = 703, # elems = 44853
+Zt_103 construction time = 0.000594, # ZDD nodes = 703, # elems = 44853
+Zs_104 construction time = 0.000988, # ZDD nodes = 652, # elems = 29080
+Reconf seq found. Shortest length = 207
+Zt_104 construction time = 0.000608, # ZDD nodes = 652, # elems = 29080
+Zs_105 construction time = 0.000544, # ZDD nodes = 593, # elems = 17261
+Zt_105 construction time = 0.000538, # ZDD nodes = 594, # elems = 17262
+Zs_106 construction time = 0.000575, # ZDD nodes = 542, # elems = 9356
+Zt_106 construction time = 0.001390, # ZDD nodes = 544, # elems = 9361
+Zs_107 construction time = 0.000520, # ZDD nodes = 563, # elems = 4667
+Zt_107 construction time = 0.000703, # ZDD nodes = 564, # elems = 4680
+Zs_108 construction time = 0.001471, # ZDD nodes = 566, # elems = 2263
+Zt_108 construction time = 0.001595, # ZDD nodes = 563, # elems = 2288
+Zs_109 construction time = 0.000798, # ZDD nodes = 571, # elems = 1330
+Zt_109 construction time = 0.000773, # ZDD nodes = 566, # elems = 1367
+Zs_110 construction time = 0.000894, # ZDD nodes = 644, # elems = 1401
+Zt_110 construction time = 0.000859, # ZDD nodes = 637, # elems = 1442
+Zs_111 construction time = 0.002081, # ZDD nodes = 715, # elems = 2462
+Zt_111 construction time = 0.001975, # ZDD nodes = 703, # elems = 2495
+Zs_112 construction time = 0.001431, # ZDD nodes = 788, # elems = 4971
+Zt_112 construction time = 0.001707, # ZDD nodes = 774, # elems = 4984
+Zs_113 construction time = 0.001502, # ZDD nodes = 863, # elems = 9781
+Zt_113 construction time = 0.001380, # ZDD nodes = 847, # elems = 9768
+Zs_114 construction time = 0.001452, # ZDD nodes = 912, # elems = 17924
+Zt_114 construction time = 0.002261, # ZDD nodes = 889, # elems = 17891
+Zs_115 construction time = 0.001360, # ZDD nodes = 1008, # elems = 30252
+Zt_115 construction time = 0.001260, # ZDD nodes = 981, # elems = 30211
+Zs_116 construction time = 0.002711, # ZDD nodes = 1112, # elems = 46961
+Zt_116 construction time = 0.002574, # ZDD nodes = 1083, # elems = 46924
+Zs_117 construction time = 0.002129, # ZDD nodes = 1203, # elems = 67160
+Zt_117 construction time = 0.002719, # ZDD nodes = 1174, # elems = 67135
+Zs_118 construction time = 0.002256, # ZDD nodes = 1326, # elems = 88705
+Zt_118 construction time = 0.001978, # ZDD nodes = 1297, # elems = 88692
+Zs_119 construction time = 0.002474, # ZDD nodes = 1449, # elems = 108458
+Zt_119 construction time = 0.002310, # ZDD nodes = 1416, # elems = 108453
+Zs_120 construction time = 0.002761, # ZDD nodes = 1561, # elems = 123017
+Zt_120 construction time = 0.002637, # ZDD nodes = 1532, # elems = 123016
+Zs_121 construction time = 0.002947, # ZDD nodes = 1671, # elems = 129705
+Zt_121 construction time = 0.003277, # ZDD nodes = 1671, # elems = 129705
+Zs_122 construction time = 0.003080, # ZDD nodes = 1782, # elems = 127445
+Zt_122 construction time = 0.004083, # ZDD nodes = 1782, # elems = 127445
+Zs_123 construction time = 0.003087, # ZDD nodes = 1867, # elems = 117164
+Zt_123 construction time = 0.002977, # ZDD nodes = 1867, # elems = 117164
+Zs_124 construction time = 0.003275, # ZDD nodes = 1928, # elems = 101507
+Zt_124 construction time = 0.003955, # ZDD nodes = 1928, # elems = 101507
+Zs_125 construction time = 0.002819, # ZDD nodes = 1957, # elems = 83967
+Zt_125 construction time = 0.002721, # ZDD nodes = 1957, # elems = 83967
+Zs_126 construction time = 0.002510, # ZDD nodes = 1955, # elems = 67789
+Zt_126 construction time = 0.004056, # ZDD nodes = 1955, # elems = 67789
+Zs_127 construction time = 0.002585, # ZDD nodes = 1958, # elems = 55061
+Zt_127 construction time = 0.002310, # ZDD nodes = 1958, # elems = 55061
+Zs_128 construction time = 0.003646, # ZDD nodes = 1959, # elems = 46335
+Zt_128 construction time = 0.002413, # ZDD nodes = 1959, # elems = 46335
+Zs_129 construction time = 0.003366, # ZDD nodes = 1940, # elems = 40840
+Zt_129 construction time = 0.002419, # ZDD nodes = 1940, # elems = 40840
+Zs_130 construction time = 0.002275, # ZDD nodes = 1882, # elems = 37097
+Zt_130 construction time = 0.002203, # ZDD nodes = 1882, # elems = 37097
+Zs_131 construction time = 0.001964, # ZDD nodes = 1731, # elems = 33644
+Zt_131 construction time = 0.001904, # ZDD nodes = 1731, # elems = 33644
+Zs_132 construction time = 0.002146, # ZDD nodes = 1578, # elems = 29558
+Zt_132 construction time = 0.001654, # ZDD nodes = 1578, # elems = 29558
+Zs_133 construction time = 0.001821, # ZDD nodes = 1450, # elems = 24632
+Zt_133 construction time = 0.001687, # ZDD nodes = 1450, # elems = 24632
+Zs_134 construction time = 0.001736, # ZDD nodes = 1312, # elems = 19239
+Zt_134 construction time = 0.001594, # ZDD nodes = 1312, # elems = 19239
+Zs_135 construction time = 0.003485, # ZDD nodes = 1216, # elems = 14018
+Zt_135 construction time = 0.001570, # ZDD nodes = 1216, # elems = 14018
+Zs_136 construction time = 0.001645, # ZDD nodes = 1149, # elems = 9571
+Zt_136 construction time = 0.001524, # ZDD nodes = 1149, # elems = 9571
+Zs_137 construction time = 0.001484, # ZDD nodes = 1086, # elems = 6288
+Zt_137 construction time = 0.001390, # ZDD nodes = 1086, # elems = 6288
+Zs_138 construction time = 0.001404, # ZDD nodes = 1107, # elems = 4329
+Zt_138 construction time = 0.001385, # ZDD nodes = 1107, # elems = 4329
+Zs_139 construction time = 0.001364, # ZDD nodes = 1162, # elems = 3714
+Zt_139 construction time = 0.001256, # ZDD nodes = 1162, # elems = 3714
+Zs_140 construction time = 0.001436, # ZDD nodes = 1200, # elems = 4437
+Zt_140 construction time = 0.001360, # ZDD nodes = 1200, # elems = 4437
+Zs_141 construction time = 0.001530, # ZDD nodes = 1224, # elems = 6523
+Zt_141 construction time = 0.001387, # ZDD nodes = 1224, # elems = 6523
+Zs_142 construction time = 0.001501, # ZDD nodes = 1219, # elems = 9985
+Zt_142 construction time = 0.001384, # ZDD nodes = 1219, # elems = 9985
+Zs_143 construction time = 0.002318, # ZDD nodes = 1189, # elems = 14706
+Zt_143 construction time = 0.001338, # ZDD nodes = 1189, # elems = 14706
+Zs_144 construction time = 0.001410, # ZDD nodes = 1201, # elems = 20301
+Zt_144 construction time = 0.001231, # ZDD nodes = 1201, # elems = 20301
+Zs_145 construction time = 0.001510, # ZDD nodes = 1210, # elems = 26061
+Zt_145 construction time = 0.001341, # ZDD nodes = 1210, # elems = 26061
+Zs_146 construction time = 0.001667, # ZDD nodes = 1317, # elems = 31059
+Zt_146 construction time = 0.001432, # ZDD nodes = 1317, # elems = 31059
+Zs_147 construction time = 0.001826, # ZDD nodes = 1402, # elems = 34413
+Zt_147 construction time = 0.001612, # ZDD nodes = 1402, # elems = 34413
+Zs_148 construction time = 0.001845, # ZDD nodes = 1448, # elems = 35634
+Zt_148 construction time = 0.001772, # ZDD nodes = 1448, # elems = 35634
+Zs_149 construction time = 0.001908, # ZDD nodes = 1484, # elems = 34908
+Zt_149 construction time = 0.001847, # ZDD nodes = 1484, # elems = 34908
+Zs_150 construction time = 0.001949, # ZDD nodes = 1506, # elems = 33175
+Zt_150 construction time = 0.001923, # ZDD nodes = 1506, # elems = 33175
+Zs_151 construction time = 0.001932, # ZDD nodes = 1513, # elems = 31958
+Zt_151 construction time = 0.001901, # ZDD nodes = 1513, # elems = 31958
+Zs_152 construction time = 0.001811, # ZDD nodes = 1505, # elems = 32983
+Zt_152 construction time = 0.001820, # ZDD nodes = 1505, # elems = 32983
+Zs_153 construction time = 0.003474, # ZDD nodes = 1519, # elems = 37712
+Zt_153 construction time = 0.002775, # ZDD nodes = 1519, # elems = 37712
+Zs_154 construction time = 0.002317, # ZDD nodes = 1521, # elems = 46915
+Zt_154 construction time = 0.001668, # ZDD nodes = 1521, # elems = 46915
+Zs_155 construction time = 0.001532, # ZDD nodes = 1502, # elems = 60365
+Zt_155 construction time = 0.003312, # ZDD nodes = 1502, # elems = 60365
+Zs_156 construction time = 0.001443, # ZDD nodes = 1468, # elems = 76727
+Zt_156 construction time = 0.001399, # ZDD nodes = 1468, # elems = 76727
+Zs_157 construction time = 0.001255, # ZDD nodes = 1401, # elems = 93683
+Zt_157 construction time = 0.001230, # ZDD nodes = 1401, # elems = 93683
+Zs_158 construction time = 0.001126, # ZDD nodes = 1289, # elems = 108320
+Zt_158 construction time = 0.001114, # ZDD nodes = 1289, # elems = 108320
+Zs_159 construction time = 0.001009, # ZDD nodes = 1157, # elems = 117767
+Zt_159 construction time = 0.000997, # ZDD nodes = 1157, # elems = 117767
+Zs_160 construction time = 0.000839, # ZDD nodes = 1022, # elems = 119927
+Zt_160 construction time = 0.000831, # ZDD nodes = 1022, # elems = 119927
+Zs_161 construction time = 0.000735, # ZDD nodes = 940, # elems = 114081
+Zt_161 construction time = 0.002545, # ZDD nodes = 940, # elems = 114081
+Zs_162 construction time = 0.000895, # ZDD nodes = 888, # elems = 101132
+Zt_162 construction time = 0.000861, # ZDD nodes = 888, # elems = 101132
+Zs_163 construction time = 0.001713, # ZDD nodes = 885, # elems = 83346
+Zt_163 construction time = 0.001018, # ZDD nodes = 885, # elems = 83346
+Zs_164 construction time = 0.000896, # ZDD nodes = 878, # elems = 63692
+Zt_164 construction time = 0.000728, # ZDD nodes = 878, # elems = 63692
+Zs_165 construction time = 0.000675, # ZDD nodes = 837, # elems = 45023
+Zt_165 construction time = 0.000653, # ZDD nodes = 837, # elems = 45023
+Zs_166 construction time = 0.000619, # ZDD nodes = 803, # elems = 29396
+Zt_166 construction time = 0.000590, # ZDD nodes = 803, # elems = 29396
+Zs_167 construction time = 0.000665, # ZDD nodes = 764, # elems = 17764
+Zt_167 construction time = 0.000632, # ZDD nodes = 764, # elems = 17764
+Zs_168 construction time = 0.000635, # ZDD nodes = 738, # elems = 10053
+Zt_168 construction time = 0.000564, # ZDD nodes = 738, # elems = 10053
+Zs_169 construction time = 0.000597, # ZDD nodes = 780, # elems = 5515
+Zt_169 construction time = 0.000531, # ZDD nodes = 780, # elems = 5515
+Zs_170 construction time = 0.000631, # ZDD nodes = 801, # elems = 3168
+Zt_170 construction time = 0.000596, # ZDD nodes = 801, # elems = 3168
+Zs_171 construction time = 0.000668, # ZDD nodes = 821, # elems = 2148
+Zt_171 construction time = 0.000657, # ZDD nodes = 821, # elems = 2148
+Zs_172 construction time = 0.000774, # ZDD nodes = 877, # elems = 1915
+Zt_172 construction time = 0.000767, # ZDD nodes = 877, # elems = 1915
+Zs_173 construction time = 0.001000, # ZDD nodes = 914, # elems = 2300
+Zt_173 construction time = 0.000928, # ZDD nodes = 914, # elems = 2300
+Zs_174 construction time = 0.002005, # ZDD nodes = 947, # elems = 3434
+Zt_174 construction time = 0.001673, # ZDD nodes = 947, # elems = 3434
+Zs_175 construction time = 0.001262, # ZDD nodes = 968, # elems = 5604
+Zt_175 construction time = 0.001062, # ZDD nodes = 968, # elems = 5604
+Zs_176 construction time = 0.001112, # ZDD nodes = 967, # elems = 9059
+Zt_176 construction time = 0.001025, # ZDD nodes = 967, # elems = 9059
+Zs_177 construction time = 0.000999, # ZDD nodes = 1016, # elems = 13813
+Zt_177 construction time = 0.003724, # ZDD nodes = 1016, # elems = 13813
+Zs_178 construction time = 0.001423, # ZDD nodes = 1080, # elems = 19498
+Zt_178 construction time = 0.001305, # ZDD nodes = 1080, # elems = 19498
+Zs_179 construction time = 0.001635, # ZDD nodes = 1129, # elems = 25342
+Zt_179 construction time = 0.001445, # ZDD nodes = 1129, # elems = 25342
+Zs_180 construction time = 0.001789, # ZDD nodes = 1202, # elems = 30314
+Zt_180 construction time = 0.002391, # ZDD nodes = 1202, # elems = 30314
+Zs_181 construction time = 0.001884, # ZDD nodes = 1283, # elems = 33409
+Zt_181 construction time = 0.001742, # ZDD nodes = 1283, # elems = 33409
+Zs_182 construction time = 0.002087, # ZDD nodes = 1347, # elems = 33986
+Zt_182 construction time = 0.003972, # ZDD nodes = 1347, # elems = 33986
+Zs_183 construction time = 0.002219, # ZDD nodes = 1438, # elems = 32004
+Zt_183 construction time = 0.002113, # ZDD nodes = 1438, # elems = 32004
+Zs_184 construction time = 0.002100, # ZDD nodes = 1510, # elems = 28047
+Zt_184 construction time = 0.002039, # ZDD nodes = 1510, # elems = 28047
+Zs_185 construction time = 0.003869, # ZDD nodes = 1547, # elems = 23127
+Zt_185 construction time = 0.002024, # ZDD nodes = 1547, # elems = 23127
+Zs_186 construction time = 0.003546, # ZDD nodes = 1542, # elems = 18329
+Zt_186 construction time = 0.003634, # ZDD nodes = 1542, # elems = 18329
+Zs_187 construction time = 0.001562, # ZDD nodes = 1514, # elems = 14464
+Zt_187 construction time = 0.001518, # ZDD nodes = 1514, # elems = 14464
+Zs_188 construction time = 0.001263, # ZDD nodes = 1467, # elems = 11869
+Zt_188 construction time = 0.003010, # ZDD nodes = 1467, # elems = 11869
+Zs_189 construction time = 0.001182, # ZDD nodes = 1411, # elems = 10399
+Zt_189 construction time = 0.003036, # ZDD nodes = 1411, # elems = 10399
+Zs_190 construction time = 0.001295, # ZDD nodes = 1318, # elems = 9603
+Zt_190 construction time = 0.001037, # ZDD nodes = 1318, # elems = 9603
+Zs_191 construction time = 0.001052, # ZDD nodes = 1200, # elems = 8969
+Zt_191 construction time = 0.000994, # ZDD nodes = 1200, # elems = 8969
+Zs_192 construction time = 0.001071, # ZDD nodes = 1105, # elems = 8127
+Zt_192 construction time = 0.002879, # ZDD nodes = 1105, # elems = 8127
+Zs_193 construction time = 0.001911, # ZDD nodes = 976, # elems = 6951
+Zt_193 construction time = 0.000972, # ZDD nodes = 976, # elems = 6951
+Zs_194 construction time = 0.000931, # ZDD nodes = 861, # elems = 5531
+Zt_194 construction time = 0.000865, # ZDD nodes = 861, # elems = 5531
+Zs_195 construction time = 0.000871, # ZDD nodes = 846, # elems = 4073
+Zt_195 construction time = 0.000791, # ZDD nodes = 846, # elems = 4073
+Zs_196 construction time = 0.000893, # ZDD nodes = 790, # elems = 2784
+Zt_196 construction time = 0.000794, # ZDD nodes = 790, # elems = 2784
+Zs_197 construction time = 0.000855, # ZDD nodes = 830, # elems = 1795
+Zt_197 construction time = 0.000745, # ZDD nodes = 830, # elems = 1795
+Zs_198 construction time = 0.000978, # ZDD nodes = 870, # elems = 1149
+Zt_198 construction time = 0.002669, # ZDD nodes = 870, # elems = 1149
+Zs_199 construction time = 0.000925, # ZDD nodes = 898, # elems = 830
+Zt_199 construction time = 0.000888, # ZDD nodes = 898, # elems = 830
+Zs_200 construction time = 0.000914, # ZDD nodes = 939, # elems = 815
+Zt_200 construction time = 0.000885, # ZDD nodes = 939, # elems = 815
+Zs_201 construction time = 0.000952, # ZDD nodes = 966, # elems = 1110
+Zt_201 construction time = 0.000896, # ZDD nodes = 966, # elems = 1110
+Zs_202 construction time = 0.001103, # ZDD nodes = 991, # elems = 1752
+Zt_202 construction time = 0.001037, # ZDD nodes = 991, # elems = 1752
+Zs_203 construction time = 0.002993, # ZDD nodes = 995, # elems = 2776
+Zt_203 construction time = 0.001169, # ZDD nodes = 995, # elems = 2776
+Zs_204 construction time = 0.001251, # ZDD nodes = 955, # elems = 4157
+Zt_204 construction time = 0.001120, # ZDD nodes = 955, # elems = 4157
+Zs_205 construction time = 0.001121, # ZDD nodes = 949, # elems = 5761
+Zt_205 construction time = 0.001028, # ZDD nodes = 949, # elems = 5761
+Zs_206 construction time = 0.002889, # ZDD nodes = 1009, # elems = 7337
+Zt_206 construction time = 0.000944, # ZDD nodes = 1009, # elems = 7337
+Zs_207 construction time = 0.001168, # ZDD nodes = 1076, # elems = 8576
+Zt_207 construction time = 0.001013, # ZDD nodes = 1076, # elems = 8576
+Card(Zs_0 & Zt_207) = 1
+Card(Zs_1 & Zt_206) = 1
+Card(Zs_2 & Zt_205) = 1
+Card(Zs_3 & Zt_204) = 1
+Card(Zs_4 & Zt_203) = 2
+Card(Zs_5 & Zt_202) = 3
+Card(Zs_6 & Zt_201) = 4
+Card(Zs_7 & Zt_200) = 4
+Card(Zs_8 & Zt_199) = 4
+Card(Zs_9 & Zt_198) = 3
+Card(Zs_10 & Zt_197) = 2
+Card(Zs_11 & Zt_196) = 1
+Card(Zs_12 & Zt_195) = 1
+Card(Zs_13 & Zt_194) = 1
+Card(Zs_14 & Zt_193) = 1
+Card(Zs_15 & Zt_192) = 2
+Card(Zs_16 & Zt_191) = 3
+Card(Zs_17 & Zt_190) = 6
+Card(Zs_18 & Zt_189) = 11
+Card(Zs_19 & Zt_188) = 20
+Card(Zs_20 & Zt_187) = 32
+Card(Zs_21 & Zt_186) = 44
+Card(Zs_22 & Zt_185) = 53
+Card(Zs_23 & Zt_184) = 56
+Card(Zs_24 & Zt_183) = 53
+Card(Zs_25 & Zt_182) = 45
+Card(Zs_26 & Zt_181) = 36
+Card(Zs_27 & Zt_180) = 30
+Card(Zs_28 & Zt_179) = 30
+Card(Zs_29 & Zt_178) = 36
+Card(Zs_30 & Zt_177) = 45
+Card(Zs_31 & Zt_176) = 53
+Card(Zs_32 & Zt_175) = 56
+Card(Zs_33 & Zt_174) = 53
+Card(Zs_34 & Zt_173) = 44
+Card(Zs_35 & Zt_172) = 32
+Card(Zs_36 & Zt_171) = 20
+Card(Zs_37 & Zt_170) = 10
+Card(Zs_38 & Zt_169) = 4
+Card(Zs_39 & Zt_168) = 1
+Card(Zs_40 & Zt_167) = 1
+Card(Zs_41 & Zt_166) = 1
+Card(Zs_42 & Zt_165) = 1
+Card(Zs_43 & Zt_164) = 2
+Card(Zs_44 & Zt_163) = 3
+Card(Zs_45 & Zt_162) = 8
+Card(Zs_46 & Zt_161) = 22
+Card(Zs_47 & Zt_160) = 56
+Card(Zs_48 & Zt_159) = 121
+Card(Zs_49 & Zt_158) = 222
+Card(Zs_50 & Zt_157) = 356
+Card(Zs_51 & Zt_156) = 506
+Card(Zs_52 & Zt_155) = 646
+Card(Zs_53 & Zt_154) = 747
+Card(Zs_54 & Zt_153) = 788
+Card(Zs_55 & Zt_152) = 767
+Card(Zs_56 & Zt_151) = 702
+Card(Zs_57 & Zt_150) = 627
+Card(Zs_58 & Zt_149) = 578
+Card(Zs_59 & Zt_148) = 578
+Card(Zs_60 & Zt_147) = 627
+Card(Zs_61 & Zt_146) = 702
+Card(Zs_62 & Zt_145) = 767
+Card(Zs_63 & Zt_144) = 788
+Card(Zs_64 & Zt_143) = 747
+Card(Zs_65 & Zt_142) = 647
+Card(Zs_66 & Zt_141) = 510
+Card(Zs_67 & Zt_140) = 365
+Card(Zs_68 & Zt_139) = 238
+Card(Zs_69 & Zt_138) = 143
+Card(Zs_70 & Zt_137) = 81
+Card(Zs_71 & Zt_136) = 47
+Card(Zs_72 & Zt_135) = 32
+Card(Zs_73 & Zt_134) = 32
+Card(Zs_74 & Zt_133) = 47
+Card(Zs_75 & Zt_132) = 81
+Card(Zs_76 & Zt_131) = 143
+Card(Zs_77 & Zt_130) = 238
+Card(Zs_78 & Zt_129) = 365
+Card(Zs_79 & Zt_128) = 510
+Card(Zs_80 & Zt_127) = 647
+Card(Zs_81 & Zt_126) = 747
+Card(Zs_82 & Zt_125) = 788
+Card(Zs_83 & Zt_124) = 767
+Card(Zs_84 & Zt_123) = 702
+Card(Zs_85 & Zt_122) = 627
+Card(Zs_86 & Zt_121) = 578
+Card(Zs_87 & Zt_120) = 578
+Card(Zs_88 & Zt_119) = 627
+Card(Zs_89 & Zt_118) = 702
+Card(Zs_90 & Zt_117) = 767
+Card(Zs_91 & Zt_116) = 788
+Card(Zs_92 & Zt_115) = 747
+Card(Zs_93 & Zt_114) = 646
+Card(Zs_94 & Zt_113) = 506
+Card(Zs_95 & Zt_112) = 356
+Card(Zs_96 & Zt_111) = 222
+Card(Zs_97 & Zt_110) = 121
+Card(Zs_98 & Zt_109) = 56
+Card(Zs_99 & Zt_108) = 21
+Card(Zs_100 & Zt_107) = 6
+Card(Zs_101 & Zt_106) = 1
+Card(Zs_102 & Zt_105) = 1
+Card(Zs_103 & Zt_104) = 1
+Card(Zs_104 & Zt_103) = 1
+Card(Zs_105 & Zt_102) = 1
+Card(Zs_106 & Zt_101) = 1
+Card(Zs_107 & Zt_100) = 6
+Card(Zs_108 & Zt_99) = 21
+Card(Zs_109 & Zt_98) = 56
+Card(Zs_110 & Zt_97) = 121
+Card(Zs_111 & Zt_96) = 222
+Card(Zs_112 & Zt_95) = 356
+Card(Zs_113 & Zt_94) = 506
+Card(Zs_114 & Zt_93) = 646
+Card(Zs_115 & Zt_92) = 747
+Card(Zs_116 & Zt_91) = 788
+Card(Zs_117 & Zt_90) = 767
+Card(Zs_118 & Zt_89) = 702
+Card(Zs_119 & Zt_88) = 627
+Card(Zs_120 & Zt_87) = 578
+Card(Zs_121 & Zt_86) = 578
+Card(Zs_122 & Zt_85) = 627
+Card(Zs_123 & Zt_84) = 702
+Card(Zs_124 & Zt_83) = 767
+Card(Zs_125 & Zt_82) = 788
+Card(Zs_126 & Zt_81) = 747
+Card(Zs_127 & Zt_80) = 647
+Card(Zs_128 & Zt_79) = 510
+Card(Zs_129 & Zt_78) = 365
+Card(Zs_130 & Zt_77) = 238
+Card(Zs_131 & Zt_76) = 143
+Card(Zs_132 & Zt_75) = 81
+Card(Zs_133 & Zt_74) = 47
+Card(Zs_134 & Zt_73) = 32
+Card(Zs_135 & Zt_72) = 32
+Card(Zs_136 & Zt_71) = 47
+Card(Zs_137 & Zt_70) = 81
+Card(Zs_138 & Zt_69) = 143
+Card(Zs_139 & Zt_68) = 238
+Card(Zs_140 & Zt_67) = 365
+Card(Zs_141 & Zt_66) = 510
+Card(Zs_142 & Zt_65) = 647
+Card(Zs_143 & Zt_64) = 747
+Card(Zs_144 & Zt_63) = 788
+Card(Zs_145 & Zt_62) = 767
+Card(Zs_146 & Zt_61) = 702
+Card(Zs_147 & Zt_60) = 627
+Card(Zs_148 & Zt_59) = 578
+Card(Zs_149 & Zt_58) = 578
+Card(Zs_150 & Zt_57) = 627
+Card(Zs_151 & Zt_56) = 702
+Card(Zs_152 & Zt_55) = 767
+Card(Zs_153 & Zt_54) = 788
+Card(Zs_154 & Zt_53) = 747
+Card(Zs_155 & Zt_52) = 646
+Card(Zs_156 & Zt_51) = 506
+Card(Zs_157 & Zt_50) = 356
+Card(Zs_158 & Zt_49) = 222
+Card(Zs_159 & Zt_48) = 121
+Card(Zs_160 & Zt_47) = 56
+Card(Zs_161 & Zt_46) = 22
+Card(Zs_162 & Zt_45) = 8
+Card(Zs_163 & Zt_44) = 3
+Card(Zs_164 & Zt_43) = 2
+Card(Zs_165 & Zt_42) = 1
+Card(Zs_166 & Zt_41) = 1
+Card(Zs_167 & Zt_40) = 1
+Card(Zs_168 & Zt_39) = 1
+Card(Zs_169 & Zt_38) = 4
+Card(Zs_170 & Zt_37) = 10
+Card(Zs_171 & Zt_36) = 20
+Card(Zs_172 & Zt_35) = 32
+Card(Zs_173 & Zt_34) = 44
+Card(Zs_174 & Zt_33) = 53
+Card(Zs_175 & Zt_32) = 56
+Card(Zs_176 & Zt_31) = 53
+Card(Zs_177 & Zt_30) = 45
+Card(Zs_178 & Zt_29) = 36
+Card(Zs_179 & Zt_28) = 30
+Card(Zs_180 & Zt_27) = 30
+Card(Zs_181 & Zt_26) = 36
+Card(Zs_182 & Zt_25) = 45
+Card(Zs_183 & Zt_24) = 53
+Card(Zs_184 & Zt_23) = 56
+Card(Zs_185 & Zt_22) = 53
+Card(Zs_186 & Zt_21) = 44
+Card(Zs_187 & Zt_20) = 32
+Card(Zs_188 & Zt_19) = 20
+Card(Zs_189 & Zt_18) = 11
+Card(Zs_190 & Zt_17) = 6
+Card(Zs_191 & Zt_16) = 3
+Card(Zs_192 & Zt_15) = 2
+Card(Zs_193 & Zt_14) = 1
+Card(Zs_194 & Zt_13) = 1
+Card(Zs_195 & Zt_12) = 1
+Card(Zs_196 & Zt_11) = 1
+Card(Zs_197 & Zt_10) = 2
+Card(Zs_198 & Zt_9) = 3
+Card(Zs_199 & Zt_8) = 4
+Card(Zs_200 & Zt_7) = 4
+Card(Zs_201 & Zt_6) = 4
+Card(Zs_202 & Zt_5) = 3
+Card(Zs_203 & Zt_4) = 2
+Card(Zs_204 & Zt_3) = 1
+Card(Zs_205 & Zt_2) = 1
+Card(Zs_206 & Zt_1) = 1
+Card(Zs_207 & Zt_0) = 1
+max card = 788
+max card index = 54
+a YES
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 60 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 60 62 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 18 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 18 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 60 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 57 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 55 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 96 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 96 98 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 89 92 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 89 91 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 72 73 75 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 72 74 75 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 68 70 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 70 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 33 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 31 33 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 31 33 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 33 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 72 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 69 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 67 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 65 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 60 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 60 62 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 18 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 18 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 60 62 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 60 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 57 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 55 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 120 121 123
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 120 122 123
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 120 122 124
+a 1 4 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 113 116 118 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 113 115 118 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 108 109 111 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 108 110 111 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 101 104 106 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 101 103 106 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 84 85 87 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 84 86 87 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 80 82 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 82 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 46 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 44 46 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 44 46 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 46 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 124
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 122 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 120 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 117 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 115 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 113 116 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 112 114 116 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 110 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 108 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 105 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 103 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 101 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 60 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 60 62 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 58 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 18 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 18 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 60 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 57 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 55 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 96 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 96 98 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 90 92 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 89 92 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 89 91 94 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 88 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 86 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 84 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 81 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 79 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 77 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 72 73 75 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 72 74 75 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 68 70 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 70 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 33 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 31 33 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 31 33 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 33 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 100 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 98 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 96 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 93 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 91 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 89 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 76 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 74 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 72 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 69 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 67 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 65 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 60 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 60 62 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 58 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 16 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 15 18 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 18 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 64 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 60 62 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 60 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 57 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 55 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 3 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 56 58 59 61 63 66 68 70 71 73 75 78 80 82 83 85 87 90 92 94 95 97 99 102 104 106 107 109 111 114 116 118 119 121 123
+Reconfiguration time = 1.505778
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/LGC_exp_instance004.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/LGC_exp_instance004.dat"
+	User time (seconds): 1.58
+	System time (seconds): 0.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 390905856
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 23999
+	Voluntary context switches: 26
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 30
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 1.6 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 1.6
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 10:29:41 2023]

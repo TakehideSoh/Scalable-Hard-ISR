@@ -1,0 +1,44 @@
+#BEGIN: [Tue Aug  1 19:11:42 2023]
+#HOST: mini23.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance016_graph004.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance016_graph004.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance016_graph004.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance016_graph004.dat
+Input graph file parsed. # of vertices = 208, # of edges = 624
+s 6 10 16 18 20 24 26 28 35 36 37 41 42 47 48 54 56 57 59 60 64 65 67 68 74 75 77 81 87 89 92 95 100 134 104 105 109 111 178 120 121 186 163 141 129 136 155 202 179 138 139 145 148 152 208 159 161 164 166 168 180 190 183 203 192 205
+t 4 6 8 15 16 17 18 22 26 31 32 34 36 37 39 40 46 49 54 57 59 62 66 67 69 74 79 87 88 89 91 93 94 95 104 109 178 116 118 120 121 186 176 123 124 125 163 141 129 132 139 147 195 154 157 208 159 164 175 180 190 183 203 185 196 197
+Solution space ZDD construction start
+Command terminated by signal 9
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance016_graph004.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance016_graph004.dat"
+	User time (seconds): 1836.97
+	System time (seconds): 1052.15
+	Percent of CPU this job got: 77%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:01:47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 256424968192
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 232250142
+	Voluntary context switches: 1473301
+	Involuntary context switches: 2502236
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 39
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 2889.12 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 2889.12
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 20:13:30 2023]

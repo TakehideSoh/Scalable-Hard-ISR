@@ -1,0 +1,363 @@
+#BEGIN: [Tue Aug  1 10:27:16 2023]
+#HOST: mini27.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat
+Input graph file parsed. # of vertices = 39, # of edges = 234
+s 1 8 14 21 27 34
+t 7 13 14 21 27 34
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.009300
+Solution space ZDD size = 81
+# of elements in the solution space = 10487
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000044, # ZDD nodes = 12, # elems = 3
+Zt_1 construction time = 0.000043, # ZDD nodes = 11, # elems = 2
+Zs_2 construction time = 0.000061, # ZDD nodes = 20, # elems = 6
+Zt_2 construction time = 0.000056, # ZDD nodes = 16, # elems = 3
+Zs_3 construction time = 0.000083, # ZDD nodes = 26, # elems = 8
+Zt_3 construction time = 0.000036, # ZDD nodes = 22, # elems = 5
+Zs_4 construction time = 0.000068, # ZDD nodes = 32, # elems = 9
+Zt_4 construction time = 0.000051, # ZDD nodes = 28, # elems = 7
+Zs_5 construction time = 0.000100, # ZDD nodes = 39, # elems = 12
+Zt_5 construction time = 0.000045, # ZDD nodes = 29, # elems = 8
+Zs_6 construction time = 0.000090, # ZDD nodes = 47, # elems = 15
+Zt_6 construction time = 0.000061, # ZDD nodes = 32, # elems = 8
+Zs_7 construction time = 0.000075, # ZDD nodes = 48, # elems = 16
+Zt_7 construction time = 0.000047, # ZDD nodes = 34, # elems = 9
+Zs_8 construction time = 0.000065, # ZDD nodes = 51, # elems = 16
+Zt_8 construction time = 0.000052, # ZDD nodes = 38, # elems = 10
+Zs_9 construction time = 0.000064, # ZDD nodes = 53, # elems = 17
+Zt_9 construction time = 0.000054, # ZDD nodes = 38, # elems = 10
+Zs_10 construction time = 0.000078, # ZDD nodes = 57, # elems = 18
+Zt_10 construction time = 0.000047, # ZDD nodes = 38, # elems = 10
+Zs_11 construction time = 0.000150, # ZDD nodes = 57, # elems = 18
+Zt_11 construction time = 0.000123, # ZDD nodes = 38, # elems = 10
+Zs_12 construction time = 0.000110, # ZDD nodes = 53, # elems = 17
+Zt_12 construction time = 0.000041, # ZDD nodes = 32, # elems = 9
+Zs_13 construction time = 0.000071, # ZDD nodes = 49, # elems = 15
+Zt_13 construction time = 0.000033, # ZDD nodes = 28, # elems = 8
+Zs_14 construction time = 0.000042, # ZDD nodes = 43, # elems = 13
+Zt_14 construction time = 0.000030, # ZDD nodes = 24, # elems = 7
+Zs_15 construction time = 0.000059, # ZDD nodes = 39, # elems = 12
+Zt_15 construction time = 0.000024, # ZDD nodes = 20, # elems = 5
+Zs_16 construction time = 0.000031, # ZDD nodes = 33, # elems = 10
+Zt_16 construction time = 0.000020, # ZDD nodes = 16, # elems = 4
+Zs_17 construction time = 0.000039, # ZDD nodes = 28, # elems = 7
+Zt_17 construction time = 0.000017, # ZDD nodes = 16, # elems = 4
+Zs_18 construction time = 0.000035, # ZDD nodes = 24, # elems = 6
+Zt_18 construction time = 0.000017, # ZDD nodes = 12, # elems = 3
+Zs_19 construction time = 0.000029, # ZDD nodes = 24, # elems = 6
+Zt_19 construction time = 0.000013, # ZDD nodes = 10, # elems = 2
+Zs_20 construction time = 0.000091, # ZDD nodes = 21, # elems = 6
+Zt_20 construction time = 0.000047, # ZDD nodes = 9, # elems = 2
+Zs_21 construction time = 0.000061, # ZDD nodes = 24, # elems = 6
+Zt_21 construction time = 0.000028, # ZDD nodes = 10, # elems = 2
+Zs_22 construction time = 0.000071, # ZDD nodes = 24, # elems = 6
+Zt_22 construction time = 0.000019, # ZDD nodes = 12, # elems = 3
+Zs_23 construction time = 0.000033, # ZDD nodes = 26, # elems = 6
+Zt_23 construction time = 0.000023, # ZDD nodes = 16, # elems = 4
+Zs_24 construction time = 0.000034, # ZDD nodes = 28, # elems = 7
+Zt_24 construction time = 0.000025, # ZDD nodes = 16, # elems = 4
+Zs_25 construction time = 0.000040, # ZDD nodes = 32, # elems = 8
+Zt_25 construction time = 0.000016, # ZDD nodes = 16, # elems = 4
+Zs_26 construction time = 0.000041, # ZDD nodes = 32, # elems = 8
+Zt_26 construction time = 0.000015, # ZDD nodes = 16, # elems = 4
+Zs_27 construction time = 0.000032, # ZDD nodes = 32, # elems = 8
+Zt_27 construction time = 0.000015, # ZDD nodes = 16, # elems = 4
+Zs_28 construction time = 0.000031, # ZDD nodes = 32, # elems = 8
+Zt_28 construction time = 0.000015, # ZDD nodes = 16, # elems = 4
+Zs_29 construction time = 0.000030, # ZDD nodes = 32, # elems = 8
+Zt_29 construction time = 0.000016, # ZDD nodes = 16, # elems = 4
+Zs_30 construction time = 0.000031, # ZDD nodes = 32, # elems = 8
+Zt_30 construction time = 0.000015, # ZDD nodes = 16, # elems = 4
+Zs_31 construction time = 0.000032, # ZDD nodes = 28, # elems = 7
+Zt_31 construction time = 0.000017, # ZDD nodes = 16, # elems = 4
+Zs_32 construction time = 0.000028, # ZDD nodes = 26, # elems = 6
+Zt_32 construction time = 0.000016, # ZDD nodes = 16, # elems = 4
+Zs_33 construction time = 0.000030, # ZDD nodes = 24, # elems = 6
+Zt_33 construction time = 0.000016, # ZDD nodes = 12, # elems = 3
+Zs_34 construction time = 0.000054, # ZDD nodes = 20, # elems = 5
+Zt_34 construction time = 0.000013, # ZDD nodes = 10, # elems = 2
+Zs_35 construction time = 0.000026, # ZDD nodes = 12, # elems = 3
+Zt_35 construction time = 0.000021, # ZDD nodes = 9, # elems = 2
+Zs_36 construction time = 0.000014, # ZDD nodes = 10, # elems = 2
+Zt_36 construction time = 0.000015, # ZDD nodes = 6, # elems = 1
+Zs_37 construction time = 0.000041, # ZDD nodes = 9, # elems = 2
+Zt_37 construction time = 0.000014, # ZDD nodes = 6, # elems = 1
+Zs_38 construction time = 0.000014, # ZDD nodes = 6, # elems = 1
+Zt_38 construction time = 0.000022, # ZDD nodes = 6, # elems = 1
+Zs_39 construction time = 0.000014, # ZDD nodes = 6, # elems = 1
+Reconf seq found. Shortest length = 77
+Zt_39 construction time = 0.000017, # ZDD nodes = 6, # elems = 1
+Zs_40 construction time = 0.000007, # ZDD nodes = 6, # elems = 1
+Zt_40 construction time = 0.000007, # ZDD nodes = 9, # elems = 2
+Zs_41 construction time = 0.000006, # ZDD nodes = 6, # elems = 1
+Zt_41 construction time = 0.000006, # ZDD nodes = 10, # elems = 2
+Zs_42 construction time = 0.000007, # ZDD nodes = 9, # elems = 2
+Zt_42 construction time = 0.000007, # ZDD nodes = 12, # elems = 3
+Zs_43 construction time = 0.000006, # ZDD nodes = 10, # elems = 2
+Zt_43 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zs_44 construction time = 0.000007, # ZDD nodes = 12, # elems = 3
+Zt_44 construction time = 0.000016, # ZDD nodes = 16, # elems = 4
+Zs_45 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_45 construction time = 0.000016, # ZDD nodes = 16, # elems = 4
+Zs_46 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_46 construction time = 0.000013, # ZDD nodes = 16, # elems = 4
+Zs_47 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_47 construction time = 0.000013, # ZDD nodes = 16, # elems = 4
+Zs_48 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_48 construction time = 0.000013, # ZDD nodes = 16, # elems = 4
+Zs_49 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_49 construction time = 0.000012, # ZDD nodes = 16, # elems = 4
+Zs_50 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_50 construction time = 0.000012, # ZDD nodes = 16, # elems = 4
+Zs_51 construction time = 0.000007, # ZDD nodes = 16, # elems = 4
+Zt_51 construction time = 0.000012, # ZDD nodes = 16, # elems = 4
+Zs_52 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_52 construction time = 0.000012, # ZDD nodes = 16, # elems = 4
+Zs_53 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_53 construction time = 0.000011, # ZDD nodes = 12, # elems = 3
+Zs_54 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_54 construction time = 0.000008, # ZDD nodes = 10, # elems = 2
+Zs_55 construction time = 0.000007, # ZDD nodes = 12, # elems = 3
+Zt_55 construction time = 0.000008, # ZDD nodes = 9, # elems = 2
+Zs_56 construction time = 0.000006, # ZDD nodes = 10, # elems = 2
+Zt_56 construction time = 0.000009, # ZDD nodes = 10, # elems = 2
+Zs_57 construction time = 0.000005, # ZDD nodes = 9, # elems = 2
+Zt_57 construction time = 0.000012, # ZDD nodes = 12, # elems = 3
+Zs_58 construction time = 0.000006, # ZDD nodes = 10, # elems = 2
+Zt_58 construction time = 0.000012, # ZDD nodes = 16, # elems = 4
+Zs_59 construction time = 0.000007, # ZDD nodes = 12, # elems = 3
+Zt_59 construction time = 0.000014, # ZDD nodes = 16, # elems = 4
+Zs_60 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_60 construction time = 0.000012, # ZDD nodes = 16, # elems = 4
+Zs_61 construction time = 0.000008, # ZDD nodes = 16, # elems = 4
+Zt_61 construction time = 0.000011, # ZDD nodes = 16, # elems = 4
+Zs_62 construction time = 0.000009, # ZDD nodes = 16, # elems = 4
+Zt_62 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zs_63 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zt_63 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zs_64 construction time = 0.000011, # ZDD nodes = 16, # elems = 4
+Zt_64 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zs_65 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zt_65 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zs_66 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zt_66 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zs_67 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zt_67 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zs_68 construction time = 0.000011, # ZDD nodes = 16, # elems = 4
+Zt_68 construction time = 0.000011, # ZDD nodes = 12, # elems = 3
+Zs_69 construction time = 0.000010, # ZDD nodes = 16, # elems = 4
+Zt_69 construction time = 0.000010, # ZDD nodes = 10, # elems = 2
+Zs_70 construction time = 0.000011, # ZDD nodes = 12, # elems = 3
+Zt_70 construction time = 0.000009, # ZDD nodes = 9, # elems = 2
+Zs_71 construction time = 0.000009, # ZDD nodes = 10, # elems = 2
+Zt_71 construction time = 0.000011, # ZDD nodes = 10, # elems = 2
+Zs_72 construction time = 0.000009, # ZDD nodes = 9, # elems = 2
+Zt_72 construction time = 0.000014, # ZDD nodes = 12, # elems = 3
+Zs_73 construction time = 0.000009, # ZDD nodes = 10, # elems = 2
+Zt_73 construction time = 0.000020, # ZDD nodes = 16, # elems = 4
+Zs_74 construction time = 0.000010, # ZDD nodes = 12, # elems = 3
+Zt_74 construction time = 0.000023, # ZDD nodes = 20, # elems = 5
+Zs_75 construction time = 0.000012, # ZDD nodes = 16, # elems = 4
+Zt_75 construction time = 0.000024, # ZDD nodes = 26, # elems = 6
+Zs_76 construction time = 0.000017, # ZDD nodes = 20, # elems = 5
+Zt_76 construction time = 0.000038, # ZDD nodes = 30, # elems = 7
+Zs_77 construction time = 0.000022, # ZDD nodes = 26, # elems = 6
+Zt_77 construction time = 0.000042, # ZDD nodes = 37, # elems = 9
+Card(Zs_0 & Zt_77) = 1
+Card(Zs_1 & Zt_76) = 1
+Card(Zs_2 & Zt_75) = 1
+Card(Zs_3 & Zt_74) = 1
+Card(Zs_4 & Zt_73) = 1
+Card(Zs_5 & Zt_72) = 2
+Card(Zs_6 & Zt_71) = 2
+Card(Zs_7 & Zt_70) = 2
+Card(Zs_8 & Zt_69) = 2
+Card(Zs_9 & Zt_68) = 3
+Card(Zs_10 & Zt_67) = 4
+Card(Zs_11 & Zt_66) = 4
+Card(Zs_12 & Zt_65) = 4
+Card(Zs_13 & Zt_64) = 4
+Card(Zs_14 & Zt_63) = 4
+Card(Zs_15 & Zt_62) = 4
+Card(Zs_16 & Zt_61) = 4
+Card(Zs_17 & Zt_60) = 4
+Card(Zs_18 & Zt_59) = 4
+Card(Zs_19 & Zt_58) = 4
+Card(Zs_20 & Zt_57) = 3
+Card(Zs_21 & Zt_56) = 2
+Card(Zs_22 & Zt_55) = 2
+Card(Zs_23 & Zt_54) = 2
+Card(Zs_24 & Zt_53) = 3
+Card(Zs_25 & Zt_52) = 4
+Card(Zs_26 & Zt_51) = 4
+Card(Zs_27 & Zt_50) = 4
+Card(Zs_28 & Zt_49) = 4
+Card(Zs_29 & Zt_48) = 4
+Card(Zs_30 & Zt_47) = 4
+Card(Zs_31 & Zt_46) = 4
+Card(Zs_32 & Zt_45) = 4
+Card(Zs_33 & Zt_44) = 4
+Card(Zs_34 & Zt_43) = 4
+Card(Zs_35 & Zt_42) = 3
+Card(Zs_36 & Zt_41) = 2
+Card(Zs_37 & Zt_40) = 2
+Card(Zs_38 & Zt_39) = 1
+Card(Zs_39 & Zt_38) = 1
+Card(Zs_40 & Zt_37) = 1
+Card(Zs_41 & Zt_36) = 1
+Card(Zs_42 & Zt_35) = 2
+Card(Zs_43 & Zt_34) = 2
+Card(Zs_44 & Zt_33) = 3
+Card(Zs_45 & Zt_32) = 4
+Card(Zs_46 & Zt_31) = 4
+Card(Zs_47 & Zt_30) = 4
+Card(Zs_48 & Zt_29) = 4
+Card(Zs_49 & Zt_28) = 4
+Card(Zs_50 & Zt_27) = 4
+Card(Zs_51 & Zt_26) = 4
+Card(Zs_52 & Zt_25) = 4
+Card(Zs_53 & Zt_24) = 4
+Card(Zs_54 & Zt_23) = 4
+Card(Zs_55 & Zt_22) = 3
+Card(Zs_56 & Zt_21) = 2
+Card(Zs_57 & Zt_20) = 2
+Card(Zs_58 & Zt_19) = 2
+Card(Zs_59 & Zt_18) = 3
+Card(Zs_60 & Zt_17) = 4
+Card(Zs_61 & Zt_16) = 4
+Card(Zs_62 & Zt_15) = 4
+Card(Zs_63 & Zt_14) = 4
+Card(Zs_64 & Zt_13) = 4
+Card(Zs_65 & Zt_12) = 4
+Card(Zs_66 & Zt_11) = 4
+Card(Zs_67 & Zt_10) = 4
+Card(Zs_68 & Zt_9) = 4
+Card(Zs_69 & Zt_8) = 4
+Card(Zs_70 & Zt_7) = 3
+Card(Zs_71 & Zt_6) = 2
+Card(Zs_72 & Zt_5) = 2
+Card(Zs_73 & Zt_4) = 2
+Card(Zs_74 & Zt_3) = 2
+Card(Zs_75 & Zt_2) = 1
+Card(Zs_76 & Zt_1) = 1
+Card(Zs_77 & Zt_0) = 1
+max card = 4
+max card index = 10
+a YES
+a 1 8 14 21 27 34
+a 2 8 14 21 27 34
+a 2 9 14 21 27 34
+a 3 9 14 21 27 34
+a 3 10 14 21 27 34
+a 3 10 15 21 27 34
+a 3 10 15 22 27 34
+a 3 10 16 22 27 34
+a 3 10 16 23 27 34
+a 3 10 16 23 28 34
+a 3 10 16 23 28 35
+a 3 10 16 23 29 35
+a 3 10 16 23 29 36
+a 3 10 16 23 30 36
+a 3 10 16 23 30 37
+a 3 10 16 23 31 37
+a 3 10 16 23 31 38
+a 3 10 16 23 32 38
+a 3 10 16 23 32 39
+a 3 10 16 23 33 39
+a 3 10 17 23 33 39
+a 3 10 17 24 33 39
+a 3 10 18 24 33 39
+a 3 10 18 25 33 39
+a 3 10 18 25 32 39
+a 3 10 18 25 32 38
+a 3 10 18 25 31 38
+a 3 10 18 25 31 37
+a 3 10 18 25 30 37
+a 3 10 18 25 30 36
+a 3 10 18 25 29 36
+a 3 10 18 25 29 35
+a 3 10 18 25 28 35
+a 3 10 18 25 28 34
+a 3 10 18 25 27 34
+a 3 10 19 25 27 34
+a 3 10 19 26 27 34
+a 3 10 20 26 27 34
+a 4 10 20 26 27 34
+a 4 11 20 26 27 34
+a 5 11 20 26 27 34
+a 5 12 20 26 27 34
+a 5 12 19 26 27 34
+a 5 12 19 25 27 34
+a 5 12 19 25 28 34
+a 5 12 19 25 28 35
+a 5 12 19 25 29 35
+a 5 12 19 25 29 36
+a 5 12 19 25 30 36
+a 5 12 19 25 30 37
+a 5 12 19 25 31 37
+a 5 12 19 25 31 38
+a 5 12 19 25 32 38
+a 5 12 19 25 32 39
+a 5 12 19 25 33 39
+a 5 12 18 25 33 39
+a 5 12 18 24 33 39
+a 5 12 17 24 33 39
+a 5 12 17 23 33 39
+a 5 12 17 23 32 39
+a 5 12 17 23 32 38
+a 5 12 17 23 31 38
+a 5 12 17 23 31 37
+a 5 12 17 23 30 37
+a 5 12 17 23 30 36
+a 5 12 17 23 29 36
+a 5 12 17 23 29 35
+a 5 12 17 23 28 35
+a 5 12 17 23 28 34
+a 5 12 17 23 27 34
+a 5 12 16 23 27 34
+a 5 12 16 22 27 34
+a 5 12 15 22 27 34
+a 5 12 15 21 27 34
+a 5 12 14 21 27 34
+a 6 12 14 21 27 34
+a 6 13 14 21 27 34
+a 7 13 14 21 27 34
+Reconfiguration time = 0.015378
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col --indset --stwidth --stfile=benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat"
+	User time (seconds): 0.07
+	System time (seconds): 0.00
+	Percent of CPU this job got: 89%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 128221184
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7966
+	Voluntary context switches: 43
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 32
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.07 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.07
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 10:27:17 2023]

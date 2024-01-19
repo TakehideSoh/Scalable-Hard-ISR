@@ -1,0 +1,20 @@
+#BEGIN: [Tue Aug  1 13:58:39 2023]
+#HOST: mini21.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance008_graph001.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance008_graph001.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance008_graph001.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance008_graph001.dat
+Input graph file parsed. # of vertices = 104, # of edges = 312
+s 5 8 21 24 25 29 31 32 35 36 37 41 42 45 47 51 96 56 57 101 63 65 67 68 86 73 79 93 83 84 87 91 99
+t 2 8 16 17 19 21 30 32 34 37 41 42 95 44 50 52 96 56 57 63 66 67 68 69 75 77 103 93 97 102 92 104 90
+Solution space ZDD construction start
+TIMEOUT CPU 7200 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 7200
+#MAXMEM: 0
+c 73514 killed(2). 73515 killed(2). 73514 killed(9). 73515 killed(9). 
+#END: [Tue Aug  1 15:58:50 2023]

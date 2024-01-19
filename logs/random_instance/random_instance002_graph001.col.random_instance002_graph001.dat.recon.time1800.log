@@ -1,0 +1,65 @@
+#BEGIN: [Tue Aug  8 17:58:14 2023]
+#HOST: mini24.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance002_graph001.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance002_graph001.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/random_instance/random_instance002_graph001.col benchmark/ISR-benchmark/random_instance/random_instance002_graph001.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/random_instance/random_instance002_graph001.col
+c Target file: benchmark/ISR-benchmark/random_instance/random_instance002_graph001.dat
+c Size of independent set: 8
+c Number of nodes of graph: 26
+c Number of edges of graph: 78
+c Average degree of graph: 6.00
+s 1 10 12 13 14 16 20 24 
+t 1 4 5 12 15 16 21 23 
+c BFS found 6 new nodes in level 1 (total 7/268435456)
+c BFS found 18 new nodes in level 2 (total 25/268435456)
+c BFS found 41 new nodes in level 3 (total 66/268435456)
+c BFS found 74 new nodes in level 4 (total 138/268435456)
+c BFS exiting found=true count=208 max_count=268435456
+c Found with: Breadth First Search
+a YES
+a 1 10 12 13 14 16 20 24 
+a 1 12 13 14 15 16 20 24 
+a 1 5 12 14 15 16 20 24 
+a 1 4 5 12 14 15 16 24 
+a 1 4 5 12 15 16 21 24 
+a 1 4 5 12 15 16 21 23 
+c Length: 5
+	Command being timed: "/Users/soh/app/recon/src/recon benchmark/ISR-benchmark/random_instance/random_instance002_graph001.col benchmark/ISR-benchmark/random_instance/random_instance002_graph001.dat"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 18%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3325952
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 344
+	Voluntary context switches: 17
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 34
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0
+#MAXMEM: 0
+c 
+#END: [Tue Aug  8 17:58:14 2023]

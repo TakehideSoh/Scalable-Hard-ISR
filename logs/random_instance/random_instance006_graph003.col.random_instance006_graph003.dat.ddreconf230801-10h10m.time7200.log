@@ -1,0 +1,51 @@
+#BEGIN: [Tue Aug  1 13:11:51 2023]
+#HOST: mini24.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance006_graph003.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance006_graph003.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance006_graph003.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance006_graph003.dat
+Input graph file parsed. # of vertices = 78, # of edges = 234
+s 3 4 10 13 15 17 21 27 28 30 31 32 33 72 37 40 48 67 52 53 54 61 63 64 66 77
+t 2 5 7 9 17 19 21 26 24 28 36 31 41 40 48 46 47 50 52 68 54 56 57 59 65 77
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 748.148951
+Solution space ZDD size = 32234377
+# of elements in the solution space = 6209505336003
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000491, # ZDD nodes = 127, # elems = 8
+Zt_1 construction time = 0.000429, # ZDD nodes = 176, # elems = 17
+Zs_2 construction time = 0.001550, # ZDD nodes = 456, # elems = 88
+Zt_2 construction time = 0.003861, # ZDD nodes = 875, # elems = 285
+Zs_3 construction time = 0.006938, # ZDD nodes = 1448, # elems = 536
+Zt_3 construction time = 0.020131, # ZDD nodes = 4084, # elems = 2964
+Zs_4 construction time = 0.031335, # ZDD nodes = 4079, # elems = 2647
+Zt_4 construction time = 0.135582, # ZDD nodes = 15601, # elems = 20873
+Zs_5 construction time = 0.114990, # ZDD nodes = 10426, # elems = 10522
+Zt_5 construction time = 0.684683, # ZDD nodes = 49170, # elems = 107710
+Zs_6 construction time = 0.383488, # ZDD nodes = 24709, # elems = 35882
+Zt_6 construction time = 2.823343, # ZDD nodes = 132152, # elems = 422183
+Zs_7 construction time = 1.160851, # ZDD nodes = 55039, # elems = 107863
+Zt_7 construction time = 9.881323, # ZDD nodes = 307177, # elems = 1289763
+Zs_8 construction time = 3.137981, # ZDD nodes = 114558, # elems = 289916
+Zt_8 construction time = 28.457543, # ZDD nodes = 622145, # elems = 3127481
+Zs_9 construction time = 55.817324, # ZDD nodes = 223112, # elems = 696024
+Reconf seq found. Shortest length = 17
+Zt_9 construction time = 76.975615, # ZDD nodes = 1104065, # elems = 6119081
+Zs_10 construction time = 18.817156, # ZDD nodes = 404707, # elems = 1478611
+Zt_10 construction time = 143.184437, # ZDD nodes = 1721894, # elems = 9849767
+Zs_11 construction time = 40.545626, # ZDD nodes = 681682, # elems = 2759329
+Zt_11 construction time = 232.946903, # ZDD nodes = 2367616, # elems = 13329231
+Zs_12 construction time = 77.050162, # ZDD nodes = 1068821, # elems = 4546048
+Zt_12 construction time = 1085.885737, # ZDD nodes = 2885572, # elems = 15493934
+Zs_13 construction time = 1204.888641, # ZDD nodes = 1566653, # elems = 6748028
+Zt_13 construction TIMEOUT CPU 7200 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 7200
+#MAXMEM: 0
+c 21595 killed(2). 21594 killed(2). 21595 killed(9). 21594 killed(9). 
+#END: [Tue Aug  1 15:12:00 2023]

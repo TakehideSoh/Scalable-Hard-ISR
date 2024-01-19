@@ -1,0 +1,46 @@
+#BEGIN: [Wed Jul 19 20:21:57 2023]
+#HOST: mini26.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: sat-based-isr-tj05-230719-15h37m
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance007.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance007.dat
+#COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/exp_instance/IS_exp_instance007.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance007.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical
+#Nodes: 91
+#Edges: 570
+c (0) step 1 UNSAT 559 2446
+c (0) step 2 UNSAT 1052 4295
+c (0) step 3 UNSAT 1584 6232
+c (0) step 4 UNSAT 2168 8282
+c (0) step 5 UNSAT 2817 10470
+c (0) step 6 UNSAT 3544 12821
+c (0) step 7 UNSAT 4362 15360
+c (0) step 8 UNSAT 5284 18112
+c (0) step 9 UNSAT 6323 21102
+c (0) step 10 UNSAT 7492 24355
+c (1) step 11 UNSAT 8804 27896
+c (3) step 12 UNSAT 10272 31750
+c (6) step 13 UNSAT 11909 35942
+c (10) step 14 UNSAT 13728 40497
+c (20) step 15 UNSAT 15742 45440
+c (37) step 16 UNSAT 17756 50383
+c (119) step 17 UNSAT 19770 55326
+c (187) step 18 UNSAT 21784 60269
+c (265) step 19 UNSAT 23798 65212
+c (380) step 20 UNSAT 25812 70155
+c (587) step 21 UNSAT 27826 75098
+c (761) step 22 UNSAT 29840 80041
+c (1455) step 23 UNSAT 31854 84984
+c (1932) step 24 UNSAT 33868 89927
+c (2309) step 25 UNSAT 35882 94870
+c (3308) step 26 UNSAT 37896 99813
+c (5143) step 27 UNSAT 39910 104756
+c (6177) step 28 UNSAT 41924 109699
+TIMEOUT CPU 7200 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 7200
+#MAXMEM: 0
+c 19095 killed(2). 19109 killed(2). 19096 killed(2). 19095 killed(9). 19109 killed(9). 19096 killed(9). 
+#END: [Wed Jul 19 22:21:58 2023]

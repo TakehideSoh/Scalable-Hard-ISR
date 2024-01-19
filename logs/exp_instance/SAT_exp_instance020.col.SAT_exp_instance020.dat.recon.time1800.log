@@ -1,0 +1,46 @@
+#BEGIN: [Tue Aug  8 17:58:13 2023]
+#HOST: mini22.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance020.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance020.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/SAT_exp_instance020.col benchmark/ISR-benchmark/exp_instance/SAT_exp_instance020.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance020.col
+c Target file: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance020.dat
+c Size of independent set: 120
+c Number of nodes of graph: 330
+c Number of edges of graph: 590
+c Average degree of graph: 3.58
+s 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 41 43 46 49 51 54 57 60 63 65 68 71 74 77 80 83 85 88 91 94 97 100 103 106 109 111 114 117 120 123 126 129 132 135 138 141 143 146 149 152 155 158 161 164 167 170 173 176 179 181 184 187 190 193 196 199 202 205 208 211 214 217 220 223 225 228 231 234 237 240 243 246 249 252 255 258 261 264 267 270 273 275 278 281 284 287 290 293 296 299 302 305 308 311 314 317 320 323 326 329 
+t 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 37 39 41 43 46 49 51 54 57 60 63 65 68 71 74 77 80 83 85 88 91 94 97 100 103 106 109 111 114 117 120 123 126 129 132 135 138 141 143 146 149 152 155 158 161 164 167 170 173 176 179 181 184 187 190 193 196 199 202 205 208 211 214 217 220 223 225 228 231 234 237 240 243 246 249 252 255 258 261 264 267 270 273 276 277 280 283 286 289 292 295 298 301 304 307 310 313 316 319 322 325 328 
+c BFS found 73 new nodes in level 1 (total 74/178956970)
+c BFS found 2622 new nodes in level 2 (total 2696/178956970)
+c BFS found 61786 new nodes in level 3 (total 64482/178956970)
+c BFS found 1074608 new nodes in level 4 (total 1139089/178956970)
+c BFS found 14713917 new nodes in level 5 (total 15852878/178956970)
+c BFS exiting found=false count=178956972 max_count=178956970
+c R=21
+c R=22
+c R=23
+c R=24
+c R=25
+c R=26
+c R=27
+c R=28
+c R=29
+c R=30
+c History level 26 41943040
+c History level 27 62914562
+TIMEOUT CPU 1800 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 1800
+#MAXMEM: 0
+c 25739 killed(2). 25738 killed(2). 25739 killed(9). 25738 killed(9). 
+#END: [Tue Aug  8 18:28:13 2023]

@@ -1,0 +1,44 @@
+#BEGIN: [Tue Aug  1 16:32:41 2023]
+#HOST: mini27.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance010_graph004.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance010_graph004.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance010_graph004.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance010_graph004.dat
+Input graph file parsed. # of vertices = 130, # of edges = 390
+s 1 113 6 7 62 11 20 21 26 27 29 58 32 36 38 41 42 46 47 48 53 55 57 59 60 63 68 69 71 74 78 86 87 127 89 92 123 104 110 115 130
+t 1 4 5 6 62 10 11 15 16 20 21 24 26 27 58 37 42 43 48 53 76 60 79 64 69 72 73 103 83 85 127 89 91 126 94 100 104 110 119 120 122
+Solution space ZDD construction start
+Command terminated by signal 9
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance010_graph004.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance010_graph004.dat"
+	User time (seconds): 1965.69
+	System time (seconds): 2217.74
+	Percent of CPU this job got: 62%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:50:52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 255018106880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 337603264
+	Voluntary context switches: 4223977
+	Involuntary context switches: 4486635
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 36
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 4183.43 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 4183.43
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 18:23:33 2023]

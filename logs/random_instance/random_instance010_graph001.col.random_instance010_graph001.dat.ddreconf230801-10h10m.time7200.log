@@ -1,0 +1,44 @@
+#BEGIN: [Tue Aug  1 15:46:40 2023]
+#HOST: mini23.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance010_graph001.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance010_graph001.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance010_graph001.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance010_graph001.dat
+Input graph file parsed. # of vertices = 130, # of edges = 390
+s 2 4 6 9 14 21 25 31 34 35 39 41 43 112 47 52 56 57 60 61 62 64 65 67 71 76 105 80 82 103 123 110 130 102 114 125 113 119 126 128 121
+t 1 4 5 8 9 10 12 14 15 24 21 25 35 37 40 44 45 48 57 58 59 60 62 67 70 71 127 105 79 82 83 87 89 98 116 111 125 129 109 128 124
+Solution space ZDD construction start
+Command terminated by signal 9
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance010_graph001.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance010_graph001.dat"
+	User time (seconds): 2074.44
+	System time (seconds): 2085.21
+	Percent of CPU this job got: 68%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:41:01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 257025507328
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 371708032
+	Voluntary context switches: 3245343
+	Involuntary context switches: 4589743
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 37
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 4159.65 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 4159.65
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 17:27:41 2023]

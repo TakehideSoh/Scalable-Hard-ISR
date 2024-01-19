@@ -1,0 +1,36 @@
+#BEGIN: [Tue Aug  8 17:58:13 2023]
+#HOST: mini27.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance016.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance016.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/SAT_exp_instance016.col benchmark/ISR-benchmark/exp_instance/SAT_exp_instance016.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance016.col
+c Target file: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance016.dat
+c Size of independent set: 80
+c Number of nodes of graph: 216
+c Number of edges of graph: 376
+c Average degree of graph: 3.48
+s 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 33 35 38 41 43 46 49 52 55 57 60 63 66 69 72 75 77 80 83 86 89 92 95 98 101 103 106 109 112 115 118 121 124 127 130 133 135 138 141 144 147 150 153 156 159 162 165 168 171 173 176 179 182 185 188 191 194 197 200 203 206 209 212 215 
+t 2 4 6 8 10 12 14 16 18 20 22 24 26 28 29 31 33 35 38 41 43 46 49 52 55 57 60 63 66 69 72 75 77 80 83 86 89 92 95 98 101 103 106 109 112 115 118 121 124 127 130 133 135 138 141 144 147 150 153 156 159 162 165 168 171 174 175 178 181 184 187 190 193 196 199 202 205 208 211 214 
+c BFS found 43 new nodes in level 1 (total 44/206488812)
+c BFS found 899 new nodes in level 2 (total 943/206488812)
+c BFS found 12184 new nodes in level 3 (total 13127/206488812)
+c BFS found 120398 new nodes in level 4 (total 133524/206488812)
+c BFS found 924979 new nodes in level 5 (total 1058383/206488812)
+c BFS found 5752689 new nodes in level 6 (total 6808663/206488812)
+c BFS found 29774996 new nodes in level 7 (total 36552657/206488812)
+c BFS found 130852169 new nodes in level 8 (total 167114461/206488812)
+TIMEOUT CPU 1800 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 1800
+#MAXMEM: 0
+c 22814 killed(2). 22813 killed(2). 22814 killed(9). 22813 killed(9). 
+#END: [Tue Aug  8 18:28:14 2023]

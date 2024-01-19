@@ -1,0 +1,81 @@
+#BEGIN: [Tue Aug  8 17:58:12 2023]
+#HOST: mini21.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance004.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance004.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/SAT_exp_instance004.col benchmark/ISR-benchmark/exp_instance/SAT_exp_instance004.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance004.col
+c Target file: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance004.dat
+c Size of independent set: 8
+c Number of nodes of graph: 18
+c Number of edges of graph: 22
+c Average degree of graph: 2.44
+s 2 4 6 8 9 11 14 17 
+t 2 4 5 7 9 12 13 16 
+c BFS found 1 new nodes in level 1 (total 2/268435456)
+c BFS found 2 new nodes in level 2 (total 4/268435456)
+c BFS found 2 new nodes in level 3 (total 6/268435456)
+c BFS found 2 new nodes in level 4 (total 8/268435456)
+c BFS found 1 new nodes in level 5 (total 9/268435456)
+c BFS found 1 new nodes in level 6 (total 10/268435456)
+c BFS found 1 new nodes in level 7 (total 8/268435456)
+c BFS found 1 new nodes in level 8 (total 9/268435456)
+c BFS found 2 new nodes in level 9 (total 11/268435456)
+c BFS found 2 new nodes in level 10 (total 13/268435456)
+c BFS found 2 new nodes in level 11 (total 15/268435456)
+c BFS found 1 new nodes in level 12 (total 16/268435456)
+c BFS exiting found=true count=16 max_count=268435456
+c Found with: Breadth First Search
+a YES
+a 2 4 6 8 9 11 14 17 
+a 2 3 6 8 9 11 14 17 
+a 2 3 6 8 9 11 14 18 
+a 2 3 6 8 10 11 14 18 
+a 1 3 6 8 10 11 14 18 
+a 1 3 6 8 10 11 15 18 
+a 1 3 6 7 10 11 15 18 
+a 1 3 6 7 10 12 15 18 
+a 1 3 5 7 10 12 15 18 
+a 1 3 5 7 10 12 15 16 
+a 1 3 5 7 10 12 13 16 
+a 2 3 5 7 10 12 13 16 
+a 2 3 5 7 9 12 13 16 
+a 2 4 5 7 9 12 13 16 
+c Length: 13
+	Command being timed: "/Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/SAT_exp_instance004.col benchmark/ISR-benchmark/exp_instance/SAT_exp_instance004.dat"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3244032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 339
+	Voluntary context switches: 18
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 36
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0
+#MAXMEM: 0
+c 
+#END: [Tue Aug  8 17:58:13 2023]

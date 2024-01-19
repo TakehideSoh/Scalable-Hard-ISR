@@ -1,0 +1,65 @@
+#BEGIN: [Wed Jul 19 16:20:46 2023]
+#HOST: mini28.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: sat-based-isr-tj05-230719-15h37m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance004_graph001.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance004_graph001.dat
+#COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/random_instance/random_instance004_graph001.col benchmark/ISR-benchmark/random_instance/random_instance004_graph001.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical
+#Nodes: 52
+#Edges: 156
+c (0) step 1 UNSAT 326 1075
+c (0) step 2 UNSAT 627 2011
+c (0) step 3 UNSAT 970 3042
+c (0) step 4 UNSAT 1369 4195
+c (0) step 5 UNSAT 1838 5497
+c (0) step 6 UNSAT 2391 6975
+c (0) step 7 UNSAT 3042 8656
+c (0) step 8 UNSAT 3805 10567
+c (0) step 9 UNSAT 4694 12735
+c (0) step 10 UNSAT 5723 15187
+c (0) step 11 SAT 6906 17950
+a YES
+a 4 5 7 14 25 27 28 29 31 35 36 39 40 46 50
+a 4 5 7 14 25 28 29 31 35 36 39 40 42 46 50
+a 4 7 14 20 25 28 29 31 35 36 39 40 42 46 50
+a 7 14 20 25 28 29 31 35 36 39 40 42 44 46 50
+a 7 14 20 25 28 29 31 36 39 40 41 42 44 46 50
+a 7 14 20 21 25 28 29 31 39 40 41 42 44 46 50
+a 3 7 14 20 21 25 28 29 31 39 40 41 42 44 50
+a 3 7 11 20 21 25 28 29 31 39 40 41 42 44 50
+a 3 7 11 20 21 25 28 29 31 34 39 40 41 42 44
+a 1 3 7 11 20 21 25 28 31 34 39 40 41 42 44
+a 1 3 7 11 19 20 21 25 28 31 34 40 41 42 44
+a 1 3 7 11 19 20 21 25 28 31 34 41 42 44 48
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/random_instance/random_instance004_graph001.col benchmark/ISR-benchmark/random_instance/random_instance004_graph001.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical"
+	User time (seconds): 1.04
+	System time (seconds): 0.09
+	Percent of CPU this job got: 150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 920633344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 62160
+	Voluntary context switches: 34
+	Involuntary context switches: 2898
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 39
+	Socket messages received: 0
+	Signals delivered: 4
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 1.13 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 1.13
+#MAXMEM: 0
+c 
+#END: [Wed Jul 19 16:20:47 2023]

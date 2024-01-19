@@ -1,0 +1,41 @@
+#BEGIN: [Tue Aug  1 17:41:42 2023]
+#HOST: mini21.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance012_graph005.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance012_graph005.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance012_graph005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance012_graph005.dat
+libc++abi.dylib: terminating with uncaught exception of type std::runtime_error: ERROR: 148: No such vertex
+Command terminated by signal 6
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance012_graph005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance012_graph005.dat"
+	User time (seconds): 0.21
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 122224640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7600
+	Voluntary context switches: 18
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 36
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.21 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.21
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 17:41:42 2023]

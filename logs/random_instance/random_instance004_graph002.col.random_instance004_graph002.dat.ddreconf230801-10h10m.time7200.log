@@ -1,0 +1,91 @@
+#BEGIN: [Tue Aug  1 12:59:19 2023]
+#HOST: mini24.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance004_graph002.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance004_graph002.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance004_graph002.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance004_graph002.dat
+Input graph file parsed. # of vertices = 52, # of edges = 156
+s 3 4 8 11 12 14 17 22 23 24 25 26 28 31 44 50
+t 2 10 11 12 13 24 28 29 31 32 44 36 37 50 51 52
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 2.703190
+Solution space ZDD size = 266787
+# of elements in the solution space = 242964120
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000204, # ZDD nodes = 86, # elems = 9
+Zt_1 construction time = 0.000142, # ZDD nodes = 75, # elems = 9
+Zs_2 construction time = 0.000835, # ZDD nodes = 336, # elems = 75
+Zt_2 construction time = 0.000673, # ZDD nodes = 348, # elems = 104
+Zs_3 construction time = 0.004081, # ZDD nodes = 1102, # elems = 447
+Zt_3 construction time = 0.003391, # ZDD nodes = 1251, # elems = 705
+Zs_4 construction time = 0.015662, # ZDD nodes = 3142, # elems = 1977
+Zt_4 construction time = 0.016074, # ZDD nodes = 3798, # elems = 3267
+Zs_5 construction time = 0.053216, # ZDD nodes = 7778, # elems = 6927
+Reconf seq found. Shortest length = 9
+Zt_5 construction time = 0.062633, # ZDD nodes = 9440, # elems = 11024
+Zs_6 construction time = 0.193632, # ZDD nodes = 16468, # elems = 19531
+Zt_6 construction time = 0.230242, # ZDD nodes = 19168, # elems = 27992
+Zs_7 construction time = 0.532829, # ZDD nodes = 29738, # elems = 43989
+Zt_7 construction time = 0.746657, # ZDD nodes = 32550, # elems = 54536
+Zs_8 construction time = 1.087395, # ZDD nodes = 46339, # elems = 79062
+Zt_8 construction time = 1.078319, # ZDD nodes = 46701, # elems = 82894
+Zs_9 construction time = 1.947094, # ZDD nodes = 62271, # elems = 113728
+Zt_9 construction time = 2.120475, # ZDD nodes = 57116, # elems = 101353
+Card(Zs_0 & Zt_9) = 1
+Card(Zs_1 & Zt_8) = 3
+Card(Zs_2 & Zt_7) = 5
+Card(Zs_3 & Zt_6) = 8
+Card(Zs_4 & Zt_5) = 10
+Card(Zs_5 & Zt_4) = 10
+Card(Zs_6 & Zt_3) = 8
+Card(Zs_7 & Zt_2) = 6
+Card(Zs_8 & Zt_1) = 3
+Card(Zs_9 & Zt_0) = 1
+max card = 10
+max card index = 4
+a YES
+a 3 4 8 11 12 14 17 22 23 24 25 26 28 31 44 50
+a 2 3 4 8 11 12 14 22 23 24 25 26 28 31 44 50
+a 2 3 8 11 12 14 22 23 24 25 26 28 31 44 50 52
+a 2 3 8 10 11 12 14 22 23 24 25 28 31 44 50 52
+a 2 3 8 10 11 12 14 23 24 25 28 31 37 44 50 52
+a 2 3 10 11 12 14 23 24 25 28 31 37 44 50 51 52
+a 2 3 10 11 12 23 24 25 28 31 36 37 44 50 51 52
+a 2 3 10 11 12 24 25 28 31 32 36 37 44 50 51 52
+a 2 10 11 12 24 25 28 29 31 32 36 37 44 50 51 52
+a 2 10 11 12 13 24 28 29 31 32 36 37 44 50 51 52
+Reconfiguration time = 8.174339
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance004_graph002.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance004_graph002.dat"
+	User time (seconds): 10.67
+	System time (seconds): 0.33
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6113116160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 373255
+	Voluntary context switches: 22
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 36
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 11 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 11
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 12:59:30 2023]

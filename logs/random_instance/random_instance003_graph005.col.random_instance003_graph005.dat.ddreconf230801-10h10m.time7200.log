@@ -1,0 +1,91 @@
+#BEGIN: [Tue Aug  1 12:58:41 2023]
+#HOST: mini24.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance003_graph005.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance003_graph005.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance003_graph005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance003_graph005.dat
+Input graph file parsed. # of vertices = 39, # of edges = 117
+s 1 6 9 10 12 13 29 27 30 34 35
+t 3 8 12 13 19 21 25 32 39 28 37
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.088460
+Solution space ZDD size = 16612
+# of elements in the solution space = 1566681
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000063, # ZDD nodes = 46, # elems = 9
+Zt_1 construction time = 0.000098, # ZDD nodes = 49, # elems = 10
+Zs_2 construction time = 0.000295, # ZDD nodes = 155, # elems = 67
+Zt_2 construction time = 0.000263, # ZDD nodes = 185, # elems = 90
+Zs_3 construction time = 0.001414, # ZDD nodes = 426, # elems = 278
+Zt_3 construction time = 0.001822, # ZDD nodes = 585, # elems = 550
+Zs_4 construction time = 0.003834, # ZDD nodes = 882, # elems = 773
+Zt_4 construction time = 0.005555, # ZDD nodes = 1544, # elems = 2106
+Zs_5 construction time = 0.008804, # ZDD nodes = 1653, # elems = 1598
+Reconf seq found. Shortest length = 9
+Zt_5 construction time = 0.018525, # ZDD nodes = 3126, # elems = 5055
+Zs_6 construction time = 0.023196, # ZDD nodes = 2825, # elems = 2841
+Zt_6 construction time = 0.046187, # ZDD nodes = 4752, # elems = 8011
+Zs_7 construction time = 0.048767, # ZDD nodes = 4502, # elems = 5124
+Zt_7 construction time = 0.091399, # ZDD nodes = 5730, # elems = 9136
+Zs_8 construction time = 0.116421, # ZDD nodes = 6359, # elems = 8603
+Zt_8 construction time = 0.113592, # ZDD nodes = 5889, # elems = 8247
+Zs_9 construction time = 0.149364, # ZDD nodes = 7234, # elems = 10939
+Zt_9 construction time = 0.123507, # ZDD nodes = 5116, # elems = 6354
+Card(Zs_0 & Zt_9) = 1
+Card(Zs_1 & Zt_8) = 3
+Card(Zs_2 & Zt_7) = 11
+Card(Zs_3 & Zt_6) = 14
+Card(Zs_4 & Zt_5) = 20
+Card(Zs_5 & Zt_4) = 32
+Card(Zs_6 & Zt_3) = 30
+Card(Zs_7 & Zt_2) = 14
+Card(Zs_8 & Zt_1) = 3
+Card(Zs_9 & Zt_0) = 1
+max card = 32
+max card index = 5
+a YES
+a 1 6 9 10 12 13 27 29 30 34 35
+a 1 6 9 10 12 13 29 30 32 34 35
+a 1 9 10 12 13 29 30 32 34 35 39
+a 1 9 12 13 29 30 32 34 35 37 39
+a 1 9 12 13 28 29 32 34 35 37 39
+a 1 9 12 13 21 28 29 32 35 37 39
+a 1 12 13 21 25 28 29 32 35 37 39
+a 1 3 12 13 21 25 28 29 32 37 39
+a 1 3 12 13 19 21 25 28 32 37 39
+a 3 8 12 13 19 21 25 28 32 37 39
+Reconfiguration time = 0.767568
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance003_graph005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance003_graph005.dat"
+	User time (seconds): 0.86
+	System time (seconds): 0.01
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 364085248
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22362
+	Voluntary context switches: 19
+	Involuntary context switches: 6
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 34
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.87 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.87
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 12:58:42 2023]

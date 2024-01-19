@@ -1,0 +1,71 @@
+#BEGIN: [Tue Aug  8 17:58:18 2023]
+#HOST: mini29.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance004_graph004.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance004_graph004.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/random_instance/random_instance004_graph004.col benchmark/ISR-benchmark/random_instance/random_instance004_graph004.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/random_instance/random_instance004_graph004.col
+c Target file: benchmark/ISR-benchmark/random_instance/random_instance004_graph004.dat
+c Size of independent set: 15
+c Number of nodes of graph: 52
+c Number of edges of graph: 156
+c Average degree of graph: 6.00
+s 6 8 19 20 23 28 29 31 34 39 40 42 45 46 47 
+t 6 16 17 19 28 29 32 33 34 38 42 43 44 47 49 
+c BFS found 12 new nodes in level 1 (total 13/268435456)
+c BFS found 103 new nodes in level 2 (total 116/268435456)
+c BFS found 683 new nodes in level 3 (total 799/268435456)
+c BFS found 3539 new nodes in level 4 (total 4338/268435456)
+c BFS found 14396 new nodes in level 5 (total 18719/268435456)
+c BFS found 45885 new nodes in level 6 (total 64416/268435456)
+c BFS found 115398 new nodes in level 7 (total 178448/268435456)
+c BFS exiting found=true count=345977 max_count=268435456
+c Found with: Breadth First Search
+a YES
+a 6 8 19 20 23 28 29 31 34 39 40 42 45 46 47 
+a 6 8 17 19 20 23 28 29 31 34 39 42 45 46 47 
+a 6 8 17 19 20 23 28 29 31 33 34 39 42 46 47 
+a 6 8 17 19 20 23 28 29 31 33 34 42 44 46 47 
+a 6 16 17 19 20 23 28 29 31 33 34 42 44 46 47 
+a 6 16 17 19 23 28 29 31 32 33 34 42 44 46 47 
+a 6 16 17 19 28 29 31 32 33 34 42 43 44 46 47 
+a 6 16 17 19 28 29 31 32 33 34 38 42 43 44 47 
+a 6 16 17 19 28 29 32 33 34 38 42 43 44 47 49 
+c Length: 8
+	Command being timed: "/Users/soh/app/recon/src/recon benchmark/ISR-benchmark/random_instance/random_instance004_graph004.col benchmark/ISR-benchmark/random_instance/random_instance004_graph004.dat"
+	User time (seconds): 3.13
+	System time (seconds): 0.01
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 137232384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8519
+	Voluntary context switches: 17
+	Involuntary context switches: 20
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 34
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 3.14 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 3.14
+#MAXMEM: 0
+c 
+#END: [Tue Aug  8 17:58:22 2023]

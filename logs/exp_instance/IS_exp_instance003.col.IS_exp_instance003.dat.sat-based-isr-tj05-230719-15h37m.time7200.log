@@ -1,0 +1,197 @@
+#BEGIN: [Wed Jul 19 16:20:36 2023]
+#HOST: mini27.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: sat-based-isr-tj05-230719-15h37m
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat
+#COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical
+#Nodes: 39
+#Edges: 234
+c (0) step 1 UNSAT 239 1022
+c (0) step 2 UNSAT 448 1795
+c (0) step 3 UNSAT 672 2600
+c (0) step 4 UNSAT 916 3446
+c (0) step 5 UNSAT 1185 4342
+c (0) step 6 UNSAT 1484 5297
+c (0) step 7 UNSAT 1818 6320
+c (0) step 8 UNSAT 2152 7343
+c (0) step 9 UNSAT 2486 8366
+c (0) step 10 UNSAT 2820 9389
+c (0) step 11 UNSAT 3154 10412
+c (0) step 12 UNSAT 3488 11435
+c (0) step 13 UNSAT 3822 12458
+c (0) step 14 UNSAT 4156 13481
+c (0) step 15 UNSAT 4490 14504
+c (0) step 16 UNSAT 4824 15527
+c (0) step 17 UNSAT 5158 16550
+c (0) step 18 UNSAT 5492 17573
+c (0) step 19 UNSAT 5826 18596
+c (0) step 20 UNSAT 6160 19619
+c (0) step 21 UNSAT 6494 20642
+c (0) step 22 UNSAT 6828 21665
+c (0) step 23 UNSAT 7162 22688
+c (1) step 24 UNSAT 7496 23711
+c (1) step 25 UNSAT 7830 24734
+c (1) step 26 UNSAT 8164 25757
+c (1) step 27 UNSAT 8498 26780
+c (1) step 28 UNSAT 8832 27803
+c (1) step 29 UNSAT 9166 28826
+c (1) step 30 UNSAT 9500 29849
+c (2) step 31 UNSAT 9834 30872
+c (2) step 32 UNSAT 10168 31895
+c (2) step 33 UNSAT 10502 32918
+c (2) step 34 UNSAT 10836 33941
+c (2) step 35 UNSAT 11170 34964
+c (2) step 36 UNSAT 11504 35987
+c (2) step 37 UNSAT 11838 37010
+c (2) step 38 UNSAT 12172 38033
+c (3) step 39 UNSAT 12506 39056
+c (3) step 40 UNSAT 12840 40079
+c (3) step 41 UNSAT 13174 41102
+c (3) step 42 UNSAT 13508 42125
+c (3) step 43 UNSAT 13842 43148
+c (4) step 44 UNSAT 14176 44171
+c (4) step 45 UNSAT 14510 45194
+c (4) step 46 UNSAT 14844 46217
+c (4) step 47 UNSAT 15178 47240
+c (4) step 48 UNSAT 15512 48263
+c (5) step 49 UNSAT 15846 49286
+c (5) step 50 UNSAT 16180 50309
+c (5) step 51 UNSAT 16514 51332
+c (6) step 52 UNSAT 16848 52355
+c (7) step 53 UNSAT 17182 53378
+c (8) step 54 UNSAT 17516 54401
+c (9) step 55 UNSAT 17850 55424
+c (9) step 56 UNSAT 18184 56447
+c (10) step 57 UNSAT 18518 57470
+c (10) step 58 UNSAT 18852 58493
+c (11) step 59 UNSAT 19186 59516
+c (12) step 60 UNSAT 19520 60539
+c (12) step 61 UNSAT 19854 61562
+c (12) step 62 UNSAT 20188 62585
+c (12) step 63 UNSAT 20522 63608
+c (13) step 64 UNSAT 20856 64631
+c (13) step 65 UNSAT 21190 65654
+c (14) step 66 UNSAT 21524 66677
+c (14) step 67 UNSAT 21858 67700
+c (14) step 68 UNSAT 22192 68723
+c (15) step 69 UNSAT 22526 69746
+c (16) step 70 UNSAT 22860 70769
+c (17) step 71 UNSAT 23194 71792
+c (19) step 72 UNSAT 23528 72815
+c (20) step 73 UNSAT 23862 73838
+c (21) step 74 UNSAT 24196 74861
+c (21) step 75 UNSAT 24530 75884
+c (22) step 76 UNSAT 24864 76907
+c (22) step 77 SAT 25198 77930
+a YES
+a 1 8 14 21 27 34
+a 2 8 14 21 27 34
+a 2 9 14 21 27 34
+a 3 9 14 21 27 34
+a 3 10 14 21 27 34
+a 3 10 15 21 27 34
+a 3 10 15 22 27 34
+a 3 10 16 22 27 34
+a 3 10 16 23 27 34
+a 3 10 16 23 28 34
+a 3 10 16 23 28 35
+a 3 10 16 23 29 35
+a 3 10 16 23 29 36
+a 3 10 16 23 30 36
+a 3 10 16 23 30 37
+a 3 10 16 23 31 37
+a 3 10 16 23 31 38
+a 3 10 17 23 31 38
+a 3 10 17 23 32 38
+a 3 10 17 23 32 39
+a 3 10 17 23 33 39
+a 3 10 17 24 33 39
+a 3 10 18 24 33 39
+a 3 10 18 25 33 39
+a 3 10 18 25 32 39
+a 3 10 18 25 32 38
+a 3 10 18 25 31 38
+a 3 10 18 25 31 37
+a 3 10 18 25 30 37
+a 3 10 18 25 30 36
+a 3 10 18 25 29 36
+a 3 10 19 25 29 36
+a 3 10 19 25 29 35
+a 3 10 19 25 28 35
+a 3 10 19 25 28 34
+a 3 10 19 25 27 34
+a 4 10 19 25 27 34
+a 4 10 19 26 27 34
+a 4 10 20 26 27 34
+a 4 11 20 26 27 34
+a 5 11 20 26 27 34
+a 5 12 20 26 27 34
+a 5 12 19 26 27 34
+a 5 12 19 25 27 34
+a 5 12 19 25 28 34
+a 5 12 19 25 28 35
+a 5 12 19 25 29 35
+a 5 12 19 25 29 36
+a 5 12 19 25 30 36
+a 5 12 19 25 30 37
+a 5 12 19 25 31 37
+a 5 12 19 25 31 38
+a 5 12 19 25 32 38
+a 5 12 19 25 32 39
+a 5 12 19 25 33 39
+a 5 12 18 25 33 39
+a 5 12 18 24 33 39
+a 5 12 17 24 33 39
+a 5 12 17 23 33 39
+a 5 12 17 23 32 39
+a 5 12 17 23 32 38
+a 5 12 17 23 31 38
+a 5 12 17 23 31 37
+a 5 12 17 23 30 37
+a 5 12 17 23 30 36
+a 5 12 17 23 29 36
+a 5 12 17 23 29 35
+a 5 12 17 23 28 35
+a 5 12 17 23 28 34
+a 5 12 17 23 27 34
+a 5 12 16 23 27 34
+a 5 12 16 22 27 34
+a 6 12 16 22 27 34
+a 6 12 15 22 27 34
+a 6 12 15 21 27 34
+a 6 12 14 21 27 34
+a 6 13 14 21 27 34
+a 7 13 14 21 27 34
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical"
+	User time (seconds): 23.34
+	System time (seconds): 0.22
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2052816896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 134239
+	Voluntary context switches: 43
+	Involuntary context switches: 3982
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 56
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 23.56 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 23.56
+#MAXMEM: 0
+c 
+#END: [Wed Jul 19 16:20:59 2023]

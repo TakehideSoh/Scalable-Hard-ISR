@@ -1,0 +1,89 @@
+#BEGIN: [Wed Jul 19 16:21:01 2023]
+#HOST: mini30.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: sat-based-isr-tj05-230719-15h37m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance010_graph005.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance010_graph005.dat
+#COMMAND: /Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/random_instance/random_instance010_graph005.col benchmark/ISR-benchmark/random_instance/random_instance010_graph005.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical
+#Nodes: 130
+#Edges: 390
+c (0) step 1 UNSAT 819 2710
+c (0) step 2 UNSAT 1585 5094
+c (0) step 3 UNSAT 2468 7748
+c (0) step 4 UNSAT 3507 10749
+c (0) step 5 UNSAT 4741 14174
+c (0) step 6 UNSAT 6209 18100
+c (0) step 7 UNSAT 7950 22604
+c (0) step 8 UNSAT 10003 27763
+c (0) step 9 UNSAT 12407 33654
+c (0) step 10 UNSAT 15201 40354
+c (0) step 11 UNSAT 18424 47940
+c (0) step 12 UNSAT 22115 56489
+c (0) step 13 UNSAT 26313 66078
+c (0) step 14 UNSAT 31057 76784
+c (0) step 15 UNSAT 36386 88684
+c (0) step 16 UNSAT 42339 101855
+c (0) step 17 UNSAT 48955 116374
+c (0) step 18 UNSAT 56273 132318
+c (0) step 19 UNSAT 64332 149764
+c (0) step 20 UNSAT 73171 168789
+c (0) step 21 UNSAT 82829 189470
+c (0) step 22 UNSAT 93345 211884
+c (0) step 23 SAT 104758 236108
+a YES
+a 4 5 6 10 17 18 21 23 33 35 39 40 49 53 59 61 62 67 70 73 75 77 83 85 87 89 90 91 96 97 100 103 104 105 110 111 118 124 128 130
+a 4 5 6 10 14 17 18 21 23 33 35 39 40 49 53 59 61 62 67 70 73 75 77 83 85 87 90 91 96 97 100 103 104 105 110 111 118 124 128 130
+a 4 5 6 10 14 17 18 23 33 35 39 40 49 53 59 61 62 67 70 73 75 77 83 85 87 90 91 96 97 100 103 104 105 110 111 113 118 124 128 130
+a 4 5 6 10 14 17 18 23 33 35 39 40 49 53 61 62 67 70 73 75 77 83 85 87 90 91 96 97 100 103 104 105 106 110 111 113 118 124 128 130
+a 4 5 6 10 14 17 18 23 33 35 39 49 53 57 61 62 67 70 73 75 77 83 85 87 90 91 96 97 100 103 104 105 106 110 111 113 118 124 128 130
+a 4 5 6 10 14 17 18 23 33 35 39 44 49 53 57 61 62 67 70 73 75 77 83 85 87 90 91 96 97 100 103 104 105 106 110 111 113 124 128 130
+a 4 5 6 10 14 17 18 23 33 35 39 44 49 53 57 58 61 62 67 70 73 75 77 83 85 87 90 91 96 97 103 104 105 106 110 111 113 124 128 130
+a 4 5 6 10 14 17 18 23 33 35 39 44 49 53 57 58 61 62 66 67 70 73 75 77 83 85 87 91 96 97 103 104 105 106 110 111 113 124 128 130
+a 1 4 5 6 10 14 17 18 23 33 35 39 44 49 53 57 58 61 62 66 67 70 73 75 77 83 85 87 91 96 97 103 104 105 106 110 111 113 128 130
+a 1 4 5 6 10 14 17 18 23 33 35 39 44 49 53 57 58 61 62 66 67 70 73 75 77 78 83 85 87 91 96 97 103 105 106 110 111 113 128 130
+a 1 4 5 6 10 14 17 18 23 33 35 39 44 49 53 57 58 61 62 63 66 67 70 73 75 77 78 85 87 91 96 97 103 105 106 110 111 113 128 130
+a 1 4 5 6 10 14 17 18 23 33 35 39 44 49 53 57 58 61 62 63 66 67 70 73 75 77 78 85 87 96 97 103 105 106 110 111 113 128 129 130
+a 1 4 5 6 10 14 17 18 23 33 35 39 44 49 53 57 58 61 62 63 66 67 70 75 77 78 85 87 96 97 103 105 106 110 111 113 122 128 129 130
+a 1 4 5 6 14 17 18 20 23 33 35 39 44 49 53 57 58 61 62 63 66 67 70 75 77 78 85 87 96 97 103 105 106 110 111 113 122 128 129 130
+a 1 4 5 6 14 17 18 20 23 33 35 39 44 49 53 56 57 58 61 63 66 67 70 75 77 78 85 87 96 97 103 105 106 110 111 113 122 128 129 130
+a 1 4 5 6 14 17 18 20 27 33 35 39 44 49 53 56 57 58 61 63 66 67 70 75 77 78 85 87 96 97 103 105 106 110 111 113 122 128 129 130
+a 1 4 5 6 14 17 18 20 26 27 33 35 39 44 49 53 56 57 58 61 63 66 67 70 75 77 78 87 96 97 103 105 106 110 111 113 122 128 129 130
+a 1 4 5 6 14 17 18 20 26 27 33 35 39 44 49 53 56 57 58 61 63 66 67 70 75 77 78 87 96 97 103 105 106 110 113 122 127 128 129 130
+a 1 4 5 6 14 17 18 20 26 27 33 35 39 44 49 53 55 56 57 58 61 63 66 67 70 75 77 78 87 97 103 105 106 110 113 122 127 128 129 130
+a 1 4 5 6 14 18 20 26 27 33 35 39 44 45 49 53 55 56 57 58 61 63 66 67 70 75 77 78 87 97 103 105 106 110 113 122 127 128 129 130
+a 1 4 6 14 18 20 26 27 29 33 35 39 44 45 49 53 55 56 57 58 61 63 66 67 70 75 77 78 87 97 103 105 106 110 113 122 127 128 129 130
+a 1 4 6 14 18 20 26 27 29 33 39 44 45 49 53 55 56 57 58 61 63 65 66 67 70 75 77 78 87 97 103 105 106 110 113 122 127 128 129 130
+a 1 4 6 14 16 18 20 26 27 29 33 39 44 45 49 53 55 56 57 58 61 63 65 66 67 70 75 77 78 87 103 105 106 110 113 122 127 128 129 130
+a 1 4 6 12 14 16 18 20 26 27 29 39 44 45 49 53 55 56 57 58 61 63 65 66 67 70 75 77 78 87 103 105 106 110 113 122 127 128 129 130
+	Command being timed: "/Users/soh/app/scala-2.12.4/bin/scala -J-Xms32g -J-Xmx32g -cp /Users/soh/app/IsrForCompetition230719-15h37m/scop.jar:/Users/soh/app/IsrForCompetition230719-15h37m/isr4competition_2.12-1.3.5.jar fun.scop.app.isr.IsrSolverTj05 benchmark/ISR-benchmark/random_instance/random_instance010_graph005.col benchmark/ISR-benchmark/random_instance/random_instance010_graph005.dat cadical /Users/soh/app/IsrForCompetition230719-15h37m/cadical"
+	User time (seconds): 1.84
+	System time (seconds): 0.17
+	Percent of CPU this job got: 159%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2346729472
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 149174
+	Voluntary context switches: 34
+	Involuntary context switches: 3329
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 39
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 2.01 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 2.01
+#MAXMEM: 0
+c 
+#END: [Wed Jul 19 16:21:03 2023]

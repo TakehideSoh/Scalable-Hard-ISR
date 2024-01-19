@@ -1,0 +1,75 @@
+#BEGIN: [Tue Aug  1 12:58:38 2023]
+#HOST: mini24.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance002_graph001.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance002_graph001.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance002_graph001.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance002_graph001.dat
+Input graph file parsed. # of vertices = 26, # of edges = 78
+s 1 16 20 10 12 13 14 24
+t 1 4 5 16 15 12 21 23
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.003216
+Solution space ZDD size = 476
+# of elements in the solution space = 13630
+Start computing the width of the solution space graph
+Zs_1 construction time = 0.000046, # ZDD nodes = 21, # elems = 6
+Zt_1 construction time = 0.000025, # ZDD nodes = 24, # elems = 5
+Zs_2 construction time = 0.000052, # ZDD nodes = 42, # elems = 18
+Zt_2 construction time = 0.000088, # ZDD nodes = 58, # elems = 25
+Zs_3 construction time = 0.000135, # ZDD nodes = 87, # elems = 41
+Reconf seq found. Shortest length = 5
+Zt_3 construction time = 0.000227, # ZDD nodes = 132, # elems = 82
+Zs_4 construction time = 0.000250, # ZDD nodes = 151, # elems = 74
+Zt_4 construction time = 0.000408, # ZDD nodes = 188, # elems = 133
+Zs_5 construction time = 0.000439, # ZDD nodes = 178, # elems = 117
+Zt_5 construction time = 0.000685, # ZDD nodes = 179, # elems = 124
+Card(Zs_0 & Zt_5) = 1
+Card(Zs_1 & Zt_4) = 3
+Card(Zs_2 & Zt_3) = 7
+Card(Zs_3 & Zt_2) = 7
+Card(Zs_4 & Zt_1) = 3
+Card(Zs_5 & Zt_0) = 1
+max card = 7
+max card index = 2
+a YES
+a 1 10 12 13 14 16 20 24
+a 1 10 12 13 16 20 21 24
+a 1 10 12 13 16 20 21 23
+a 1 12 13 15 16 20 21 23
+a 1 5 12 15 16 20 21 23
+a 1 4 5 12 15 16 21 23
+Reconfiguration time = 0.003388
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance002_graph001.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance002_graph001.dat"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 68%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 124108800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7715
+	Voluntary context switches: 21
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 36
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0.01 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0.01
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 12:58:39 2023]

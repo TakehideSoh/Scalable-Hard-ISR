@@ -1,0 +1,44 @@
+#BEGIN: [Tue Aug  1 18:23:41 2023]
+#HOST: mini27.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance013_graph003.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance013_graph003.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance013_graph003.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance013_graph003.dat
+Input graph file parsed. # of vertices = 169, # of edges = 507
+s 3 5 7 12 15 20 21 30 31 32 35 37 38 39 47 60 158 63 67 68 70 71 78 80 169 84 87 90 93 95 96 168 109 113 121 137 123 124 127 135 136 138 142 147 150 151 156 166 167
+t 7 8 10 18 20 27 28 30 36 37 40 41 52 60 158 63 64 75 72 106 79 80 169 87 88 92 93 168 100 132 149 110 115 116 121 137 148 123 129 135 144 154 136 143 139 145 147 150 165
+Solution space ZDD construction start
+Command terminated by signal 9
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance013_graph003.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance013_graph003.dat"
+	User time (seconds): 1913.48
+	System time (seconds): 1617.37
+	Percent of CPU this job got: 70%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23:55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 256811630592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 293659032
+	Voluntary context switches: 2535353
+	Involuntary context switches: 3488060
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 39
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 3530.85 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 3530.85
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 19:47:37 2023]

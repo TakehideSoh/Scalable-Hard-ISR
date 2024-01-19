@@ -1,0 +1,209 @@
+#BEGIN: [Tue Aug  8 16:24:27 2023]
+#HOST: mini28.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col
+c Target file: benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat
+c Size of independent set: 6
+c Number of nodes of graph: 39
+c Number of edges of graph: 234
+c Average degree of graph: 12.00
+s 1 8 14 21 27 34 
+t 7 13 14 21 27 34 
+c BFS found 3 new nodes in level 1 (total 4/268435456)
+c BFS found 6 new nodes in level 2 (total 10/268435456)
+c BFS found 8 new nodes in level 3 (total 18/268435456)
+c BFS found 9 new nodes in level 4 (total 27/268435456)
+c BFS found 12 new nodes in level 5 (total 38/268435456)
+c BFS found 15 new nodes in level 6 (total 52/268435456)
+c BFS found 16 new nodes in level 7 (total 63/268435456)
+c BFS found 16 new nodes in level 8 (total 70/268435456)
+c BFS found 17 new nodes in level 9 (total 81/268435456)
+c BFS found 18 new nodes in level 10 (total 96/268435456)
+c BFS found 18 new nodes in level 11 (total 99/268435456)
+c BFS found 17 new nodes in level 12 (total 96/268435456)
+c BFS found 15 new nodes in level 13 (total 102/268435456)
+c BFS found 13 new nodes in level 14 (total 109/268435456)
+c BFS found 12 new nodes in level 15 (total 102/268435456)
+c BFS found 10 new nodes in level 16 (total 84/268435456)
+c BFS found 7 new nodes in level 17 (total 85/268435456)
+c BFS found 6 new nodes in level 18 (total 82/268435456)
+c BFS found 6 new nodes in level 19 (total 74/268435456)
+c BFS found 6 new nodes in level 20 (total 59/268435456)
+c BFS found 6 new nodes in level 21 (total 64/268435456)
+c BFS found 6 new nodes in level 22 (total 61/268435456)
+c BFS found 6 new nodes in level 23 (total 65/268435456)
+c BFS found 7 new nodes in level 24 (total 68/268435456)
+c BFS found 8 new nodes in level 25 (total 68/268435456)
+c BFS found 8 new nodes in level 26 (total 73/268435456)
+c BFS found 8 new nodes in level 27 (total 77/268435456)
+c BFS found 8 new nodes in level 28 (total 79/268435456)
+c BFS found 8 new nodes in level 29 (total 80/268435456)
+c BFS found 8 new nodes in level 30 (total 86/268435456)
+c BFS found 7 new nodes in level 31 (total 89/268435456)
+c BFS found 6 new nodes in level 32 (total 87/268435456)
+c BFS found 6 new nodes in level 33 (total 83/268435456)
+c BFS found 5 new nodes in level 34 (total 86/268435456)
+c BFS found 3 new nodes in level 35 (total 86/268435456)
+c BFS found 2 new nodes in level 36 (total 78/268435456)
+c BFS found 2 new nodes in level 37 (total 43/268435456)
+c BFS found 1 new nodes in level 38 (total 43/268435456)
+c BFS found 1 new nodes in level 39 (total 44/268435456)
+c BFS found 1 new nodes in level 40 (total 41/268435456)
+c BFS found 1 new nodes in level 41 (total 42/268435456)
+c BFS found 2 new nodes in level 42 (total 44/268435456)
+c BFS found 2 new nodes in level 43 (total 46/268435456)
+c BFS found 3 new nodes in level 44 (total 49/268435456)
+c BFS found 4 new nodes in level 45 (total 52/268435456)
+c BFS found 4 new nodes in level 46 (total 55/268435456)
+c BFS found 4 new nodes in level 47 (total 58/268435456)
+c BFS found 4 new nodes in level 48 (total 62/268435456)
+c BFS found 4 new nodes in level 49 (total 64/268435456)
+c BFS found 4 new nodes in level 50 (total 64/268435456)
+c BFS found 4 new nodes in level 51 (total 66/268435456)
+c BFS found 4 new nodes in level 52 (total 70/268435456)
+c BFS found 4 new nodes in level 53 (total 72/268435456)
+c BFS found 4 new nodes in level 54 (total 72/268435456)
+c BFS found 3 new nodes in level 55 (total 73/268435456)
+c BFS found 2 new nodes in level 56 (total 75/268435456)
+c BFS found 2 new nodes in level 57 (total 73/268435456)
+c BFS found 2 new nodes in level 58 (total 62/268435456)
+c BFS found 3 new nodes in level 59 (total 64/268435456)
+c BFS found 4 new nodes in level 60 (total 67/268435456)
+c BFS found 4 new nodes in level 61 (total 70/268435456)
+c BFS found 4 new nodes in level 62 (total 73/268435456)
+c BFS found 4 new nodes in level 63 (total 75/268435456)
+c BFS found 4 new nodes in level 64 (total 77/268435456)
+c BFS found 4 new nodes in level 65 (total 77/268435456)
+c BFS found 4 new nodes in level 66 (total 78/268435456)
+c BFS found 4 new nodes in level 67 (total 80/268435456)
+c BFS found 4 new nodes in level 68 (total 82/268435456)
+c BFS found 4 new nodes in level 69 (total 81/268435456)
+c BFS found 3 new nodes in level 70 (total 81/268435456)
+c BFS found 2 new nodes in level 71 (total 81/268435456)
+c BFS found 2 new nodes in level 72 (total 81/268435456)
+c BFS found 2 new nodes in level 73 (total 77/268435456)
+c BFS found 3 new nodes in level 74 (total 79/268435456)
+c BFS found 4 new nodes in level 75 (total 82/268435456)
+c BFS found 5 new nodes in level 76 (total 86/268435456)
+c BFS exiting found=true count=86 max_count=268435456
+c Found with: Breadth First Search
+a YES
+a 1 8 14 21 27 34 
+a 2 8 14 21 27 34 
+a 2 9 14 21 27 34 
+a 3 9 14 21 27 34 
+a 3 10 14 21 27 34 
+a 3 10 15 21 27 34 
+a 3 10 15 22 27 34 
+a 3 10 16 22 27 34 
+a 3 10 16 23 27 34 
+a 3 10 16 23 28 34 
+a 3 10 16 23 28 35 
+a 3 10 16 23 29 35 
+a 3 10 16 23 29 36 
+a 3 10 16 23 30 36 
+a 3 10 16 23 30 37 
+a 3 10 16 23 31 37 
+a 3 10 16 23 31 38 
+a 3 10 16 23 32 38 
+a 3 10 17 23 32 38 
+a 3 10 17 23 32 39 
+a 3 10 17 23 33 39 
+a 3 10 17 24 33 39 
+a 3 10 18 24 33 39 
+a 3 10 18 25 33 39 
+a 3 10 18 25 32 39 
+a 3 10 18 25 32 38 
+a 3 10 18 25 31 38 
+a 3 10 18 25 31 37 
+a 3 10 18 25 30 37 
+a 3 10 18 25 30 36 
+a 3 10 18 25 29 36 
+a 3 10 18 25 29 35 
+a 3 10 18 25 28 35 
+a 3 10 18 25 28 34 
+a 4 10 18 25 28 34 
+a 4 10 18 25 27 34 
+a 4 10 19 25 27 34 
+a 4 10 19 26 27 34 
+a 4 10 20 26 27 34 
+a 4 11 20 26 27 34 
+a 5 11 20 26 27 34 
+a 5 12 20 26 27 34 
+a 5 12 19 26 27 34 
+a 5 12 19 25 27 34 
+a 5 12 18 25 27 34 
+a 5 12 18 25 28 34 
+a 5 12 18 25 28 35 
+a 5 12 18 25 29 35 
+a 5 12 18 25 29 36 
+a 5 12 18 25 30 36 
+a 5 12 18 25 30 37 
+a 5 12 18 25 31 37 
+a 5 12 18 25 31 38 
+a 5 12 18 25 32 38 
+a 5 12 18 25 32 39 
+a 5 12 18 25 33 39 
+a 5 12 18 24 33 39 
+a 5 12 17 24 33 39 
+a 5 12 17 23 33 39 
+a 5 12 17 23 32 39 
+a 5 12 17 23 32 38 
+a 5 12 17 23 31 38 
+a 5 12 17 23 31 37 
+a 5 12 17 23 30 37 
+a 5 12 17 23 30 36 
+a 5 12 17 23 29 36 
+a 5 12 17 23 29 35 
+a 5 12 17 23 28 35 
+a 5 12 17 23 28 34 
+a 5 12 17 23 27 34 
+a 5 12 16 23 27 34 
+a 5 12 16 22 27 34 
+a 5 12 15 22 27 34 
+a 5 12 15 21 27 34 
+a 5 12 14 21 27 34 
+a 6 12 14 21 27 34 
+a 6 13 14 21 27 34 
+a 7 13 14 21 27 34 
+c Length: 77
+	Command being timed: "/Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance003.dat"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 12%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3309568
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 343
+	Voluntary context switches: 17
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 34
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 0 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 0
+#MAXMEM: 0
+c 
+#END: [Tue Aug  8 16:24:27 2023]

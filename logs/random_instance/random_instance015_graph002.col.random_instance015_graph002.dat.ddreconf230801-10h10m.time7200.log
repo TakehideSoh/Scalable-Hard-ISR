@@ -1,0 +1,44 @@
+#BEGIN: [Tue Aug  1 18:52:42 2023]
+#HOST: mini29.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance015_graph002.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance015_graph002.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance015_graph002.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance015_graph002.dat
+Input graph file parsed. # of vertices = 195, # of edges = 585
+s 2 5 8 9 11 15 16 18 21 29 30 35 130 43 45 46 143 57 60 64 66 68 70 137 75 76 80 84 85 87 92 93 97 101 106 109 110 111 112 113 114 116 119 120 180 151 131 132 133 162 140 144 147 155 161 176 184 193 194 191 185
+t 2 3 5 9 13 15 16 19 21 26 29 32 130 42 43 157 45 143 53 82 61 64 66 67 69 70 137 81 85 87 92 93 127 100 101 106 110 111 114 115 117 123 126 129 131 135 162 167 144 149 152 154 173 187 168 170 172 174 179 186 185
+Solution space ZDD construction start
+Command terminated by signal 9
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance015_graph002.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance015_graph002.dat"
+	User time (seconds): 1571.73
+	System time (seconds): 1411.25
+	Percent of CPU this job got: 68%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:12:19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 255083790336
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 248553417
+	Voluntary context switches: 2414141
+	Involuntary context switches: 2773677
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 38
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 2982.98 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 2982.98
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 20:05:01 2023]

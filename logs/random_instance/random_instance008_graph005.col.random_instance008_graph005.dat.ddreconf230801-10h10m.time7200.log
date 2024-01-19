@@ -1,0 +1,44 @@
+#BEGIN: [Tue Aug  1 15:12:41 2023]
+#HOST: mini22.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance008_graph005.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance008_graph005.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance008_graph005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance008_graph005.dat
+Input graph file parsed. # of vertices = 104, # of edges = 312
+s 1 2 5 14 16 18 27 28 29 30 33 35 36 70 40 41 44 67 47 48 53 54 57 58 63 64 71 76 78 92 83 91 90 93 97 104 103
+t 43 5 8 11 14 16 18 27 28 30 32 33 35 36 70 52 44 67 47 53 82 55 60 61 62 63 64 71 72 80 83 91 90 93 97 95 103
+Solution space ZDD construction start
+Command terminated by signal 9
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance008_graph005.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance008_graph005.dat"
+	User time (seconds): 1609.36
+	System time (seconds): 2017.29
+	Percent of CPU this job got: 60%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:40:41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 255448907776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 296529926
+	Voluntary context switches: 4162917
+	Involuntary context switches: 3413339
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 36
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 3626.65 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 3626.65
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 16:53:23 2023]

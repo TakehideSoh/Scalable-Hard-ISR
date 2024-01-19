@@ -1,0 +1,41 @@
+#BEGIN: [Tue Aug  8 16:56:11 2023]
+#HOST: mini28.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/IS_exp_instance019.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/IS_exp_instance019.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/IS_exp_instance019.col benchmark/ISR-benchmark/exp_instance/IS_exp_instance019.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/IS_exp_instance019.col
+c Target file: benchmark/ISR-benchmark/exp_instance/IS_exp_instance019.dat
+c Size of independent set: 38
+c Number of nodes of graph: 247
+c Number of edges of graph: 1578
+c Average degree of graph: 12.78
+s 1 8 14 21 27 34 40 47 53 60 66 73 79 86 92 99 105 112 118 125 131 138 144 151 157 164 170 177 183 190 196 203 209 216 222 229 235 242 
+t 7 13 14 21 27 34 40 47 53 60 66 73 79 86 92 99 105 112 118 125 131 138 144 151 157 164 170 177 183 190 196 203 209 216 222 229 235 242 
+c BFS found 19 new nodes in level 1 (total 20/206488812)
+c BFS found 190 new nodes in level 2 (total 210/206488812)
+c BFS found 1312 new nodes in level 3 (total 1522/206488812)
+c BFS found 6973 new nodes in level 4 (total 8495/206488812)
+c BFS found 30264 new nodes in level 5 (total 38745/206488812)
+c BFS found 111439 new nodes in level 6 (total 150064/206488812)
+c BFS found 357872 new nodes in level 7 (total 507147/206488812)
+c BFS found 1024118 new nodes in level 8 (total 1527251/206488812)
+c BFS found 2657966 new nodes in level 9 (total 4167941/206488812)
+c BFS found 6348354 new nodes in level 10 (total 10451839/206488812)
+c BFS found 14121136 new nodes in level 11 (total 24359271/206488812)
+c BFS found 29533636 new nodes in level 12 (total 53257875/206488812)
+c BFS found 58514084 new nodes in level 13 (total 110055465/206488812)
+TIMEOUT CPU 1800 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 1800
+#MAXMEM: 0
+c 25994 killed(2). 25993 killed(2). 25994 killed(9). 25993 killed(9). 
+#END: [Tue Aug  8 17:26:12 2023]

@@ -1,0 +1,49 @@
+#BEGIN: [Tue Aug  8 17:58:13 2023]
+#HOST: mini28.local
+#TIMELIMIT: 1800
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: recon
+#ARG1: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance018.col
+#ARG2: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance018.dat
+#COMMAND: /Users/soh/app/recon/src/recon benchmark/ISR-benchmark/exp_instance/SAT_exp_instance018.col benchmark/ISR-benchmark/exp_instance/SAT_exp_instance018.dat
+c Copyright Volker Turau & Christoph Weyer, 2022
+c Institute of Telematics
+c Hamburg University of Technology, Hamburg, Germany
+c Contact: turau@tuhh.de
+c Graph file: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance018.col
+c Target file: benchmark/ISR-benchmark/exp_instance/SAT_exp_instance018.dat
+c Size of independent set: 99
+c Number of nodes of graph: 270
+c Number of edges of graph: 477
+c Average degree of graph: 3.53
+s 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 37 39 42 45 47 50 53 56 59 61 64 67 70 73 76 79 81 84 87 90 93 96 99 102 105 107 110 113 116 119 122 125 128 131 134 137 139 142 145 148 151 154 157 160 163 166 169 172 175 177 180 183 186 189 192 195 198 201 204 207 210 213 216 219 221 224 227 230 233 236 239 242 245 248 251 254 257 260 263 266 269 
+t 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 33 35 37 39 42 45 47 50 53 56 59 61 64 67 70 73 76 79 81 84 87 90 93 96 99 102 105 107 110 113 116 119 122 125 128 131 134 137 139 142 145 148 151 154 157 160 163 166 169 172 175 177 180 183 186 189 192 195 198 201 204 207 210 213 216 219 222 223 226 229 232 235 238 241 244 247 250 253 256 259 262 265 268 
+c BFS found 57 new nodes in level 1 (total 58/191739611)
+c BFS found 1591 new nodes in level 2 (total 1649/191739611)
+c BFS found 28996 new nodes in level 3 (total 30645/191739611)
+c BFS found 388159 new nodes in level 4 (total 418803/191739611)
+c BFS found 4070662 new nodes in level 5 (total 4489408/191739611)
+c BFS found 34830741 new nodes in level 6 (total 39318505/191739611)
+c BFS exiting found=false count=191739622 max_count=191739611
+c R=19
+c R=20
+c R=21
+c R=22
+c R=23
+c R=24
+c R=25
+c R=26
+c R=27
+c R=28
+c R=29
+c History level 26 41943040
+c History level 27 62914562
+c R=30
+TIMEOUT CPU 1800 MEM 0 MAXMEM 0
+#RESULT: UNK
+#FIN: TO
+#CPU: 1800
+#MAXMEM: 0
+c 26094 killed(2). 26093 killed(2). 26094 killed(9). 26093 killed(9). 
+#END: [Tue Aug  8 18:28:13 2023]

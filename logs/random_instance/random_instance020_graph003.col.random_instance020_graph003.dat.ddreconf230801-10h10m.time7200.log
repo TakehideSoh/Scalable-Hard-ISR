@@ -1,0 +1,44 @@
+#BEGIN: [Tue Aug  1 20:46:45 2023]
+#HOST: mini22.local
+#TIMELIMIT: 7200
+#MEMLIMIT: 0
+#FREQ: 10
+#SOLVER: ddreconf230801-10h10m
+#ARG1: benchmark/ISR-benchmark/random_instance/random_instance020_graph003.col
+#ARG2: benchmark/ISR-benchmark/random_instance/random_instance020_graph003.dat
+#COMMAND: /Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance020_graph003.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance020_graph003.dat
+Input graph file parsed. # of vertices = 260, # of edges = 780
+s 1 8 13 23 158 25 30 31 32 35 37 38 43 49 53 55 61 63 67 70 72 75 78 82 144 86 224 96 89 90 91 93 94 98 99 102 103 259 150 183 115 116 123 125 143 128 177 135 138 168 145 148 233 151 160 163 165 225 232 247 184 188 190 191 194 197 199 227 205 206 213 210 220 212 214 218 219 229 258 251 254 253
+t 3 4 5 7 8 12 13 14 16 17 20 158 29 30 31 34 37 38 41 44 49 56 59 65 68 69 71 72 73 76 79 81 96 90 95 98 103 259 105 108 112 113 235 116 119 120 121 124 143 133 134 139 168 145 226 231 242 155 249 157 159 160 161 162 225 176 184 187 194 198 239 213 212 223 215 218 238 229 230 234 240 246
+Solution space ZDD construction start
+Command terminated by signal 9
+	Command being timed: "/Users/soh/app/ddreconf230801-10h10m/ddreconf benchmark/ISR-benchmark/random_instance/random_instance020_graph003.col --indset --stwidth --stfile=benchmark/ISR-benchmark/random_instance/random_instance020_graph003.dat"
+	User time (seconds): 1573.37
+	System time (seconds): 1103.32
+	Percent of CPU this job got: 74%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00:06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 256523321344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 242500953
+	Voluntary context switches: 1677350
+	Involuntary context switches: 2473341
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 36
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+FINISHED CPU 2676.69 MEM 0 MAXMEM 0 STALE 1
+#RESULT: UNK
+#FIN: FIN
+#CPU: 2676.69
+#MAXMEM: 0
+c 
+#END: [Tue Aug  1 21:46:51 2023]
